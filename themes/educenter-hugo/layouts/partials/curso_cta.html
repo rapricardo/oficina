@@ -1,0 +1,10 @@
+    <!-- Comprar -->
+    <div class="row p-5 mb-5" style="background-color: #f5f5f5;">
+      <div class="col-12 text-center ">
+        <h3 class="mb-3">100% online, com acesso ilimitado</h3>
+        <a class="btn btn-primary mb-3" href="{{ .Params.Apply_url | safeURL }}" role="button">{{ .Params.Cta }}</a>
+        <h4 class="">De R$ <del>{{ .Params.De }}</del> por apenas R$ {{ .Params.Fee }} no cartão</h4>
+        <p><strong>ou {{ .Params.Preco_a_vista }} à vista no boleto. </strong><br/>Consulte parcelamento no boleto pelo whatsapp</p>
+        <img class="mr-4 img-fluid" src="/images/formas-pagamento.png" alt="Pagamento seguro com hotmart.">
+      </div>
+    </div><!-- row -->

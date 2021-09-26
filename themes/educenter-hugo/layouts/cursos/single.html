@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+<!-- section -->
+<section class="section-sm">
+  <div class="container">
+
+{{- partial "curso.html" . -}}
+{{ if eq .RelPermalink "/cursos/marcenaria-em-casa/" }}
+  {{- partial "curso_marcenaria_planos.html" . -}}
+  {{- partial "curso_programa_m20.html" . -}}
+{{ else if eq .RelPermalink "/cursos/tupia/" }}
+    {{- partial "curso_marcenaria_planos.html" . -}}
+    {{- partial "curso_programa_tupia.html" . -}}
+{{ else if eq .RelPermalink "/cursos/club/" }}
+    {{- partial "curso_marcenaria_planos.html" . -}}
+    {{- partial "curso_programa_club.html" . -}}
+{{ else if eq .RelPermalink "/cursos/luthieria/" }}
+    {{- partial "curso_marcenaria_planos.html" . -}}
+    {{- partial "curso_programa_guitarra.html" . -}}
+
+{{ end }}
+
+
+
+
+{{- partial "curso_cta.html" . -}}
+{{- partial "curso_faq.html" . -}}
+{{- partial "curso_professor.html" . -}}
+{{- partial "related_cursos.html" . -}}
+
+
+</div>
+</section>
+
+
+{{ end }}
