@@ -8,7 +8,7 @@ bg_image: "images/bg-guitarra.jpg"
 description : "Aprenda a fazer guitarras do zero, para destruir nos solos e lucrar muito"
 tag_line: "Tudo que você precisa para construir e regular guitarras e baixos de corpo sólido"
 # course thumbnail
-image: "uploads/2019/10/t-curos-guitarra-450x240.png"
+image: "uploads/t-curos-guitarra.png"
 # taxonomy
 category: "Luthieria"
 # teacher

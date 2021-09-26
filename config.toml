@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://rapricardo.github.io/oficina/"
+baseURL = "https://oficinadecasa.com.br/"
 title = "Oficina de Casa | Aprenda marcenaria e DIY de um jeito fácil"
 theme = "educenter-hugo"
 themesDir = "themes/"
