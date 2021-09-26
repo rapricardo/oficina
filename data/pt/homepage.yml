@@ -1,0 +1,157 @@
+################################# Slider #####################################
+slider:
+  enable : true
+  bg_image : "images/bg-marcenaria-01.jpg"
+  slider_item:
+    # slider item loop
+    - title : "Ensinar Marcenaria para Iniciantes é a nossa missão"
+      content : "Desde 2010 ensinamos os segredos da marcenaria, SEMPRE com alternativas para quem tem poucas ferramentas."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "ESCOLHA SEU CURSO"
+        link : "cursos"
+
+    # slider item loop
+    - title : "Aprenda a fazer móveis DO ZERO, sem gastar uma fortuna em ferramentas."
+      content : "Conheça as técnicas secretas utilizadas por profissionais da marcenaria"
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "APROVEITE A PROMOÇÃO"
+        link : "/cursos/marcenaria-em-casa/"
+
+    # slider item loop
+    - title : "Aprenda a fazer Guitarras e Contrabaixos"
+      content : "Para você destruir nos solos ou entrar num mercado muito lucrativo."
+      animation_in : "left"
+      animation_out : "right"
+      # available animation : left, right, up, down
+      button:
+        enable : true
+        label : "SAIBA MAIS"
+        link : "/cursos/luthieria/"
+
+
+############################### Banner feature ###############################
+banner_feature:
+  enable : true
+  image : "images/professor-marcenaria-marcelo.jpg"
+  feature_item:
+    # feature item loop
+    - name : "E-books e PDF com as medidas"
+      icon : "ti-book" # icon pack : https://themify.me/themify-icons
+      content : "Planos de corte detalhados de todos os projetos e dicas adicionais para você baixar e imprimir."
+
+    # feature item loop
+    - name : "Didática fácil"
+      icon : "ti-blackboard" # icon pack : https://themify.me/themify-icons
+      content : "Somos conhecidos pelo jeito fácil de ensinar os conceitos e técnicas usadas pelos marcineiros profissionais"
+
+    # feature item loop
+    - name : "Suporte e Grupo de alunos"
+      icon : "ti-agenda" # icon pack : https://themify.me/themify-icons
+      content : "Com a ajuda dos professores e o suporte da nossa comunidade de alunos você vai aprender a fazer tudo, muito rápido"
+
+    # feature item loop
+    - name : "Satisfação Garantida"
+      icon : "ti-write" # icon pack : https://themify.me/themify-icons
+      content : "Você tem 15 dias para experimentar. Se não gostar, a gente devolve 100% do dinheiro. Sem complicações."
+
+
+############################## about ##################################
+about:
+  enable : true
+  title : "SEU SONHO MAIS PERTO DO QUE VOCÊ IMAGINA"
+  image : "images/about/about-us.jpg"
+  content : "Aproveite essa promoção por tempo limitado para os três cursos do Oficina de Casa, o seu canal preferido de marcenaria e DIY no YouTube. É até 70% de desconto!
+
+É iniciante? Você vai aprender os primeiros passos, sem gastar muito e descobrir quais equipamentos precisa pra fazer os móveis que sempre sonhou. Se você já tem experiência, vai melhorar sua técnica, conhecer outros apaixonados pelo faça-você-mesmo e ter descontos exclusivos em ferramentas nos nossos sites parceiros.
+ "
+  button:
+    enable : true
+    label : "VEJA OS DEPOIMENTOS!"
+    link : "about"
+
+
+############################# Course ################################
+course:
+  enable : true
+  title : "Nossos Cursos"
+  # course item comes from "content/**/course" folder.
+
+########################## Call to action ############################
+cta:
+  enable : true
+  subtitle : "Faça parte da nossa comunidade de hobistas apaixonados"
+  title : "NÃO PERCA TEMPO! COMECE A APRENDER AGORA"
+  button:
+    enable : true
+    label : "INCREVA-SE JÁ"
+    link : "contact"
+
+
+######################## Success story #############################
+success_story:
+  enable : true
+  bg_image : "images/backgrounds/success-story.jpg"
+  title : "VOCÊ PODE FAZER COISAS INCRÍVEIS"
+  content : "Criamos estes cursos pensando em quem está começando ou nunca mexeu com madeira.
+
+Se você:
+
+⭐️ quer aproveitar sua aposentadoria ao máximo
+⭐️ quer se sentir útil e produtivo
+⭐️ quer fazer amigos com interesses em comum
+⭐️ deseja de mobiliar sua casa com originalidade
+⭐️ busca uma fonte de renda extra
+
+Você está no lugar certo.
+
+Você terá acesso a técnicas secretas utilizadas por profissionais da marcenaria e vai aprender com fazer dezenas de móveis e objetos, no conforto da sua casa.
+
+E o melhor: vai se sentir confiante e produtivo!"
+  # video link
+  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+
+
+############################# event ################################
+event:
+  enable : false
+  title : "Upcoming Events"
+  # event item comes from "content/**/event" folder.
+
+
+########################### funfacts ############################
+funfacts:
+  enable : false
+  funfact_item:
+    # funfact item loop
+    - name : "ALUNOS"
+      count : "4522"
+
+    # funfact item loop
+    - name : "COURSES"
+      count : "50"
+
+    # funfact item loop
+    - name : "STUDENTS"
+      count : "1000"
+
+    # funfact item loop
+    - name : "SATISFIED CLIENT"
+      count : "1400"
+
+# funfact is for about page
+
+
+
+############################# blog ################################
+blog:
+  enable : true
+  title : "Novidades"
+  # blog item comes from "content/**/blog" folder.
