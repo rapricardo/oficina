@@ -4,7 +4,7 @@ author: Oficina de Casa
 type: post
 date: 2019-02-12T17:24:23+00:00
 url: /como-fazer-tabua-de-corte-1-diy-oficinadecasa/
-image: /uploads/2019/02/tabua.png
+image: /otimizadas/tabua.jpg
 categories:
   - Tábuas de corte
 tags:

@@ -8,7 +8,7 @@ bg_image: "images/bg-marcenaria-02.jpg"
 description : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
 tag_line : "Ideal para quem está começando"
 # course thumbnail
-image: "uploads/2019/08/t-marcenaria-1.jpg"
+image: "otimizadas/t-marcenaria-1.jpg"
 # taxonomy
 category: "Marcenaria"
 # teacher

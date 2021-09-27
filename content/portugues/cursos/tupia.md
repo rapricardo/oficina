@@ -8,7 +8,7 @@ bg_image: "images/bg-marcenaria-03.jpg"
 description : "Aprenda os Segredos e técnicas da Tupia"
 tag_line: "E suba de nível na marcenaria, fazendo ranhuras, molduras, entalhes, chanfros, encaixes e detalhes arredondados em madeira."
 # course thumbnail
-image: "uploads/t-tupia-small.jpg"
+image: "otimizadas/t-tupia-small.jpg"
 # taxonomy
 category: "Marcenaria"
 # teacher

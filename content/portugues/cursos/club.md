@@ -8,7 +8,7 @@ bg_image: "images/bg-marcenaria-04.jpg"
 description : "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
 tag_line: "Dê um gás na sua oficina"
 # course thumbnail
-image: "uploads/2019/06/t-club.jpg"
+image: "otimizadas/t-club.jpg"
 # taxonomy
 category: "Marcenaria"
 # teacher

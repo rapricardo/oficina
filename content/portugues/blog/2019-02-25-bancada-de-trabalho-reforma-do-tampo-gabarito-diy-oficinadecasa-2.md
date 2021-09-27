@@ -4,7 +4,7 @@ author: Oficina de Casa
 type: post
 date: 2019-02-25T19:25:11+00:00
 url: /bancada-de-trabalho-reforma-do-tampo-gabarito-diy-oficinadecasa-2/
-image: /uploads/2019/02/bancada-reforma.png
+image: /otimizadas/bancada-reforma.jpg
 categories:
   - Bancadas
 tags:

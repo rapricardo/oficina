@@ -4,7 +4,7 @@ author: Oficina de Casa
 type: post
 date: 2019-02-12T17:30:59+00:00
 url: /pintura-de-janela-com-esmalte-branco-diy-oficinadecasa/
-image: /uploads/2019/02/pintura1.png
+image: /otimizadas/pintura1.jpg
 categories:
   - Pintura
 tags:
