@@ -116,7 +116,7 @@ Você terá acesso a técnicas secretas utilizadas por profissionais da marcenar
 
 E o melhor: vai se sentir confiante e produtivo!"
   # video link
-  video_link : "https://www.youtube.com/watch?v=ResipmZmpDU"
+  video_link : "https://www.youtube.com/watch?v=fVCOHCI7o7M"
 
 
 ############################# event ################################
@@ -135,7 +135,7 @@ funfacts:
       count : "4522"
 
     # funfact item loop
-    - name : "COURSES"
+    - name : "VÍDEOS"
       count : "50"
 
     # funfact item loop

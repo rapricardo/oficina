@@ -51,8 +51,8 @@ logo = "images/logo-oficina.png"
 description = "Site Oficial do canal do Youtube Oficina de Casa"
 author = "Rico Ramos"
 # contact info
-address = "9567 Turner Trace Apt. BC C3G8A4"
-mobile = "11234565523"
+address = ""
+mobile = ""
 email = "suporte@oficinadecasa.com.br"
 # contact form action
 contact_form_action = "#" # contact form works with https://formspree.io
@@ -141,12 +141,12 @@ weight = 1
 
 
 [[Languages.pt.menu.main]]
-name = "professores"
+name = "Professores"
 url = "professores"
 weight = 3
 
 [[Languages.pt.menu.main]]
-name = "novidades"
+name = "Novidades"
 url = "novidades"
 weight = 4
 
@@ -159,7 +159,7 @@ weight = 5
 # footer menu
 
 [[Languages.pt.menu.footer]]
-name = "professores"
+name = "Professores"
 url = "professores"
 
 [[Languages.pt.menu.footer]]
