@@ -89,7 +89,7 @@
   translation: Cursos
 
 - id: new_notice
-  translation: novo aviso
+  translation: Avisos
 
 - id: call
   translation: chamada

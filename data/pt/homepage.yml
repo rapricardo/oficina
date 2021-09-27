@@ -74,8 +74,8 @@ about:
  "
   button:
     enable : true
-    label : "VEJA OS DEPOIMENTOS!"
-    link : "about"
+    label : "SAIBA MAIS"
+    link : "sobre"
 
 
 ############################# Course ################################
@@ -87,12 +87,12 @@ course:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Faça parte da nossa comunidade de hobistas apaixonados"
-  title : "NÃO PERCA TEMPO! COMECE A APRENDER AGORA"
+  subtitle : "Promoção exclusiva"
+  title : "COMPRE 1, LEVE 3 CURSOS DE MARCENARIA"
   button:
     enable : true
-    label : "INCREVA-SE JÁ"
-    link : "contact"
+    label : "POR APENAS R$ 299,00"
+    link : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
 
 
 ######################## Success story #############################
