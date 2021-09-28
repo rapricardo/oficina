@@ -5,8 +5,8 @@ draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-04.jpg"
 # meta description
-description : "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
-tag_line: "Dê um gás na sua oficina"
+description : "Dê um gás na sua oficina"
+subtitle: "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
 # course thumbnail
 image: "otimizadas/t-club.jpg"
 # taxonomy
@@ -35,6 +35,8 @@ O Oficina Club é perfeito para quem já deus os primeiros passos na marcenaria 
 
 Você terá acesso a técnicas secretas utilizadas por profissionais da marcenaria e vai aprender como fazer 60 móveis e objetos, no conforto da sua casa.
 
+{{< youtube Q4IAVMhopKc >}}
+
 ### Ideal para iniciantes
 
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
@@ -46,3 +48,6 @@ Este curso foi desenvolvido com base em 30 anos de experiência criando móveis 
 Você pode assistir as aulas de qualquer lugar que tenha uma conexão com a internet usando qualquer dispositivo (Celular, computador ou tablet).
 
 E melhor: **VOCÊ PODE ASSISTIR PARA SEMPRE**.
+
+### Este vídeo responde as dúvidas frequentes
+{{< youtube jjWbcsDitsg >}}

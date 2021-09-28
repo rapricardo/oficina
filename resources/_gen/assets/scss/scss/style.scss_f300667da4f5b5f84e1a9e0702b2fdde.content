@@ -788,3 +788,9 @@ link:focus,
   .tag-list a:hover {
     background-color: #ffbc3b;
     color: #fff; }
+
+.card-header .btn {
+  white-space: normal;
+  padding: 5px 10px;
+  color: #5c5c77;
+  text-transform: none; }

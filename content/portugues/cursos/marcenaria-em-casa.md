@@ -5,8 +5,8 @@ draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
 # meta description
-description : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
-tag_line : "Ideal para quem está começando"
+description : "Ideal para quem está começando e ainda tem poucas ferramentas"
+subtitle : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
 # course thumbnail
 image: "otimizadas/t-marcenaria-1.jpg"
 # taxonomy
@@ -40,6 +40,8 @@ E o melhor: vai se sentir confiante e produtivo, ocupando seu tempo com um dos h
 
 O professor Marcelo Aguilera não se limita a usar apenas ferramentas elétricas ou caras. Mas, sim, compartilha experiências e oferece alternativas para você “Fazer Você Mesmo”, sem investir uma fortuna em ferramentas.
 
+{{< youtube EWUYVG1e-Io >}}
+
 ## Ideal para iniciantes
 
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
@@ -55,3 +57,6 @@ Este curso foi desenvolvido com base em 30 anos de experiência criando móveis 
 Você pode assistir as aulas de qualquer lugar que tenha uma conexão com a internet usando qualquer dispositivo (Celular, computador ou tablet).
 
 E melhor: **VOCÊ PODE ASSISTIR PARA SEMPRE**.
+
+### Este vídeo responde as dúvidas frequentes
+{{< youtube jjWbcsDitsg >}}
