@@ -19,7 +19,7 @@ duration : "46 aulas"
 weekly : "24 horas"
 # course fee
 de : "467,00"
-fee : "12x R$19,90"
+fee : "12x R$29,90"
 preco_a_vista : "R$ 299,00"
 # apply url
 apply_url : "https://pay.hotmart.com/F12917267H?off=c7ampeup&checkoutMode=10"

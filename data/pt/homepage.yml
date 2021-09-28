@@ -68,9 +68,7 @@ about:
   enable : true
   title : "SEU SONHO MAIS PERTO DO QUE VOCÊ IMAGINA"
   image : "images/about/about-us.jpg"
-  content : "Aproveite essa promoção por tempo limitado para os três cursos do Oficina de Casa, o seu canal preferido de marcenaria e DIY no YouTube. É até 70% de desconto!
-
-É iniciante? Você vai aprender os primeiros passos, sem gastar muito e descobrir quais equipamentos precisa pra fazer os móveis que sempre sonhou. Se você já tem experiência, vai melhorar sua técnica, conhecer outros apaixonados pelo faça-você-mesmo e ter descontos exclusivos em ferramentas nos nossos sites parceiros.
+  content : "É iniciante? Você vai aprender os primeiros passos, sem gastar muito e descobrir quais equipamentos precisa pra fazer os móveis que sempre sonhou. Se você já tem experiência, vai melhorar sua técnica, conhecer outros apaixonados pelo faça-você-mesmo e ter descontos exclusivos em ferramentas nos nossos sites parceiros.
  "
   button:
     enable : true
@@ -87,12 +85,12 @@ course:
 ########################## Call to action ############################
 cta:
   enable : true
-  subtitle : "Promoção exclusiva"
-  title : "COMPRE 1, LEVE 3 CURSOS DE MARCENARIA"
+  subtitle : "Participe do grupo exclusivo e tenha acesso a brindes e condições imperdíveis"
+  title : "Não compre ainda!"
   button:
     enable : true
-    label : "POR APENAS R$ 299,00"
-    link : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
+    label : "SAIBA MAIS"
+    link : "/promo/"
 
 
 ######################## Success story #############################
