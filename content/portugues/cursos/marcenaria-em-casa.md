@@ -5,8 +5,10 @@ draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
 # meta description
-description : "Ideal para quem está começando e ainda tem poucas ferramentas"
-subtitle : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
+description : "Em até 12x no cartão. Só até segunda feira! Aproveite!"
+#description : "Ideal para quem está começando e ainda tem poucas ferramentas"
+subtitle : "Super promoção! Apenas R$ 149,00"
+#subtitle : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
 # course thumbnail
 image: "otimizadas/t-marcenaria-1.jpg"
 # taxonomy
@@ -18,11 +20,12 @@ duration : "46 aulas"
 # weekly
 weekly : "24 horas"
 # course fee
-de : "467,00"
-fee : "12x R$29,90"
-preco_a_vista : "R$ 299,00"
+de : "R$ 467,00"
+fee : "R$ 149,00"
+#fee : "12x R$29,90"
+preco_a_vista : "R$ 149,00"
 # apply url
-apply_url : "https://pay.hotmart.com/F12917267H?off=c7ampeup&checkoutMode=10"
+apply_url : "/upsell/m20/"
 # type
 type: "cursos"
 # Call to action

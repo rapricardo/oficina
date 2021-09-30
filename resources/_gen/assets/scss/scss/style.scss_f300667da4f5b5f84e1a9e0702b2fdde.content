@@ -794,3 +794,6 @@ link:focus,
   padding: 5px 10px;
   color: #5c5c77;
   text-transform: none; }
+
+.btn {
+  white-space: normal !important; }

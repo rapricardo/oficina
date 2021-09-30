@@ -5,8 +5,15 @@
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
           <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{{ site.BaseURL | absLangURL }}">{{ .Title  }}</a></li>
-          <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-          <li class="list-inline-item text-white h3 font-secondary">{{ .Params.Subtitle }}</li>
+          {{ if isset .Params "subtitle" }}
+            <li class="list-inline-item text-white h3 font-secondary">{{ .Params.Subtitle }}</li>
+          {{ end }}
+          {{ if isset .Params "url_sim" }}
+            <li class="list-inline-item"><a href="{{ .Params.url_sim }}" class="btn btn-primary">Sim, por favor!</a></li>
+          {{ end }}
+          {{ if isset .Params "url_nao" }}
+            <li class="list-inline-item"><a href="{{ .Params.url_nao }}" class="btn btn-secondary">Agora não, obrigado</a></li>
+          {{ end }}
         </ul>
         <p class="text-lighten">{{ .Params.Description | markdownify }}</p>
       </div>
