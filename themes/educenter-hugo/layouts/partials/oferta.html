@@ -1,0 +1,70 @@
+    <!-- course info -->
+    <div class="row align-items-center mb-5">
+
+      <div class="col-xl-9 order-sm-3 order-xl-2 col-12 order-2">
+        <ul class="list-inline text-xl-center">
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-calendar text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ .Params.Duration }}</h6>
+
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-timer text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0">{{ .Params.Weekly }}</h6>
+
+              </div>
+            </div>
+          </li>
+          <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+            <div class="d-flex align-items-center">
+              <i class="ti-wallet text-primary icon-md mr-2"></i>
+              <div class="text-left">
+                <h6 class="mb-0"><small>De: {{ .Params.De }}</small><br/>Por: {{ .Params.Fee }}</h6>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+        <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
+      </div>
+      <!-- border -->
+      <div class="col-12 mt-4 order-4">
+        <div class="border-bottom border-primary"></div>
+      </div>
+    </div>
+
+    <!-- Comprar -->
+    <!--div class="row pt-5 pb-5 mb-5 bg-primary" >
+      <div class="col-12 text-center ">
+        <h2 class="mb-3">Não compre ainda!</h2>
+        <h4 class="mb-3">Participe do grupo exclusivo e tenha acesso a brindes e condições imperdíveis</h4>
+        <a class="btn btn-secondary mb-3" href="/promo/" role="button">SAIBA MAIS</a>
+
+      </div>
+    </div><!-- row -->
+
+    <!-- course details -->
+    <div class="row">
+      <div id="sobre" class="col-md-9 mb-4 order-sm-2 orde-md-1 content">
+        {{ .Content }}
+      </div>
+      <div class="col-md-3 order-sm-1 order-md-2">
+        <p>Veja nesta página:</p>
+        <ol class="list-unstyled">
+          <li><a href="#sobre">➡ Informações gerais</a></li>
+          <li><a href="#programa">➡ Conteúdo do curso</a></li>
+          <li><a href="#depoimentos">➡ Depoimentos</a></li>
+          <li><a href="#bonus">➡ Bônus</a></li>
+          <li><a href="#faq">➡ Dúvidas frequentes</a></li>
+          <li><a href="#faq">➡ Cursos relacionados</a></li>
+          </ol>
+
+      </div>
+    </div>
