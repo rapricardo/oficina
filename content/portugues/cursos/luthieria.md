@@ -27,6 +27,8 @@ apply_url : "https://pay.hotmart.com/U17228602B?off=zxi10913&checkoutMode=10"
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER A FAZER GUITARRAS!
+
+url: "/cursos/curso-luthieria-pauleira-oficina-de-casa/"
 ---
 
 {{< youtube iuAifors4oc >}}
