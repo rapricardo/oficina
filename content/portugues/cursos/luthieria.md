@@ -18,7 +18,7 @@ duration : "76 aulas"
 # weekly
 weekly : "23 horas"
 # course fee
-de : "999,00"
+de : "1247,00"
 fee : "12x R$49,90"
 preco_a_vista : "R$ 499,00"
 # apply url
@@ -32,6 +32,7 @@ url: "/cursos/curso-luthieria-pauleira-oficina-de-casa/"
 ---
 
 {{< youtube iuAifors4oc >}}
+
 
 ## Aprenda a técnicas secretas utilizadas por luthiers com quem entende: Pauleira Custom Guitars
 O Oficina de Casa tem o prazer de fazer este curso em conjunto com a renomada professora Paula Bifulco, Guitar Maker há mais de 10 anos que vai compartilhar com você as experiências mais Pauleira que existem no mundo das guitarras.
@@ -53,6 +54,9 @@ Você vai aprender tudo sobre luthieria, acompanhando a construção de uma guit
 Além disso tudo, você poderá assistir as aulas de qualquer lugar que tenha uma conexão com a internet usando qualquer dispositivo (Celular, computador ou tablet).
 
 E melhor: VOCÊ PODE ASSISTIR PARA SEMPRE.
+
+### Saiba mais sobre a professora
+{{< youtube 7gGtkNUkFaw >}}
 
 ### Assista uma aula antes de comprar
 {{< youtube sSgSAmeaO7w >}}
