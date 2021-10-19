@@ -29,6 +29,7 @@ type: "cursos"
 cta: QUERO APRENDER A FAZER GUITARRAS!
 
 url: "/cursos/curso-luthieria-pauleira-oficina-de-casa/"
+weight: 8
 ---
 
 {{< youtube iuAifors4oc >}}

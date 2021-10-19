@@ -38,3 +38,13 @@ VERSION:	Versoin Number
 .btn{
   white-space:normal !important;
 }
+
+.zapbox{
+  background-color: #fff;
+  position: fixed;
+  bottom:50px;
+  right:50px;
+  padding: 10px 20px;
+  border-radius: 35px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

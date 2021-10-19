@@ -86,7 +86,7 @@ course:
 cta:
   enable : true
   subtitle : "Participe do grupo exclusivo e tenha acesso a brindes e condições imperdíveis"
-  title : "Não compre ainda!"
+  title : "Quer conteúdo exclusivo, direto no seu zap?"
   button:
     enable : true
     label : "SAIBA MAIS"

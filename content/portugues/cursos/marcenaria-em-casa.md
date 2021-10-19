@@ -30,6 +30,8 @@ apply_url : "/upsell/m20/"
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
+weight: 1
+
 
 
 ---

@@ -27,6 +27,8 @@ apply_url : "https://pay.hotmart.com/C39590427Y?off=n9e2r8xs&checkoutMode=10"
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
+weight: 2
+
 ---
 
 

@@ -27,6 +27,7 @@ apply_url : "#"
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
+weight: 3
 ---
 
 

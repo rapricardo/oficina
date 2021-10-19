@@ -147,6 +147,11 @@ name = "Vídeos"
 url = "blog"
 weight = 5
 
+[[Languages.pt.menu.main]]
+name = "Espaço do Aluno"
+url = "https://alunos.oficinadecasa.com.br/"
+weight = 6
+
 
 
 # footer menu
@@ -154,3 +159,14 @@ weight = 5
 [[Languages.pt.menu.footer]]
 name = "Espaço do Aluno"
 url = "https://alunos.oficinadecasa.com.br/"
+weight = 1
+
+[[Languages.pt.menu.footer]]
+name = "Grupo do Whatsapp"
+url = "https://app.gruposinteligentes.com/r/odc"
+weight = 2
+
+[[Languages.pt.menu.footer]]
+name = "Canal do You Tube"
+url = "https://www.youtube.com/c/OficinadeCasaODC/"
+weight = 3
