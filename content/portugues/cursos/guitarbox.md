@@ -22,7 +22,7 @@ de : "159,00"
 fee : "10x R$11,90"
 preco_a_vista : "R$ 99,00"
 # apply url
-apply_url : "https://pay.hotmart.com/I37646645A?off=gjctwkc5&checkoutMode=10"
+apply_url : "https://pay.hotmart.com/I37646645A?off=gjctwkc5"
 # type
 type: "cursos"
 # Call to action
