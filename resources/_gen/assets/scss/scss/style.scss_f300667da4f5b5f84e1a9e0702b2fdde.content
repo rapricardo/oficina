@@ -796,7 +796,9 @@ link:focus,
   text-transform: none; }
 
 .btn {
-  white-space: normal !important; }
+  white-space: normal !important;
+  text-transform: uppercase;
+  text-decoration: none; }
 
 .zapbox {
   background-color: #fff;

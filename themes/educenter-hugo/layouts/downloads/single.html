@@ -1,0 +1,26 @@
+
+{{ define "main" }}
+
+<!-- notice details -->
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+
+          <div >
+            <h3>Aqui está o seu e-book. Aproveite!</h3>
+            <a href="{{ .Params.link | safeURL }}" class="" >
+              <img class="mr-4 img-fluid" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+            </a>
+
+            <p>Clique no botão abaixo para fazer o downalod do e-book</p>
+            <p><a href="{{ .Params.link | safeURL }}" class="btn btn-primary" >Fazer download do e-book</a></p>
+
+          </div>
+
+      </div>
+    </div>
+</section>
+<!-- /notice details -->
+
+{{ end }}
