@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ with site.LanguageCode }}{{ . }}{{ else }}pt-BR{{ end }}">
+{{- partial "head.html" . -}}
+
+<body>
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP75W93"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	{{- block "main" . }}{{- end }}
+	{{- partial "blankfooter.html" . -}}
+</body>
+
+</html>

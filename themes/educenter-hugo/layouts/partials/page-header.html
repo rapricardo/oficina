@@ -12,7 +12,7 @@
             <li class="list-inline-item"><a href="{{ .Params.url_sim }}" class="btn btn-primary">Sim, por favor!</a></li>
           {{ end }}
           {{ if isset .Params "url_nao" }}
-            <li class="list-inline-item"><a href="{{ .Params.url_nao }}" class="btn btn-secondary">Agora não, obrigado</a></li>
+            <li class="list-inline-item"><a href="{{ .Params.url_nao }}" class="btn btn-secondary">{{ .Params.cta_nao }}</a></li>
           {{ end }}
         </ul>
         <p class="text-lighten">{{ .Params.Description | markdownify }}</p>
