@@ -1,14 +1,14 @@
 ---
-title: "Oficina Club"
+title: "Marcenaria Criativa"
 date: 2019-07-06T15:27:17+06:00
-draft: true
+draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-04.jpg"
 # meta description
 description : "Dê um gás na sua oficina"
 subtitle: "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
 # course thumbnail
-image: "otimizadas/t-club.jpg"
+image: "images/thumbs/t-ideias.jpg"
 # taxonomy
 category: "Marcenaria"
 # teacher
@@ -22,7 +22,7 @@ de : "347,00"
 fee : "12x R$19,90"
 preco_a_vista : "R$ 199,00"
 # apply url
-apply_url : "https://pay.hotmart.com/R39550017P?off=57x52dax"
+apply_url : "https://pay.hotmart.com/R39550017P?off=ra0najun"
 # type
 type: "cursos"
 # Call to action
@@ -32,7 +32,7 @@ weight: 3
 
 
 ## Diversão ou dinheiro? Por que não ter os dois?
-O Oficina Club é perfeito para quem já deus os primeiros passos na marcenaria e deseja ampliar possibilidades. A diversidade de projetos, técnicas e materiais é enorme e a diversão garantida.
+60 projetos incríveis para você mobiliar sua casa ou fazer um extraO Marcenaria Criativa é perfeito para quem já deus os primeiros passos na marcenaria e deseja ampliar possibilidades. A diversidade de projetos, técnicas e materiais é enorme e a diversão garantida.
 
 Você terá acesso a técnicas secretas utilizadas por profissionais da marcenaria e vai aprender como fazer 60 móveis e objetos, no conforto da sua casa.
 

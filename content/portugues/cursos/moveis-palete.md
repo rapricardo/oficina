@@ -1,7 +1,7 @@
 ---
-title: "Marcenaria em Casa 2.0"
+title: "Como fazer Móveis com Paletes"
 date: 2019-07-06T15:27:17+06:00
-draft: true
+draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
 # meta description
@@ -10,7 +10,7 @@ description : "Ideal para quem está começando e ainda tem poucas ferramentas"
 #subtitle : "Super promoção! Apenas R$ 149,00"
 subtitle : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
 # course thumbnail
-image: "otimizadas/t-marcenaria-1.jpg"
+image: "images/thumbs/t-paletes.jpg"
 # taxonomy
 category: "Marcenaria"
 # teacher
@@ -25,14 +25,13 @@ fee : "R$ 299,00"
 #fee : "12x R$29,90"
 preco_a_vista : "R$ 299,00"
 # apply url
-apply_url : "/upsell/m20/"
+apply_url : "https://pay.hotmart.com/F12917267H?off=2dc9rnfr"
 # type
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
 weight: 1
-
-
+url: "marcenaria-em-casa"
 
 
 ---

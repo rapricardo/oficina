@@ -1,5 +1,5 @@
 ---
-title: "Luthieria"
+title: "Profissão Luthier"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
@@ -8,7 +8,7 @@ bg_image: "images/bg-guitarra.jpg"
 description : "Aprenda a fazer guitarras do zero, para destruir nos solos e lucrar muito"
 subtitle: "Tudo que você precisa para construir e regular guitarras e baixos de corpo sólido"
 # course thumbnail
-image: "otimizadas/t-curso-guita.jpg"
+image: "images/thumbs/t-guitarras.jpg"
 # taxonomy
 category: "Luthieria"
 # teacher
@@ -22,7 +22,7 @@ de : "1247,00"
 fee : "12x R$49,90"
 preco_a_vista : "R$ 499,00"
 # apply url
-apply_url : "https://pay.hotmart.com/U17228602B?off=zxi10913"
+apply_url : "https://pay.hotmart.com/U17228602B?off=oepgxcqa"
 # type
 type: "cursos"
 # Call to action
@@ -33,7 +33,6 @@ weight: 8
 ---
 
 {{< youtube iuAifors4oc >}}
-
 
 ## Aprenda a técnicas secretas utilizadas por luthiers com quem entende: Pauleira Custom Guitars
 O Oficina de Casa tem o prazer de fazer este curso em conjunto com a renomada professora Paula Bifulco, Guitar Maker há mais de 10 anos que vai compartilhar com você as experiências mais Pauleira que existem no mundo das guitarras.

@@ -8,7 +8,7 @@ bg_image: "images/bg-marcenaria-03.jpg"
 subtitle: "Aprenda os Segredos e técnicas da Tupia"
 description: "E suba de nível na marcenaria, fazendo ranhuras, molduras, entalhes, chanfros, encaixes e detalhes arredondados em madeira."
 # course thumbnail
-image: "otimizadas/t-tupia-small.jpg"
+image: "images/thumbs/t-tupia.jpg"
 # taxonomy
 category: "Marcenaria"
 # teacher
@@ -22,7 +22,7 @@ de : "347,00"
 fee : "12x R$19,90"
 preco_a_vista : "R$ 199,00"
 # apply url
-apply_url : "https://pay.hotmart.com/C39590427Y?off=n9e2r8xs"
+apply_url : "https://pay.hotmart.com/C39590427Y?off=0d6sm4ip"
 # type
 type: "cursos"
 # Call to action
