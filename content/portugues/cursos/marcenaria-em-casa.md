@@ -25,7 +25,7 @@ fee : "R$ 299,00"
 #fee : "12x R$29,90"
 preco_a_vista : "R$ 299,00"
 # apply url
-apply_url : "/upsell/m20/"
+apply_url : "https://pay.hotmart.com/F12917267H?off=2dc9rnfr"
 # type
 type: "cursos"
 # Call to action

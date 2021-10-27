@@ -20,10 +20,10 @@ duration : "45 aulas"
 # weekly
 weekly : "10 horas"
 # course fee
-de : "R$ 467,00"
-fee : "R$ 299,00"
+de : "347,00"
+fee : "R$ 199,00"
 #fee : "12x R$29,90"
-preco_a_vista : "R$ 299,00"
+preco_a_vista : "R$ 199,00"
 # apply url
 apply_url : "https://pay.hotmart.com/G39590368D?off=rzvc8v9m"
 # type
@@ -31,35 +31,26 @@ type: "cursos"
 # Call to action
 cta: QUERO FAZER MÓVEIS EM MDF!
 weight: 1
-url: "marcenaria-em-casa"
 
 
 ---
+## Já pensou em fazer um dinheiro extra vendendo móveis e objetos de decoração?
 
+O MDF é um material famoso por sua versatilidade, durabilidade e pelo preço acessível. Neste curso você vai aprender a fazer 23 projetos com alto potencial de lucro para você se divertir enquanto ganha dinheiro.
 
-#### Sobre o curso
+Tudo explicado passo-a-passo.
 
-## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos
+### Para quem é este curso?
 
-E o melhor: vai se sentir confiante e produtivo, ocupando seu tempo com um dos hobbys mais populares da história da humanidade.
+Praticantes da marcenaria iniciantes ou intermediários que desejam aprender a fazer móveis e objetos de decoração criativos para mobiliar suas casas ou vender.
 
-O professor Marcelo Aguilera não se limita a usar apenas ferramentas elétricas ou caras. Mas, sim, compartilha experiências e oferece alternativas para você “Fazer Você Mesmo”, sem investir uma fortuna em ferramentas.
+São 23 projetos, com planos de corte e passo a passo em video para os seguintes ambientes:
 
-## Ideal para iniciantes
+➡ Sala de estar: 6 projetos,
+➡ Dormitório: 7 projetos,
+➡ Banheiro: 2 projetos,
+➡ Dormitório infantil: 3 projetos,
+➡ Guarda-roupas completo
+➡ Decoração e Organização: 5 projetos
 
-Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
-
-➡ **Você vai aprender as principais técnicas da marcenaria**: medição, pré acabamento, corte, união e acabamento, SEMPRE com alternativas para quem tem poucas ferramentas.
-
-➡ **Vai conhecer os tipos de madeira**, suas características, preços, sugestões de uso e cuidados especiais: paletes de pinus, MDF, compensado, madeira de demolição, madeira rústica e muito mais.
-
-➡ **Vai aprender a usar, comprar e cuidar de ferramentas elétricas e manuais**: furadeiras, serras elétricas e manuais, tupias, fresas e muito mais.
-
-➡ **Vai aprender a construir dezenas de projetos variados para sua casa**, incluindo mesas, cadeiras, poltronas, bancos, objetos de decoração, guarda-roupas, armários, bancadas, cavaletes, organizadores, molduras, estantes, cabideiros, painéis, brinquedos, nichos, luminárias, prateleiras e muitos objetos de decoração.
-
-Você pode assistir as aulas de qualquer lugar que tenha uma conexão com a internet usando qualquer dispositivo (Celular, computador ou tablet).
-
-E melhor: **VOCÊ PODE ASSISTIR PARA SEMPRE**.
-
-### Este vídeo responde as dúvidas frequentes
-{{< youtube jjWbcsDitsg >}}
+Este curso foi feito pra você.

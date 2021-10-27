@@ -31,13 +31,10 @@ type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
 weight: 1
-url: "marcenaria-em-casa"
+url: "cursos/marcenaria-em-casa"
 
 
 ---
-
-
-#### Sobre o curso
 
 ## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos
 
@@ -45,7 +42,7 @@ E o melhor: vai se sentir confiante e produtivo, ocupando seu tempo com um dos h
 
 O professor Marcelo Aguilera não se limita a usar apenas ferramentas elétricas ou caras. Mas, sim, compartilha experiências e oferece alternativas para você “Fazer Você Mesmo”, sem investir uma fortuna em ferramentas.
 
-## Ideal para iniciantes
+### Ideal para iniciantes
 
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
 
