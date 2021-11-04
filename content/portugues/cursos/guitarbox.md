@@ -28,7 +28,7 @@ type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
 weight: 10
-
+black_link: "https://pay.hotmart.com/I37646645A?off=y0ot3eym&offDiscount=BLACKNOVEMBER30"
 
 ---
 

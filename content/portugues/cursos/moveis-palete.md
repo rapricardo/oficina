@@ -26,6 +26,7 @@ fee : "R$ 299,00"
 preco_a_vista : "R$ 299,00"
 # apply url
 apply_url : "https://pay.hotmart.com/F12917267H?off=2dc9rnfr"
+#apply_url : "https://pay.hotmart.com/F12917267H?off=2dc9rnfr"
 # type
 type: "cursos"
 # Call to action
@@ -33,7 +34,7 @@ cta: QUERO APRENDER MARCENARIA AGORA!
 weight: 1
 url: "cursos/marcenaria-em-casa"
 
-
+black_link: "https://pay.hotmart.com/F12917267H?off=2dc9rnfr&offDiscount=BLACKNOVEMBER30"
 ---
 
 ## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos

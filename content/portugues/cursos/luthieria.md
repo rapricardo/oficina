@@ -30,6 +30,7 @@ cta: QUERO APRENDER A FAZER GUITARRAS!
 
 url: "/cursos/curso-luthieria-pauleira-oficina-de-casa/"
 weight: 8
+black_link: "https://pay.hotmart.com/U17228602B?off=oepgxcqa&offDiscount=BLACKNOVEMBER30"
 ---
 
 {{< youtube iuAifors4oc >}}

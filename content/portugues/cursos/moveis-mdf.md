@@ -32,7 +32,7 @@ type: "cursos"
 cta: QUERO FAZER MÓVEIS EM MDF!
 weight: 1
 
-
+black_link: "https://pay.hotmart.com/G39590368D?off=rzvc8v9m&offDiscount=BLACKNOVEMBER30"
 ---
 ## Já pensou em fazer um dinheiro extra vendendo móveis e objetos de decoração?
 

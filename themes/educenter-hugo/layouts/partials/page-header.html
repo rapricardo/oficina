@@ -20,3 +20,26 @@
     </div>
   </div>
 </section>
+
+{{ if isset .Params "black_link" }}
+
+<section class="bg-black"  >
+
+<div class="">
+<div class="container p-5">
+<a href="{{ .Params.Black_link }}">
+  <div class="row" >
+    <div class="col-sm-12 col-lg-6 mb-3">
+      <img src="/images/black-november-hotmart.png" width="100%" />
+    </div>
+    <div class="col-sm-12 col-lg-6">
+      <img src="/images/30-desconto.png" width="100%"  />
+    </div>
+  </div>
+
+  </a>
+</div>
+</div>
+</section>
+
+{{ end }}

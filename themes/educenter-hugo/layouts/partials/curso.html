@@ -27,14 +27,22 @@
             <div class="d-flex align-items-center">
               <i class="ti-wallet text-primary icon-md mr-2"></i>
               <div class="text-left">
+                {{ if  isset .Params "black_link" }}
+                <h6 class="mb-0">30% OFF<br/><small>Em 10x sem juros</small></h6>
+                {{ else }}
                 <h6 class="mb-0">{{ .Params.Fee }}<br/><small>Em 10x sem juros</small></h6>
+                {{ end }}
               </div>
             </div>
           </li>
         </ul>
       </div>
       <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
+        {{ if  isset .Params "black_link" }}
+        <a href="{{ .Params.Black_link | safeURL }}" class="btn btn-primary">COMPRA COM DESCONTO</a>
+        {{ else }}
         <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-primary">{{ i18n "apply_now" }}</a>
+        {{ end }}
       </div>
       <!-- border -->
       <div class="col-12 mt-4 order-4">
