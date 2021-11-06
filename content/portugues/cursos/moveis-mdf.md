@@ -20,19 +20,19 @@ duration : "45 aulas"
 # weekly
 weekly : "10 horas"
 # course fee
-de : "347,00"
+de : "R$ 398,00"
 fee : "R$ 199,00"
 #fee : "12x R$29,90"
 preco_a_vista : "R$ 199,00"
 # apply url
-apply_url : "https://pay.hotmart.com/G39590368D?off=rzvc8v9m"
+apply_url : "/upsell/mdf"
 # type
 type: "cursos"
 # Call to action
 cta: QUERO FAZER MÓVEIS EM MDF!
 weight: 1
 
-black_link: "https://pay.hotmart.com/G39590368D?off=rzvc8v9m&offDiscount=BLACKNOVEMBER30"
+black_link: "/upsell/mdf"
 ---
 ## Já pensou em fazer um dinheiro extra vendendo móveis e objetos de decoração?
 

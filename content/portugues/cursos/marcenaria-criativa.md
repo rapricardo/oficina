@@ -18,18 +18,19 @@ duration : "103 vídeos"
 # weekly
 weekly : "21 horas"
 # course fee
-de : "347,00"
-fee : "12x R$19,90"
+de : "R$ 398,00"
+fee : "R$ 199,00"
+#fee : "12x R$29,90"
 preco_a_vista : "R$ 199,00"
 # apply url
-apply_url : "https://pay.hotmart.com/R39550017P?off=ra0najun"
+apply_url : "/upsell/club"
 # type
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
 weight: 3
 
-black_link: "https://pay.hotmart.com/R39550017P?off=ra0najun&offDiscount=BLACKNOVEMBER30"
+black_link: "/upsell/club"
 ---
 
 

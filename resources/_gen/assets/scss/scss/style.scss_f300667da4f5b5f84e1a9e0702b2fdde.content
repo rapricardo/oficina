@@ -811,3 +811,30 @@ link:focus,
 
 .bg-black {
   background-color: #000 !important; }
+
+.my_countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase; }
+
+.my_countdown li span {
+  display: block;
+  font-size: 4.5rem;
+  font-weight: bolder;
+  color: black; }
+
+.my_countdown .emoji {
+  display: none;
+  padding: 1rem; }
+
+.my_countdown .emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem; }
+
+@media all and (max-width: 768px) {
+  .my_countdown li {
+    font-size: calc(1.125rem * var(--smaller)); }
+  .my_countdown li span {
+    font-size: calc(3.375rem * var(--smaller)); } }

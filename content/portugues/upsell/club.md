@@ -8,7 +8,7 @@ bg_image: "images/bg-marcenaria-02.jpg"
 description : ""
 header_buttons: true;
 # url
-url_sim: "https://pay.hotmart.com/W16037117C?off=cz5n7i6i&checkoutMode=10"
-url_nao: "https://pay.hotmart.com/E61982694M?off=idkauo5y&offDiscount=BLACKNOVEMBER50"
+url_sim: "https://pay.hotmart.com/W16037117C?off=vhbaxbte&offDiscount=BLACKNOVEMBER50"
+url_nao: "https://pay.hotmart.com/T61982749K?off=dqcz51yv&offDiscount=BLACKNOVEMBER50"
 cta_nao: "Quero apenas o de R$ 199,00"
 ---

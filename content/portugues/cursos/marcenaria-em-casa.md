@@ -20,19 +20,19 @@ duration : "46 aulas"
 # weekly
 weekly : "24 horas"
 # course fee
-de : "R$ 467,00"
-fee : "R$ 299,00"
+de : "R$ 398,00"
+fee : "R$ 199,00"
 #fee : "12x R$29,90"
-preco_a_vista : "R$ 299,00"
+preco_a_vista : "R$ 199,00"
 # apply url
-apply_url : "https://pay.hotmart.com/F12917267H?off=2dc9rnfr"
+apply_url : "/upsell/paletes"
 # type
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
 weight: 1
 
-
+black_link: "/upsell/paletes"
 
 
 ---
