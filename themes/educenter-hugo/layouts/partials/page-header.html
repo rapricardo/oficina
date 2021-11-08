@@ -38,7 +38,12 @@
           <img src="/images/black-november-hotmart.png" width="100%" />
         </div>
         <div class="col-sm-12 col-lg-6">
-          <img src="/images/50-desconto.png" width="100%"  />
+          {{ if eq .RelPermalink "/cursos/curso-luthieria-pauleira-oficina-de-casa/" }}
+            <img src="/images/100-reais-desconto.png" width="100%"  />
+          {{ else }}
+            <img src="/images/50-desconto.png" width="100%"  />
+          {{ end }}
+
         </div>
       </div>
 
