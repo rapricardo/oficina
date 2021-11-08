@@ -9,6 +9,10 @@ bg_image: "images/bg-marcenaria-02.jpg"
 description : "23 projetos incríveis para você superar a crise e faturar até R$ 8.000 por mês, fazendo e vendendo móveis em MDF."
 #subtitle : "Super promoção! Apenas R$ 149,00"
 subtitle : "Aprenda a fazer Móveis em MDF, passo-a-passo"
+sub1 : "23 projetos incríveis para você superar a crise e faturar até R$ 8.000 por mês, fazendo e vendendo móveis em MDF."
+sub2 : "Aprenda a fazer guarda-roupas, gaveteiros, mesas, cadeiras, bancos e muito mais. São projetos para todos os cômodos da casa."
+sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
+square_image: "/images/thumbs/mdf-square.jpg"
 # course thumbnail
 image: "images/thumbs/t-mdf-2.jpg"
 # taxonomy

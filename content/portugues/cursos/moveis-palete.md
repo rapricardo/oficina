@@ -9,8 +9,13 @@ bg_image: "images/bg-marcenaria-02.jpg"
 description : "Ideal para quem está começando e ainda tem poucas ferramentas"
 #subtitle : "Super promoção! Apenas R$ 149,00"
 subtitle : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
+sub1 : "Um curso feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
+sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
+sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
+square_image: "/images/thumbs/paletes-square.jpg"
 # course thumbnail
 image: "images/thumbs/t-paletes.jpg"
+
 # taxonomy
 category: "Marcenaria"
 # teacher

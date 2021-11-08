@@ -1,3 +1,5 @@
+{{ if or ( not ( eq .Section "cursos" )) ( eq .RelPermalink "/cursos/" ) }}
+
 <!-- page title -->
 <section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}');" >
   <div class="container">
@@ -21,25 +23,116 @@
   </div>
 </section>
 
-{{ if isset .Params "black_link" }}
+{{ else }}
 
-<section class="bg-black"  >
 
-<div class="">
-<div class="container p-5">
-<a href="{{ .Params.Black_link }}">
-  <div class="row" >
-    <div class="col-sm-12 col-lg-6 mb-3">
-      <img src="/images/black-november-hotmart.png" width="100%" />
+
+<section class="page-title-section  bg-black "  >
+
+<div class="container">
+
+  {{ if isset .Params "black_link" }}
+    <a href="{{ .Params.Black_link }}">
+      <div class="row" >
+        <div class="col-sm-12 col-lg-6 mb-3">
+          <img src="/images/black-november-hotmart.png" width="100%" />
+        </div>
+        <div class="col-sm-12 col-lg-6">
+          <img src="/images/50-desconto.png" width="100%"  />
+        </div>
+      </div>
+
+
+      </a>
+
     </div>
-    <div class="col-sm-12 col-lg-6">
-      <img src="/images/50-desconto.png" width="100%"  />
-    </div>
+    </section>
+
+    <section class="bg-dark pt-5 pb-5"  >
+
+    <div class="container">
+
+
+  {{ end }}
+
+
+<div class="row">
+  <div class="col-12 text-center mb-2 ">
+    <h4 class="text-light">Curso Online</h4>
+    <h2 class="text-white text-uppercase">{{ .Title  }}</h2>
   </div>
 
-  </a>
+  </div>
+  <div class="row mb-5 ">
+
+  <div class="col-xl-12 mb-5 ">
+    <ul class="list-inline text-xl-center">
+      <li class="list-inline-item mr-4 mb-3 mb-sm-0 ">
+        <div class="d-flex align-items-center">
+          <i class="ti-calendar text-primary icon-md mr-2"></i>
+          <div class="text-left">
+            <h6 class="mb-0 text-white">{{ .Params.Duration }}</h6>
+
+          </div>
+        </div>
+      </li>
+      <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+        <div class="d-flex align-items-center">
+          <i class="ti-timer text-primary icon-md mr-2"></i>
+          <div class="text-left">
+            <h6 class="mb-0 text-white">{{ .Params.Weekly }}</h6>
+
+          </div>
+        </div>
+      </li>
+      <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+        <div class="d-flex align-items-center">
+          <i class="ti-credit-card text-primary icon-md mr-2"></i>
+          <div class="text-left">
+            <h6 class="mb-0 text-white"><small>Parcele em até</small><br/>10x sem juros</h6>
+
+          </div>
+        </div>
+      </li>
+
+      <li class="list-inline-item mr-4 mb-3 mb-sm-0">
+        <div class="d-flex align-items-center">
+          <i class="ti-wallet text-primary icon-md mr-2"></i>
+          <div class="text-left">
+            <h6 class="mb-0 text-white"><small>De: {{ .Params.De }}</small><br/>Por: {{ .Params.Fee }}</h6>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-lg-4 mb-3 offset-lg-1"><img src="{{ .Params.square_image | relURL }}" width="100%" /></div>
+  <div class="col-lg-6 mt-2">
+    <h4 class="mb-3 text-white">{{ .Params.Subtitle }}</h4>
+
+    <p class="text-white"><strong>{{ .Params.Sub1 }}</strong></p>
+    <p class="text-white">{{ .Params.Sub2 }}</p>
+    <p class="text-white">{{ .Params.Sub3 }}</p>
+    <p class="text-white"><strong>Compre agora e acesse para sempre!</strong></p>
+
+
+
 </div>
 </div>
+
+{{ if eq .RelPermalink "/cursos/marcenaria-em-casa/" }}
+  {{- partial "cta_mdf.html" . -}}
+{{ else if eq .RelPermalink "/cursos/tupia/" }}
+  {{- partial "cta_mdf.html" . -}}
+
+{{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
+  {{- partial "cta_palete.html" . -}}
+{{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
+    {{- partial "cta_palete.html" . -}}
+
+{{ end }}
+</div>
+
 </section>
 
 {{ end }}

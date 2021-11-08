@@ -812,6 +812,9 @@ link:focus,
 .bg-black {
   background-color: #000 !important; }
 
+.bg-black p, .bg-black h2, .bg-black h3, .bg-black h4, .bg-black h5, .bg-black h6 {
+  color: white; }
+
 .my_countdown li {
   display: inline-block;
   font-size: 1.5em;

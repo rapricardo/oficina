@@ -6,7 +6,11 @@ draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
 # meta description
 description : "Aprenda a fazer um instrumento inusitado e com uma sonoridade incrível."
-subtitle : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
+subtitle : "Sabia que dá pra fazer uma guitarra com uma caixa de charuto?"
+sub1 : "Neste curso você vai aprender o passo-a-passo completo para construir o instrumento, incluindo a parte elétrica. "
+sub2 : "Você poderá usar na sua banda ou fazer uma graninha extra!"
+sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
+square_image: "otimizadas/cigar-box-guitar.jpg"
 # course thumbnail
 image: "otimizadas/cigar-box-guitar.jpg"
 # taxonomy

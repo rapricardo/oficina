@@ -7,6 +7,10 @@ bg_image: "images/bg-guitarra.jpg"
 # meta description
 description : "Aprenda a fazer guitarras do zero, para destruir nos solos e lucrar muito"
 subtitle: "Tudo que você precisa para construir e regular guitarras e baixos de corpo sólido"
+sub1 : "Neste curso você vai aprender a construir uma guitarra elétrica, modelo Telecaster: um design clássico criado pelo mestre Leo Fender."
+sub2 : "Este conhecimento pode ser facilmente aplicado para construir qualquer instrumento de corpo sólido, inclusive contra-baixos elétricos."
+sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
+square_image: "/images/thumbs/guitarras-square.jpg"
 # course thumbnail
 image: "images/thumbs/t-guitarras.jpg"
 # taxonomy
