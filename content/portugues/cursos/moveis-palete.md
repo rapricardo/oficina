@@ -1,20 +1,20 @@
 ---
-title: "Como fazer Móveis com Paletes"
+title: "Marcenaria do Zero"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
 # meta description
 #description : "Em até 12x no cartão. Só até segunda feira! Aproveite!"
-description : "Ideal para quem está começando e ainda tem poucas ferramentas"
+description : "Um curso para quem quer fazer móveis com poucas ferramentas"
 #subtitle : "Super promoção! Apenas R$ 149,00"
-subtitle : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
+subtitle : "Aprenda a fazer móveis do zero, com poucas ferramentas"
 sub1 : "Um curso feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
 sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
-square_image: "/images/thumbs/paletes-square.jpg"
+square_image: "/images/marcenaria-square.jpg"
 # course thumbnail
-image: "images/thumbs/t-paletes.jpg"
+image: "images/thumb-marcenaria.jpg"
 
 # taxonomy
 category: "Marcenaria"

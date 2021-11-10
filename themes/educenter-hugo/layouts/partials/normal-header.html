@@ -1,0 +1,37 @@
+<!-- page title -->
+<section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}');" >
+  <div class="container">
+
+      <div class="row" >
+        <div class="col-sm-12 col-lg-6 mb-5">
+          <img src="/images/black-november-hotmart.png" width="100%" />
+        </div>
+
+        <div class="col-sm-12 col-lg-6 ">
+          <img src="/images/compre-e-concorra.png" width="100%"  />
+        </div>
+      </div>
+
+    </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{{ site.BaseURL | absLangURL }}">{{ .Title  }}</a></li>
+          {{ if isset .Params "subtitle" }}
+            <li class="list-inline-item text-white h3 font-secondary">{{ .Params.Subtitle }}</li>
+          {{ end }}
+          {{ if isset .Params "url_sim" }}
+            <li class="list-inline-item"><a href="{{ .Params.url_sim }}" class="btn btn-primary">Sim, por favor!</a></li>
+          {{ end }}
+          {{ if isset .Params "url_nao" }}
+            <li class="list-inline-item"><a href="{{ .Params.url_nao }}" class="btn btn-secondary">{{ .Params.cta_nao }}</a></li>
+          {{ end }}
+        </ul>
+        <p class="text-lighten">{{ .Params.Description | markdownify }}</p>
+      </div>
+    </div>
+  </div>
+</section>

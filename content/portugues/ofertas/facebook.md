@@ -3,20 +3,24 @@ title: "Promoção Viver de Marcenaria"
 date: 2019-07-06T15:27:17+06:00
 draft: false
 # page title background image
-bg_image: "images/bg-marcenaria-07.jpg"
+bg_image: "images/bg-marcenaria-02.jpg"
 # meta description
-subtitle: "Descubra de forma simples e prática como transformar seu amor pela marcenaria num hobby muito lucrativo"
-description: ""
+description:  "Descubra de forma simples e prática como transformar seu amor pela marcenaria num hobby muito lucrativo"
+subtitle : "Aprenda a fazer móveis do zero, com poucas ferramentas"
+sub1 : "Um curso feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
+sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
+sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
+square_image: "/images/marcenaria-square.jpg"
 # course thumbnail
-image: "otimizadas/t-tupia-small.jpg"
+image: "images/thumb-marcenaria.jpg"
 # taxonomy
 category: "Marcenaria"
 # teacher
 teacher: "Marcelo Aguilera"
 # duration
-duration : "119 vídeo aulas"
+duration : "46 aulas"
 # weekly
-weekly : "40 horas"
+weekly : "24 horas"
 # course fee
 de : "1.743,00"
 fee : "12x R$24,90"
@@ -69,28 +73,3 @@ Se você:
 O Método Oficina de Casa é ideal para você!
 
 {{< youtube UTG8-JZQr5M >}}
-
-### O que está incluso no pacote?
-Elaboramos um pacote especial para ajudar você a dar os primeiros passos na marcenaria
-
-➡ **Curso Marcenaria em Casa 2.0**: R$ 467,00
-
-➡ **Curso 20 Móveis em MDF**: R$ 347,00
-
-➡ **Curso Segredos e Técnicas da Tupia**: R$ 347,00
-
-➡ **E-book Primeiros Passos na Marcenaria**:  R$ 97,00
-
-➡ **E-book Guias de Ferramentas e máquinas**: R$ 97,00
-
-➡ **E-book 20 móveis em MDF**: R$ 97,00
-
-➡ **E-book Projetos em Tupia**: R$ 97,00
-
-➡ **E-book Móveis com Paletes**: R$ 97,00
-
-➡ **E-book Faça sua bancada com paletes**: R$ 97,00
-
-**COMPRANDO SEPARADAMENTE VOCÊ PAGARIA: R$ 1.713,00**
-
-### Hoje você pode comprar tudo isso POR APENAS R$ 249,00

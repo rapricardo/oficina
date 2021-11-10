@@ -34,7 +34,7 @@ apply_url : "/upsell/mdf"
 type: "cursos"
 # Call to action
 cta: QUERO FAZER MÓVEIS EM MDF!
-weight: 1
+weight: 4
 
 black_link: "/upsell/mdf"
 ---

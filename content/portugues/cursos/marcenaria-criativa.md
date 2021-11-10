@@ -32,7 +32,7 @@ apply_url : "/upsell/club"
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
-weight: 3
+weight: 2
 
 black_link: "/upsell/club"
 ---

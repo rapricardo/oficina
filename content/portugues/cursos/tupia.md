@@ -31,7 +31,7 @@ apply_url : "/upsell/tupia"
 type: "cursos"
 # Call to action
 cta: QUERO APRENDER MARCENARIA AGORA!
-weight: 2
+weight: 3
 black_link: "/upsell/tupia"
 ---
 
