@@ -8,14 +8,13 @@
         <div class="d-flex">
           <div class="text-center mr-4">
             <div class="p-4 bg-primary text-white">
-              <span class="h2 d-block">{{ .PublishDate.Format "06"}}</span> {{ .PublishDate.Format "JAN, 2006"}}
+              <span class="h2 d-block">{{ .Params.M_dia }}</span> {{ .Params.M_mes }}, {{ .Params.M_ano }}
             </div>
           </div>
           <!-- notice content -->
           <div class="content">
             {{ .Content }}
-            {{ with .Params.Download_link }} <a href="{{ . | absURL }}" class="btn btn-primary">{{ i18n "download" }}</a>
-            {{ end }}
+
           </div>
         </div>
       </div>

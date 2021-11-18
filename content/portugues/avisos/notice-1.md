@@ -1,10 +1,10 @@
 ---
 title: "Como se inscrever no Desafio Móveis Planejados"
-date: 2021-11-10T15:27:17+06:00
+date: 2021-10-10T15:27:17+06:00
+dia: 10
+mes: "nov"
+ano: 2021
 draft: false
-m_dia: 10
-m_mes: "NOV"
-m_ano: 2021
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
