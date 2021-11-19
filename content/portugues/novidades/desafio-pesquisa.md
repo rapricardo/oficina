@@ -8,7 +8,7 @@ m_ano: 2021
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Queremos saber o que você espera desse Desafio, são perguntas rápidas, leva menos de 5 minutos pra responder"
 # notice download link
 download_link : "#"
 # type
@@ -18,7 +18,7 @@ type: "novidades"
 
 ### E aí, pessoal, tudo bem?
 
-Durante todo o desafio você irá perceber que não é preciso ter uma super oficina com ferramentas extremamente caras para poder criar seus móveis sob medida
+Durante todo o desafio você irá perceber que não é preciso ter uma super oficina com ferramentas extremamente caras para poder criar seus móveis sob medida.
 
 A nossa primeira Live acontecerá no dia 17/11, quarta-feira agora,
 às 19:59 h

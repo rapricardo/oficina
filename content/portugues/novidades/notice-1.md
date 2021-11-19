@@ -8,7 +8,7 @@ m_ano: 2021
 # page title background image
 bg_image: "images/backgrounds/page-title.jpg"
 # meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+description : "Entre no nosso grupo VIP do Whatsapp para receber mais informações sobre o nosso desafio."
 # notice download link
 download_link : "#"
 # type
