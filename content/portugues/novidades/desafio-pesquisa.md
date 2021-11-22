@@ -1,8 +1,8 @@
 ---
 title: "Como informar os dados para o sorteio"
-date: 2021-11-10T15:27:17+06:00
+date: 2021-11-17T15:27:17+06:00
 draft: false
-m_dia: 16
+m_dia: 17
 m_mes: "NOV"
 m_ano: 2021
 # page title background image

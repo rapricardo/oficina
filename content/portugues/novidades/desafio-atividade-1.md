@@ -1,8 +1,8 @@
 ---
 title: "2ª Aula + Atividade 01"
-date: 2021-11-10T15:27:17+06:00
+date: 2021-11-19T15:27:17+06:00
 draft: false
-m_dia: 16
+m_dia: 19
 m_mes: "NOV"
 m_ano: 2021
 # page title background image
