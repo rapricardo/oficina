@@ -7,7 +7,7 @@ bg_image: "images/bg-marcenaria-04.jpg"
 # meta description
 description : "Dê um gás na sua oficina"
 subtitle: "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
-sub1 : "Este curso foi feito para ajudar você a desenvolver a criatividade enquanto coloca a mão na massa. Ou melhor, na madeira!"
+sub1 : "Este curso online foi feito para ajudar você a desenvolver a criatividade enquanto coloca a mão na massa. Ou melhor, na madeira!"
 sub2 : "A cada projeto você terá a oportunidade de aprender técnicas novas e ampliar o seu entendimento sobre marcenaria, até atingir o ponto em que você será capaz de fazer qualquer coisa que imaginar."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
 square_image: "/images/thumbs/ideias-square.jpg"

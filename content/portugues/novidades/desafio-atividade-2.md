@@ -20,12 +20,12 @@ type: "novidades"
 
 💡 E tem atividade pra você fazer e postar no aqui no grupo
 
-➡Clique neste link para assistir a 3ª Aula e fazer a atividade 👉 https://bit.ly/3FD6exU
+➡Clique neste link para assistir a 3ª Aula e fazer a atividade 👉 <https://bit.ly/3FD6exU>
 
 🗣 E amanhã, às 19:59h, teremos a Live para tirar todas suas dúvidas diretamente com o professor Marcelo Aguilera sobre as aulas.
 
-🎥 Clique no link abaixo para acessar o replay da 2ª Live 👉 https://bit.ly/3czVTX3
+🎥 Clique no link abaixo para acessar o replay da 2ª Live 👉 <https://bit.ly/3czVTX3>
 
-➡Clique neste link para rever a aula 02 👉 https://bit.ly/3x5mMvH
+➡Clique neste link para rever a aula 02 👉 <https://bit.ly/3x5mMvH>
 
 Até breve! 🪛

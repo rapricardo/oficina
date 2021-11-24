@@ -10,8 +10,12 @@
 
     {{- partial "normal-header.html" . -}}
 
+{{ else if  ( eq .Section "lancamento" )  }}
+
+      {{- partial "lancamento-header.html" . -}}
+
 {{ else }}
 
-  {{- partial "promo-normal-header.html" . -}}
+  {{- partial "normal-header.html" . -}}
 
 {{ end }}
