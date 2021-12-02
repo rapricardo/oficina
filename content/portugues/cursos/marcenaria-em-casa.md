@@ -24,6 +24,7 @@ de : "R$ 398,00"
 fee : "R$ 199,00"
 #fee : "12x R$29,90"
 preco_a_vista : "R$ 199,00"
+preco_parcelado : "10x R$ 19,90"
 # apply url
 apply_url : "/upsell/paletes"
 # type

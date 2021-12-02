@@ -5,8 +5,8 @@ draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-03.jpg"
 # meta description
-subtitle: "Aprenda os Segredos e técnicas da Tupia"
-description: "E suba de nível na marcenaria, fazendo ranhuras, molduras, entalhes, chanfros, encaixes e detalhes arredondados em madeira."
+description: "Aprenda os Segredos e técnicas da Tupia"
+subtitle: "E suba de nível na marcenaria, fazendo ranhuras, molduras, entalhes, chanfros, encaixes e detalhes arredondados em madeira."
 sub1 : "Um curso feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
 sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
@@ -23,7 +23,8 @@ duration : "28 aulas"
 weekly : "11 horas"
 # course fee
 de : "R$ 398,00"
-fee : "R$ 199,00"
+fee : "10x R$ 19,90"
+preco_parcelado : "10x R$ 19,90"
 preco_a_vista : "R$ 199,00"
 # apply url
 apply_url : "/upsell/tupia"

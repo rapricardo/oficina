@@ -6,9 +6,9 @@ draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
 # meta description
 #description : "Em até 12x no cartão. Só até segunda feira! Aproveite!"
-description : "Um curso para quem quer fazer móveis com poucas ferramentas"
+description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
 #subtitle : "Super promoção! Apenas R$ 149,00"
-subtitle : "Aprenda a fazer móveis do zero, com poucas ferramentas"
+subtitle : "Mobilie sua casa gastando pouco ou faça uma renda extra"
 sub1 : "Um curso online feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
 sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
@@ -27,6 +27,7 @@ weekly : "24 horas"
 # course fee
 de : "R$ 398,00"
 fee : "R$ 199,00"
+preco_parcelado : "10x R$ 19,90"
 #fee : "12x R$29,90"
 preco_a_vista : "R$ 199,00"
 # apply url

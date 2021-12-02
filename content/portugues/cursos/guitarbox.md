@@ -24,6 +24,7 @@ weekly : "80 minutos"
 # course fee
 de : "159,00"
 fee : "10x R$11,90"
+preco_parcelado : "10x R$ 11,90"
 preco_a_vista : "R$ 99,00"
 # apply url
 apply_url : "https://pay.hotmart.com/I37646645A?off=gjctwkc5"
