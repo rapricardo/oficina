@@ -1,6 +1,6 @@
 ---
 title: "Quer levar os 4 cursos de marcenaria, por mais R$ 99,00?"
-subtitle: "R$ 299,00 em até 10x sem juros, leva tudo e mais um pouco!"
+subtitle: "Por apenas 10x R$ 29,90, você leva tudo e mais um pouco!"
 draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"

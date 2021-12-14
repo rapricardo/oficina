@@ -51,12 +51,12 @@ category: "Marcenaria"
 teacher: "Marcelo Aguilera"
 duration : "68 aulas"
 weekly : "12 horas"
-de : "R$ 398,00"
+de : "R$ 798,00"
 preco_a_vista : "R$ 399,00"
 preco_parcelado : "12x R$ 39,90"
 desconto : "50% de desconto"
 
-apply_url : "/upsell/planejados"
+apply_url : "https://pay.hotmart.com/E61113943B?off=8ch9zke8"
 
 # type
 type: "cursos"

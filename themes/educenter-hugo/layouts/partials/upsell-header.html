@@ -1,0 +1,24 @@
+<section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}'); background-size: cover;" >
+
+  <div class="container">
+
+    <div class="row" >
+      <div class="col text-center">
+        <h6 class="text-white text-uppercase">Economize ainda mais comprando junto</h6>
+        <h2 class="text-primary text-uppercase">{{ .Params.Title }}</h2>
+        <h3 class="text-white mb-4">{{ .Params.Subtitle }}</h3>
+        <ul class="list-inline custom-breadcrumb mb-5">
+
+          {{ if isset .Params "url_sim" }}
+            <li class="list-inline-item"><a href="{{ .Params.url_sim }}" class="btn btn-primary btn-large">Sim, por favor!</a></li>
+          {{ end }}
+          {{ if isset .Params "url_nao" }}
+            <li class="list-inline-item"><a href="{{ .Params.url_nao }}" class="btn btn-secondary">{{ .Params.cta_nao }}</a></li>
+          {{ end }}
+        </ul>
+
+      </div>
+    </div> <!-- end main -->
+
+    </div>
+</section>

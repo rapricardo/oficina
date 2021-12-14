@@ -3,14 +3,132 @@
 <!-- section -->
 <section class="section-sm">
   <div class="container">
+    <div class="row mb-5">
+      <div class="col">
+        <h2 class="text-center">Seja um marceneiro ainda mais completo, levando todos estes cursos</h2>
+      </div>
+    </div>
 
-{{- partial "curso_social.html" . -}}
-{{- partial "curso_faq.html" . -}}
+    <div class="row justify-content-center">
+
+    {{ if or (eq .RelPermalink "/upsell/club/") (eq .RelPermalink "/upsell/mdf/") (eq .RelPermalink "/upsell/paletes/") (eq .RelPermalink "/upsell/tupia/")  }}
+
+      <!-- course item -->
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="/images/thumb-marcenaria.jpg" alt="Curso como fazer móveis do zero">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><i class="ti-calendar"></i> 46 vídeo-aulas</li>
+            </ul>
+            <h4 class="card-title">Marcenaria do Zero</h4>
+            <p class="card-text mb-4">Um curso para quem quer fazer móveis do ZERO com poucas ferramentas</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="/images/thumbs/t-ideias.jpg" alt="Curso Marcenaria Criativa">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><i class="ti-calendar"></i> 103 vídeo-aulas</li>
+            </ul>
+            <h4 class="card-title">Marcenaria Criativa</h4>
+            <p class="card-text mb-4">60 projetos incríveis para você mobiliar sua casa ou fazer um extra</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="/images/thumbs/t-mdf-2.jpg" alt="Curso como fazer móveis em MDF">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><i class="ti-calendar"></i> 45 vídeo-aulas</li>
+            </ul>
+            <h4 class="card-title">Móveis em MDF</h4>
+            <p class="card-text mb-4">Aprenda a fazer Móveis em MDF, passo-a-passo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6 mb-5">
+        <div class="card p-0 border-primary rounded-0 hover-shadow">
+          <img class="card-img-top rounded-0" src="/images/thumbs/t-tupia.jpg" alt="Curso Marcenaria Criativa">
+          <div class="card-body">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item"><i class="ti-calendar"></i> 28 vídeo-aulas</li>
+            </ul>
+            <h4 class="card-title">Segredos e Técnicas da Tupia</h4>
+            <p class="card-text mb-4">Eleve o nível da sua marcenaria e ganhe muito mais dinheiro</p>
+          </div>
+        </div>
+      </div>
+
+    {{ else if eq .RelPermalink "/upsell/planejados/" }}
+    <div class="col-lg-4 col-sm-6 mb-5">
+      <div class="card p-0 border-primary rounded-0 hover-shadow">
+        <img class="card-img-top rounded-0" src="/images/thumbs/t-mdf-2.jpg" alt="Curso como fazer móveis em MDF">
+        <div class="card-body">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item"><i class="ti-calendar"></i> 45 vídeo-aulas</li>
+          </ul>
+          <h4 class="card-title">Móveis em MDF</h4>
+          <p class="card-text mb-4">Aprenda a fazer Móveis em MDF, passo-a-passo</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 mb-5">
+      <div class="card p-0 border-primary rounded-0 hover-shadow">
+        <img class="card-img-top rounded-0" src="/images/thumbs/t-mdf-2.jpg" alt="Curso como fazer móveis em MDF">
+        <div class="card-body">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item"><i class="ti-calendar"></i> 45 vídeo-aulas</li>
+          </ul>
+          <h4 class="card-title">Móveis em MDF</h4>
+          <p class="card-text mb-4">Aprenda a fazer Móveis em MDF, passo-a-passo</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 mb-5">
+      <div class="card p-0 border-primary rounded-0 hover-shadow">
+        <img class="card-img-top rounded-0" src="/images/thumbs/t-mdf-2.jpg" alt="Curso como fazer móveis em MDF">
+        <div class="card-body">
+          <ul class="list-inline mb-2">
+            <li class="list-inline-item"><i class="ti-calendar"></i> 45 vídeo-aulas</li>
+          </ul>
+          <h4 class="card-title">Móveis em MDF</h4>
+          <p class="card-text mb-4">Aprenda a fazer Móveis em MDF, passo-a-passo</p>
+        </div>
+      </div>
+    </div>
+
+    {{ end }}
+
+    </div>
+
+    <div class="col text-center">
+      <h2 class="text-uppercase">Quero economizar ainda mais comprando junto</h2>
+      <h3 class="mb-4">{{ .Params.Subtitle }}</h3>
+      <ul class="list-inline custom-breadcrumb mb-5">
+
+        {{ if isset .Params "url_sim" }}
+          <li class="list-inline-item"><a href="{{ .Params.url_sim }}" class="btn btn-primary btn-large">Sim, por favor!</a></li>
+        {{ end }}
+        {{ if isset .Params "url_nao" }}
+          <li class="list-inline-item"><a href="{{ .Params.url_nao }}" class="btn btn-secondary">{{ .Params.cta_nao }}</a></li>
+        {{ end }}
+      </ul>
+
+    </div>
+  </div> <!-- end main -->
 
 
 
 </div>
 </section>
-
 
 {{ end }}
