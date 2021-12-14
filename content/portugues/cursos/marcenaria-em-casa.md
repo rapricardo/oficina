@@ -36,6 +36,7 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para começar a ganhar uma renda extra fazendo Móveis Planejados?"
 
+bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
 
 # course thumbnail
 image: "otimizadas/t-marcenaria-1.jpg"

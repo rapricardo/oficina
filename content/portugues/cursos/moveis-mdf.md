@@ -36,6 +36,8 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para começar a ganhar uma renda extra fazendo Móveis em MDF?"
 
+bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
+
 
 sub1 : "23 projetos incríveis para você superar a crise e faturar até R$ 8.000 por mês, fazendo e vendendo móveis em MDF."
 sub2 : "Aprenda a fazer guarda-roupas, gaveteiros, mesas, cadeiras, bancos e muito mais. São projetos para todos os cômodos da casa."

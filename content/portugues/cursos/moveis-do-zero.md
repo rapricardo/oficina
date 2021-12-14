@@ -36,6 +36,8 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para impressionar seus amigos e familiares fazendo seus móveis?"
 
+bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
+
 
 sub1 : "Um curso online feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
 sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."

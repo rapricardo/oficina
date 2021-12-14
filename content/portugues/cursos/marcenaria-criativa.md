@@ -36,6 +36,8 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para levar sua criatividade para o próximo nível?"
 
+bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
+
 
 sub1 : "Este curso online foi feito para ajudar você a desenvolver a criatividade enquanto coloca a mão na massa. Ou melhor, na madeira!"
 sub2 : "A cada projeto você terá a oportunidade de aprender técnicas novas e ampliar o seu entendimento sobre marcenaria, até atingir o ponto em que você será capaz de fazer qualquer coisa que imaginar."

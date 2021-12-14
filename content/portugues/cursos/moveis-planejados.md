@@ -37,7 +37,7 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para começar a ganhar uma renda extra fazendo Móveis Planejados?"
 
-
+bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
 
 sub1 : "Um curso online feito para quem tem pouca experiência, algumas ferramentas e gostaria de melhorar a técnica."
 sub2 : "Você vai aprender todas as técnicas necessárias para fazer móveis sob medida, passo-a-passo, em vídeo aulas muito bem explicadas."
