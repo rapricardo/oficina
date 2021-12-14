@@ -1,10 +1,7 @@
-<!-- CTA MDF-->
-<div class="row pt-5 mb-5 bg-light" >
-
-  <div class="col-12 text-center mb-5">
-    <h2 class="text-uppercase">E tem mais... COMPRANDO HOJE VOCÊ LEVA MAIS UM CURSO GRÁTIS!</h2>
+<!-- CTA Club -->
+  <div class="col-lg-4 mb-3 offset-lg-1">
+    <img src="/images/thumbs/ideias-square.jpg" width="100%" />
   </div>
-  <div class="col-lg-4 mb-3 offset-lg-1"><img src="/images/thumbs/ideias-square.jpg" width="100%" /></div>
   <div class="col-lg-6 mt-2">
     <h3 class="mb-3">MARCENARIA CRIATIVA</h3>
 
@@ -43,30 +40,3 @@
     </ul>
 
 </div>
-<div class="col-12 text-center mb-3 mt-3">
-  <script type="text/javascript">
-    setInterval(function time(){
-    var d = new Date();
-    var hours = 24 - d.getHours();
-    var min = 60 - d.getMinutes();
-    if((min + '').length == 1){
-      min = '0' + min;
-    }
-    var sec = 60 - d.getSeconds();
-    if((sec + '').length == 1){
-          sec = '0' + sec;
-    }
-    jQuery('#the-final-countdown div').html('<ul><li><span id="hours">'+hours+'</span>Horas</li><li><span id="minutes">'+min+'</span>Minutos</li><li><span id="seconds">'+sec+'</span>Segundos</li></ul>')
-    }, 1000);
-
-  </script>
-  <h2 class="mb-1">GARANTA SEU CURSO GRÁTIS ENQUANTO É TEMPO</h2>
-  <div id="the-final-countdown" class="my_countdown">
-    <div></div>
-  </div>
-
-  <a class="btn btn-danger btn-lg mb-3" href="{{ .Params.Apply_url | safeURL }}" role="button">COMPRE AGORA! POR APENAS {{ .Params.Preco_parcelado }}</a>
-
-
-</div>
-</div><!-- row -->

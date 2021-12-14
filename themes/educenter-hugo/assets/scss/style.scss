@@ -34,11 +34,19 @@ VERSION:	Versoin Number
   color: #5c5c77;
   text-transform: none;
 }
+.destaque{
+  font-size: 3rem;
+  font-weight: bolder;
+}
 
 .btn{
   white-space:normal !important;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.btn-large{
+  font-size: 1.5rem;
 }
 
 .zapbox{

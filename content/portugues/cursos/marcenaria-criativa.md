@@ -1,62 +1,67 @@
 ---
 title: "Marcenaria Criativa"
-date: 2019-07-06T15:27:17+06:00
+subtitle: "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
+description : "Dê um gás na sua oficina"
+weight: 2
+date: 2021-12-13T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-04.jpg"
-# meta description
-description : "Dê um gás na sua oficina"
-subtitle: "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
+headline : "Impressione amigos e familiares fazendo móveis incríveis no seu tempo livre"
+subheadline : "São mais de 60 projetos para quem quer mobiliar a casa ou fazer uma grana, sem abrir mão da liberdade"
+cta: QUERO ME INSCREVER AGORA AGORA!
+
+promessa : "Diversão ou dinheiro? Que tal os dois?"
+p1 : "Aprenda a construir qualquer coisa com madeira"
+p2 : "Saiba como usar ferramentas com eficiência e segurança"
+p3 : "Aprenda a trabalhar com diversos materiais e tipos de madeira"
+p4 : "Construa móveis e objetos de decoração mobiliar sua casa ou vender"
+p5 : "Saiba tudo sobre medidas, marcações e cortes e evite desperdícios"
+p6 : "Aprenda as técnicas de corte, furação, fixação e acabamento"
+p7 : "Exercite sua criatividade para fazer o que imaginar"
+p8 : "Junte-se a uma comunidade de apaixonados por marcenaria"
+
+resultados : "Com nossa metodologia, você será capaz de fazer o que imaginar"
+sub_resultados: "Agora, esta metodologia está disponível pra você. Basta ver os resultados de alguns dos nossos alunos:"
+
+confianca : "Ensinamos Marcenaria para quem não sabe nada, há mais de 11 anos"
+
+superacao : "A Marcenaria é o hobby perfeito para cuidar da mente fazendo uma graninha extra"
+sub_superacao : "A cada projeto você terá a oportunidade de aprender técnicas novas e ampliar o seu entendimento sobre marcenaria, até atingir o ponto em que você será capaz de fazer qualquer coisa que imaginar."
+s1 : "Já tem algumas ferramentas, mas precisa melhorar a técnica?"
+s2 : "Deseja se manter ativo e energizado, aumentando sua qualidade de vida?"
+s3 : "Almeja ter uma renda extra em casa, no tempo livre sem comprometer o lazer?"
+s4 : "Quer ser reconhecido por suas habilidade e criatividade?"
+conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é pra você"
+
+provocacao : "Pronto para levar sua criatividade para o próximo nível?"
+
+
 sub1 : "Este curso online foi feito para ajudar você a desenvolver a criatividade enquanto coloca a mão na massa. Ou melhor, na madeira!"
 sub2 : "A cada projeto você terá a oportunidade de aprender técnicas novas e ampliar o seu entendimento sobre marcenaria, até atingir o ponto em que você será capaz de fazer qualquer coisa que imaginar."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
-square_image: "/images/thumbs/ideias-square.jpg"
+
 # course thumbnail
 image: "images/thumbs/t-ideias.jpg"
-# taxonomy
+square_image: "/images/thumbs/ideias-square.jpg"
+
 category: "Marcenaria"
-# teacher
 teacher: "Marcelo Aguilera"
-# duration
 duration : "103 vídeos"
-# weekly
 weekly : "21 horas"
-# course fee
 de : "R$ 398,00"
-fee : "R$ 199,00"
+desconto : "50% de desconto"
 preco_parcelado : "10x R$ 19,90"
-#fee : "12x R$29,90"
 preco_a_vista : "R$ 199,00"
-# apply url
+
 apply_url : "/upsell/club"
-# type
 type: "cursos"
-# Call to action
-cta: QUERO APRENDER MARCENARIA AGORA!
-weight: 2
-
-black_link: "/upsell/club"
 ---
-
-
-## Diversão ou dinheiro? Por que não ter os dois?
-60 projetos incríveis para você mobiliar sua casa ou fazer um extraO Marcenaria Criativa é perfeito para quem já deus os primeiros passos na marcenaria e deseja ampliar possibilidades. A diversidade de projetos, técnicas e materiais é enorme e a diversão garantida.
-
-Você terá acesso a técnicas secretas utilizadas por profissionais da marcenaria e vai aprender como fazer 60 móveis e objetos, no conforto da sua casa.
-
-{{< youtube Q4IAVMhopKc >}}
-
-### Ideal para iniciantes
-
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
 
 ➡ **Você vai aperfeiçoar as principais técnicas da marcenaria**: medição, pré acabamento, corte, união e acabamento, SEMPRE com alternativas para quem tem poucas ferramentas.
 
 ➡ **Vai aprender a construir dezenas de projetos variados para sua casa**, incluindo mesas, cadeiras, poltronas, bancos, objetos de decoração, guarda-roupas, armários, bancadas, cavaletes, organizadores, molduras, estantes, cabideiros, painéis, brinquedos, nichos, luminárias, prateleiras e muitos objetos de decoração.
 
-Você pode assistir as aulas de qualquer lugar que tenha uma conexão com a internet usando qualquer dispositivo (Celular, computador ou tablet).
 
-E melhor: **VOCÊ PODE ASSISTIR PARA SEMPRE**.
-
-### Este vídeo responde as dúvidas frequentes
-{{< youtube jjWbcsDitsg >}}
+{{< youtube Q4IAVMhopKc >}}

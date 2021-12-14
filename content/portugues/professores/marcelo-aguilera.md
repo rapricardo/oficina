@@ -10,7 +10,7 @@ image: "images/profile-marcelo.jpg"
 # course
 course: "Marcenaria"
 # biography
-bio: "Marcelo Aguilera é arquiteto e desde sua infância pratica marcenaria, tendo desenvolvido uma metodologia de ensino especial, baseada na execução passo-a-passo de projetos práticos e interessantes."
+bio: "Arquiteto, professor e apresentador do canal Oficina de Casa, Marcelo Aguilera é um entusiasta pelo ensino da marcenaria e do faça você mesmo, que propõe o uso de técnicas e métodos simples e fáceis de aplicar na construção de móveis e objetos. O sucesso de sua metodologia é reconhecido pelos mais de 700 mil assinantes do canal do youtube."
 # interest
 interest: ["Marcenaria","DIY","Serralheria", "Arquitetura"]
 # contact info
@@ -30,6 +30,7 @@ contact:
     icon : "ti-instagram" # icon pack : https://themify.me/themify-icons
     link : "https://www.instagram.com/oficinadecasa/?hl=pt"
 
+quote :
 
 
 # type

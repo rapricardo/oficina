@@ -1,41 +1,60 @@
 ---
 title: "Profissão Luthier"
-date: 2019-07-06T15:27:17+06:00
+subtitle: "Tudo que você precisa para construir e regular guitarras e baixos de corpo sólido"
+description : "Aprenda a fazer guitarras do zero, para destruir nos solos e lucrar muito"
+weight: 8
+date: 2021-12-13T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/bg-guitarra.jpg"
-# meta description
-description : "Aprenda a fazer guitarras do zero, para destruir nos solos e lucrar muito"
-subtitle: "Tudo que você precisa para construir e regular guitarras e baixos de corpo sólido"
+headline : "Aprenda a fazer guitarras do zero, para destruir nos solos ou lucrar muito"
+subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, fazendo guitarras e contrabaixos de corpo sólido"
+cta: QUERO ME INSCREVER AGORA AGORA!
+
+promessa : "Que tal viver construindo instrumentos musicais e faturando alto?"
+p1 : "Saiba como luthiers cobram até 10 mil reais por instrumento"
+p2 : "Entenda quais ferramentas e materiais comprar, como escolher e como economizar"
+p3 : "Aprenda a desenhar e projetar instrumentos musicais de corpo sólido"
+p4 : "Aprenda a criar gabaritos para facilitar o corte e escalar a produção"
+p5 : "Saiba tudo sobre medidas, marcações e cortes e evite desperdícios"
+p6 : "Aprenda a abrir cavidades para os captadores e partes elétricas"
+p7 : "Saiba como cortar e definir o shape do braço, além de instalar os trastes"
+p8 : "Conheça as técnicas de acabamento, instalação elétrica e regulagem"
+
+resultados : "Aprenda a técnicas secretas utilizadas por luthiers com quem entende: Pauleira Custom Guitars"
+sub_resultados: "Agora, esta metodologia está disponível pra você. Basta ver os resultados de alguns dos nossos alunos:"
+
+confianca : "Ensinamos Marcenaria para quem não sabe nada, há mais de 11 anos"
+
+superacao : "Ganhar dinheiro fazendo guitarras não é tão complicado, nem tão arriscado quanto você pensa"
+sub_superacao : "A procura por aulas de música explodiu durante a pandemia. E cada aluno precisa de um instrumento. Se você:"
+s1 : "deseja começar pequeno, investindo mais energia em dominar as técnicas do que dinheiro em ferramentas"
+s2 : "deseja fazer instrumentos musicais com precisão e qualidade, encantando clientes mesmo com os projetos mais simples"
+s3 : "almeja trabalhar em casa, no tempo livre sem comprometer o lazer, ficando perto da família"
+s4 : "busca construir uma carreira longa, fazendo o que gosta e sendo muito bem remunerado por isso"
+conclusao_superacao : "Este curso vai te ajudar a iniciar seu novo e lucrativo negócio."
+
+provocacao : "Pronto para começar sua nova carreira construindo guitarras?"
+
 sub1 : "Neste curso você vai aprender a construir uma guitarra elétrica, modelo Telecaster: um design clássico criado pelo mestre Leo Fender."
 sub2 : "Este conhecimento pode ser facilmente aplicado para construir qualquer instrumento de corpo sólido, inclusive contra-baixos elétricos."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
-square_image: "/images/thumbs/guitarras-square.jpg"
+
 # course thumbnail
 image: "images/thumbs/t-guitarras.jpg"
-# taxonomy
+square_image: "/images/thumbs/guitarras-square.jpg"
+
 category: "Luthieria"
-# teacher
 teacher: "Paula Bifulco"
-# duration
 duration : "76 aulas"
-# weekly
 weekly : "23 horas"
-# course fee
 de : "1247,00"
-fee : "12x R$49,90"
+desconto : "50% de desconto"
 preco_parcelado : "12x R$ 49,90"
 preco_a_vista : "R$ 499,00"
-# apply url
-apply_url : "https://pay.hotmart.com/U17228602B?off=oepgxcqa"
-# type
-type: "cursos"
-# Call to action
-cta: QUERO APRENDER A FAZER GUITARRAS!
 
-url: "/cursos/curso-luthieria-pauleira-oficina-de-casa/"
-weight: 8
-black_link: "https://pay.hotmart.com/U17228602B?off=oepgxcqa&offDiscount=BLACKNOVEMBER30"
+apply_url : "https://pay.hotmart.com/U17228602B?off=oepgxcqa"
+type: "cursos"
 ---
 
 {{< youtube iuAifors4oc >}}

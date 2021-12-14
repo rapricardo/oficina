@@ -1,49 +1,318 @@
 {{ define "main" }}
 
+<section class="bg-dark pt-5 pb-5" >
+  <div class="container">
+    <div class="row">
+      <div class="col text-center mb-2 ">
+        <h2 class="text-white ">{{ .Params.Promessa }}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <p class="destaque  text-primary mb-0">01</p>
+        <p class="text-white">{{ .Params.P1 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="destaque  text-primary mb-0">02</p>
+        <p class="text-white">{{ .Params.P2 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="destaque  text-primary mb-0">03</p>
+        <p class="text-white">{{ .Params.P3 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="destaque  text-primary mb-0">04</p>
+        <p class="text-white">{{ .Params.P4 }}</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <p class="destaque  text-primary mb-0">05</p>
+        <p class="text-white">{{ .Params.P5 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="destaque  text-primary mb-0">06</p>
+        <p class="text-white">{{ .Params.P6 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="destaque  text-primary mb-0">07</p>
+        <p class="text-white">{{ .Params.P7 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="destaque  text-primary mb-0">08</p>
+        <p class="text-white">{{ .Params.P8 }}</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="pt-5 pb-5" >
+  <div class="container">
+    <div class="row">
+      <div class="col text-center mb-4 ">
+        <h2 class="">{{ .Params.Superacao }}</h2>
+        <h4 class="">{{ .Params.Sub_superacao }}</h4>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-3">
+        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
+        <p class="text-center">{{ .Params.S1 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
+        <p class="text-center">{{ .Params.S2 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
+        <p class="text-center">{{ .Params.S3 }}</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
+        <p class="text-center">{{ .Params.S4 }}</p>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+      <div class="col text-center mb-2 mt-3">
+        <h3 class="">{{ .Params.conclusao_superacao }}</h3>
+      </div>
+    </div>
+
+  </div>
+</section><!-- superacao -->
+
+<section class="bg-light pt-5 pb-5" >
+  <div class="container">
+    <div class="row">
+      <div class="col text-center mb-2 ">
+        <h2 class="">{{ .Params.subtitle }}</h2>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-2 ">
+      </div>
+      <div class="col-md-8 mb-2 ">
+        {{ .Content }}
+      </div>
+      <div class="col-md-2 ">
+      </div>
+    </div>
+
+  </div>
+</section><!-- content -->
+
+<section class="bg-primary pt-5 pb-5" >
+  <div class="container">
+
+
+    <div class="row">
+      <div class="col text-center mb-4 ">
+        <h2 class="">"Meu trabalho ensinando pessoas a Viver de Marcenaria é muito sério"</h2>
+        <h4 class="">Professor Marcelo Aguilera</h4>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-3">
+        <img src="/images/profile-marcelo.jpg" alt="Professor de Marcenaria e faça você mesmo" width="100%"/>
+      </div>
+      <div class="col-md-5">
+        <p>Arquiteto, professor e apresentador do canal Oficina de Casa, Marcelo Aguilera é um entusiasta pelo ensino da marcenaria e do faça você mesmo, que propõe o uso de técnicas e métodos simples e fáceis de aplicar na construção de móveis e objetos. O sucesso de sua metodologia é reconhecido pelos mais de 700 mil assinantes do canal do youtube.</p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+</section><!-- seriedade -->
+
+
+<section class=" pt-5 pb-5" >
+  <div class="container">
+
+    <div class="row">
+      <div class="col text-center mb-4 ">
+        <h2 class="">Conheça alguns diferenciais de nossos cursos</h2>
+      </div>
+    </div>
+
+    <div class="row mb-4">
+      <div class="col-md-3">
+        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
+        <p class="text-center"><strong>Curso 100% Online</strong><br/>Vídeo aulas gravdas em alta qualidade</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
+        <p class="text-center"><strong>Grupo Exclusivo no Telegram </strong><br/> para compartilhar e trocar experiências com outros alunos</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
+        <p class="text-center"><strong>Assista de qualquer lugar</strong><br/> no celular, tablet ou computador, apenas com uma conexão à Internet</p>
+      </div>
+
+      <div class="col-md-3">
+        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
+        <p class="text-center"><strong>Suporte nota 10</strong><br/> da Equipe Oficina de Casa para tirar todas suas dúvidas</p>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <div class="col text-center mb-4 ">
+        <h3 class="">E melhor: VOCÊ PODE ASSISTIR PARA SEMPRE</h3>
+      </div>
+    </div>
+
+    <div class="row mb-2">
+      <div class="col-md-2 ">
+      </div>
+      <div class="col-md-8 text-center">
+        <i>Assista ao vídeo e conheça o Espaço do aluno</i>
+      </div>
+      <div class="col-md-2 ">
+      </div>
+    </div>
+
+  </div>
+</section><!-- diferenciais -->
+
+<section class="bg-light pt-5 pb-5" >
+  <div class="container">
+    <div class="row">
+      <div class="col text-center mb-4 ">
+        <h2 class="">{{ .Params.Resultados }}</h2>
+        <h4 class="">{{ .Params.Sub_resultados }}</h4>
+      </div>
+    </div>
+
+    {{- partial "curso_social.html" . -}}
+
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="text-center">{{ .Params.Provocacao }}</h2>
+        <h3 class="">Apenas {{ .Params.Preco_a_vista }}</h3>
+           <p>{{ .Params.Desconto }} <del>{{ .Params.De }}</del></p>
+           <p><a class="btn btn-primary btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">
+             {{ .Params.Cta }}
+           </a></p>
+           <p><strong>Consulte parcelamento no boleto pelo whatsapp</strong></p>
+
+          <p class="text-align"><img class="mr-4 img-fluid" src="/images/formas-pagamento.png" alt="Pagamento seguro com hotmart."></p>
+          </div>
+      </div>
+      <div class="row pt-5 mb-5 bg-light" >
+        <div class="col-12 text-center mb-5">
+          <h2 class="text-center">Comprando hoje você leva mais um curso, inteiramente GRÁTIS</h2>
+        </div>
+
+          {{ if or (eq .RelPermalink "/cursos/marcenaria-em-casa/") (eq .RelPermalink "/cursos/moveis-palete/") }}
+            {{- partial "cta_club.html" . -}}
+          {{ else if or (eq .RelPermalink "/cursos/tupia/") (eq .RelPermalink "/cursos/moveis-planejados/") }}
+            {{- partial "cta_mdf.html" . -}}
+          {{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
+            {{- partial "cta_palete.html" . -}}
+          {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
+            {{- partial "cta_palete.html" . -}}
+          {{ else if or (eq .RelPermalink "/ofertas/youtube/") (eq .RelPermalink "/ofertas/facebook/") }}
+            {{- partial "cta_3cursos.html" . -}}
+          {{ end }}
+
+        <div class="col-12 text-center ">
+
+          <p><a class="btn btn-danger btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">
+            {{ .Params.Cta }}
+          </a></p>
+
+          <script type="text/javascript">
+            setInterval(function time(){
+            var d = new Date();
+            var hours = 24 - d.getHours();
+            var min = 60 - d.getMinutes();
+            if((min + '').length == 1){
+              min = '0' + min;
+            }
+            var sec = 60 - d.getSeconds();
+            if((sec + '').length == 1){
+                  sec = '0' + sec;
+            }
+            jQuery('#the-final-countdown div').html('<p class="text-danger"><i class="ti-timer mr-2"></i>Esta oferta termina em <strong>'+hours+' : '+min+' : '+sec+'</span></strong></p>')
+            }, 1000);
+
+          </script>
+          <div id="the-final-countdown" class="my_countdown">
+            <div></div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+</section><!-- prova social -->
+
+<section class=" pt-5 pb-5" >
+  <div class="container">
+
+    {{ if eq .RelPermalink "/cursos/marcenaria-em-casa/" }}
+      {{- partial "curso_marcenaria_planos.html" . -}}
+      {{- partial "curso_programa_m20.html" . -}}
+    {{ else if eq .RelPermalink "/cursos/tupia/" }}
+      {{- partial "curso_marcenaria_planos.html" . -}}
+      {{- partial "curso_programa_tupia.html" . -}}
+    {{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
+      {{- partial "curso_marcenaria_planos.html" . -}}
+      {{- partial "curso_programa_club.html" . -}}
+    {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
+      {{- partial "curso_marcenaria_planos.html" . -}}
+      {{- partial "curso_programa_mdf.html" . -}}
+    {{ else if or (eq .RelPermalink "/cursos/curso-luthieria-pauleira-oficina-de-casa/") (eq .RelPermalink "/cursos/luthieria/") }}
+      {{- partial "curso_marcenaria_planos.html" . -}}
+      {{- partial "curso_programa_guitarra.html" . -}}
+    {{ end }}
+
+  </div>
+</section><!-- curriculum -->
+
+<section class="pt-5 pb-3" >
+  <div class="container">
+    {{- partial "curso_bonus.html" . -}}
+  </div>
+</section><!-- Bônus -->
+
+<section class="bg-light pt-3 pb-3" >
+  <div class="container">
+    {{- partial "curso_faq.html" . -}}
+  </div>
+</section><!-- faq -->
+
 <!-- section -->
 <section class="section-sm">
   <div class="container">
-
-{{- partial "curso.html" . -}}
-{{ if eq .RelPermalink "/cursos/marcenaria-em-casa/" }}
-  {{- partial "curso_content.html" . -}}
-  {{- partial "curso_marcenaria_planos.html" . -}}
-  {{- partial "curso_programa_m20.html" . -}}
-{{ else if eq .RelPermalink "/cursos/tupia/" }}
-
-    {{- partial "curso_content.html" . -}}
-    {{- partial "curso_marcenaria_planos.html" . -}}
-    {{- partial "curso_programa_tupia.html" . -}}
-{{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
-
-    {{- partial "curso_content.html" . -}}
-    {{- partial "curso_marcenaria_planos.html" . -}}
-    {{- partial "curso_programa_club.html" . -}}
-{{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
-
-    {{- partial "curso_content.html" . -}}
-    {{- partial "curso_marcenaria_planos.html" . -}}
-    {{- partial "curso_programa_mdf.html" . -}}
-{{ else if eq .RelPermalink "/cursos/curso-luthieria-pauleira-oficina-de-casa/" }}
-    {{- partial "curso_content.html" . -}}
-    {{- partial "curso_marcenaria_planos.html" . -}}
-    {{- partial "curso_programa_guitarra.html" . -}}
-
-{{ end }}
+    {{- partial "curso_cta.html" . -}}
+  </div>
+</section><!-- cta -->
 
 
-
-
-{{- partial "curso_social.html" . -}}
-{{- partial "curso_cta.html" . -}}
-{{- partial "curso_bonus.html" . -}}
-{{- partial "curso_faq.html" . -}}
-{{- partial "curso_professor.html" . -}}
-{{- partial "related_cursos.html" . -}}
-
-
-</div>
-</section>
+<section class="pt-3 pb-3" >
+  <div class="container">
+    {{- partial "related_cursos.html" . -}}
+  </div>
+</section><!-- related -->
 
 
 {{ end }}

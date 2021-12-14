@@ -1,15 +1,14 @@
 ---
-title: "Como fazer móveis com Paletes"
-subtitle : "Mobilie sua casa gastando pouco ou faça uma renda extra"
+title: "Marcenaria do Zero"
+subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
-weight: 6
+weight: 1
 date: 2021-12-13T15:27:17+06:00
 draft: false
-
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Aumente sua renda fazendo móveis planejados com poucas ferramentas"
-subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
+headline : "Faça seu primeiro móvel em menos de 30 dias, mesmo sem ter muitas ferramentas"
+subheadline : "Método fácil e comprovado para quem nunca mexeu com madeira e busca aumentar a qualidade de vida fazendo móveis e objetos"
 cta: QUERO ME INSCREVER AGORA AGORA!
 
 promessa : "Transforme seu tempo livre em prazer e sinta a satisfação de dizer fui eu que fiz"
@@ -38,14 +37,13 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 provocacao : "Pronto para impressionar seus amigos e familiares fazendo seus móveis?"
 
 
-
 sub1 : "Um curso online feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
 sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
 
 # course thumbnail
-image: "images/thumbs/t-paletes.jpg"
-square_image: "/images/thumbs/paletes-square.jpg"
+image: "images/thumb-marcenaria.jpg"
+square_image: "/images/marcenaria-square.jpg"
 
 # taxonomy
 category: "Marcenaria"
@@ -57,17 +55,11 @@ desconto : "50% de desconto"
 preco_parcelado : "10x R$ 19,90"
 preco_a_vista : "R$ 199,00"
 
+
 apply_url : "/upsell/paletes"
 type: "cursos"
+url : /cursos/marcenaria-em-casa/
 ---
-
-## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos
-
-E o melhor: vai se sentir confiante e produtivo, ocupando seu tempo com um dos hobbys mais populares da história da humanidade.
-
-O professor Marcelo Aguilera não se limita a usar apenas ferramentas elétricas ou caras. Mas, sim, compartilha experiências e oferece alternativas para você “Fazer Você Mesmo”, sem investir uma fortuna em ferramentas.
-
-### Ideal para iniciantes
 
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
 

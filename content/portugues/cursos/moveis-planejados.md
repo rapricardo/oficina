@@ -1,12 +1,13 @@
 ---
-title: "Marcenaria em Casa 2.0"
-subtitle : "Aprenda a fazer móveis do zero, usando paletes e outras madeiras"
-description : "Ideal para quem está começando e ainda tem poucas ferramentas"
+title: "Como fazer Móveis Planejados"
+subtitle : "Aprenda a fazer e vender móveis planejados com poucas ferramentas"
+description : "Aprenda da medição à montagem como fazer seu próprio móvel sob medida, com qualidade e sem gastar rios de dinheiro"
 weight: 1
 date: 2021-12-13T15:27:17+06:00
-draft: true
+draft: false
+
 # page title background image
-bg_image: "images/bg-marcenaria-02.jpg"
+bg_image: "images/bg-marcenaria-05.jpg"
 headline : "Aumente sua renda fazendo móveis planejados com poucas ferramentas"
 subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
 cta: QUERO ME INSCREVER AGORA AGORA!
@@ -37,50 +38,38 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 provocacao : "Pronto para começar a ganhar uma renda extra fazendo Móveis Planejados?"
 
 
+
+sub1 : "Um curso online feito para quem tem pouca experiência, algumas ferramentas e gostaria de melhorar a técnica."
+sub2 : "Você vai aprender todas as técnicas necessárias para fazer móveis sob medida, passo-a-passo, em vídeo aulas muito bem explicadas."
+sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
+
 # course thumbnail
-image: "otimizadas/t-marcenaria-1.jpg"
-
-
+square_image: "/images/thumbs/planejados-square.jpg"
+image: "images/thumbs/t-planejados.jpg"
+# taxonomy
 category: "Marcenaria"
 teacher: "Marcelo Aguilera"
-duration : "46 aulas"
-weekly : "24 horas"
+duration : "68 aulas"
+weekly : "12 horas"
 de : "R$ 398,00"
+preco_a_vista : "R$ 399,00"
+preco_parcelado : "12x R$ 39,90"
 desconto : "50% de desconto"
-preco_a_vista : "R$ 199,00"
-preco_parcelado : "10x R$ 19,90"
 
-apply_url : "/upsell/paletes"
+apply_url : "/upsell/planejados"
+
+# type
 type: "cursos"
-
-
 
 ---
 
+**Um curso online feito para quem tem pouca experiência, algumas ferramentas e gostaria de melhorar a técnica.**
 
-#### Sobre o curso
+Você vai aprender todas as técnicas necessárias para fazer móveis sob medida, passo-a-passo, em vídeo aulas muito bem explicadas.
 
-## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos
-
-E o melhor: vai se sentir confiante e produtivo, ocupando seu tempo com um dos hobbys mais populares da história da humanidade.
-
-O professor Marcelo Aguilera não se limita a usar apenas ferramentas elétricas ou caras. Mas, sim, compartilha experiências e oferece alternativas para você “Fazer Você Mesmo”, sem investir uma fortuna em ferramentas.
-
-## Ideal para iniciantes
+As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
 
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
 
-➡ **Você vai aprender as principais técnicas da marcenaria**: medição, pré acabamento, corte, união e acabamento, SEMPRE com alternativas para quem tem poucas ferramentas.
 
-➡ **Vai conhecer os tipos de madeira**, suas características, preços, sugestões de uso e cuidados especiais: paletes de pinus, MDF, compensado, madeira de demolição, madeira rústica e muito mais.
-
-➡ **Vai aprender a usar, comprar e cuidar de ferramentas elétricas e manuais**: furadeiras, serras elétricas e manuais, tupias, fresas e muito mais.
-
-➡ **Vai aprender a construir dezenas de projetos variados para sua casa**, incluindo mesas, cadeiras, poltronas, bancos, objetos de decoração, guarda-roupas, armários, bancadas, cavaletes, organizadores, molduras, estantes, cabideiros, painéis, brinquedos, nichos, luminárias, prateleiras e muitos objetos de decoração.
-
-Você pode assistir as aulas de qualquer lugar que tenha uma conexão com a internet usando qualquer dispositivo (Celular, computador ou tablet).
-
-E melhor: **VOCÊ PODE ASSISTIR PARA SEMPRE**.
-
-### Este vídeo responde as dúvidas frequentes
 {{< youtube jjWbcsDitsg >}}

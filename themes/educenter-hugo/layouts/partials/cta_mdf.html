@@ -1,24 +1,18 @@
 <!-- CTA MDF-->
-<div class="row pt-5 mb-5 bg-light" >
-
-  <div class="col-12 text-center mb-5">
-    <h2 class="text-uppercase">E tem mais... COMPRANDO HOJE VOCÊ LEVA MAIS UM CURSO GRÁTIS!</h2>
+  <div class="col-lg-4 mb-5 offset-lg-1">
+    <img src="/images/thumbs/mdf-square.jpg" width="100%" />
   </div>
-  <div class="col-lg-4 mb-3 offset-lg-1"><img src="/images/thumbs/mdf-square.jpg" width="100%" /></div>
   <div class="col-lg-6 mt-2">
     <h3 class="mb-3">COMO FAZER MÓVEIS EM MDF</h3>
-
     <p><strong>Já pensou em fazer um dinheiro extra vendendo móveis e objetos de decoração?</strong></p>
     <p>Neste curso você vai aprender a fazer 23 projetos com alto potencial de lucro para você se divertir enquanto ganha dinheiro.</p>
     <p>Tudo explicado passo-a-passo, pra você mobiliar sua casa ou fazer uma grana extra.</p>
-
     <ul class="list-inline text-xl-center mb-3">
       <li class="list-inline-item mr-4 mb-3 mb-sm-0">
         <div class="d-flex align-items-center">
           <i class="ti-calendar text-primary icon-md mr-2"></i>
           <div class="text-left">
             <h6 class="mb-0">45 aulas</h6>
-
           </div>
         </div>
       </li>
@@ -27,7 +21,6 @@
           <i class="ti-timer text-primary icon-md mr-2"></i>
           <div class="text-left">
             <h6 class="mb-0">10 horas</h6>
-
           </div>
         </div>
       </li>
@@ -41,32 +34,4 @@
         </div>
       </li>
     </ul>
-
-</div>
-<div class="col-12 text-center mb-3 mt-3">
-  <script type="text/javascript">
-    setInterval(function time(){
-    var d = new Date();
-    var hours = 24 - d.getHours();
-    var min = 60 - d.getMinutes();
-    if((min + '').length == 1){
-      min = '0' + min;
-    }
-    var sec = 60 - d.getSeconds();
-    if((sec + '').length == 1){
-          sec = '0' + sec;
-    }
-    jQuery('#the-final-countdown div').html('<ul><li><span id="hours">'+hours+'</span>Horas</li><li><span id="minutes">'+min+'</span>Minutos</li><li><span id="seconds">'+sec+'</span>Segundos</li></ul>')
-    }, 1000);
-
-  </script>
-  <h2 class="mb-1">INSCREVA-SE ENQUANTO É TEMPO!</h2>
-  <div id="the-final-countdown" class="my_countdown">
-    <div></div>
   </div>
-
-  <a class="btn btn-danger btn-lg mb-3" href="{{ .Params.Apply_url | safeURL }}" role="button">COMPRE AGORA! POR APENAS {{ .Params.Preco_parcelado }}</a>
-
-
-</div>
-</div><!-- row -->

@@ -1,34 +1,32 @@
 ---
 title: "Oficina Club"
-date: 2019-07-06T15:27:17+06:00
+description : "Dê um gás na sua oficina"
+date: 2021-12-13T15:27:17+06:00
+weight: 3
 draft: true
+
 # page title background image
 bg_image: "images/bg-marcenaria-04.jpg"
-# meta description
-description : "Dê um gás na sua oficina"
+
 subtitle: "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
 # course thumbnail
-image: "otimizadas/t-club.jpg"
-# taxonomy
+
+
+
+
+
 category: "Marcenaria"
-# teacher
 teacher: "Marcelo Aguilera"
-# duration
 duration : "103 vídeos"
-# weekly
 weekly : "21 horas"
-# course fee
 de : "347,00"
-fee : "12x R$19,90"
 preco_parcelado : "10x R$ 19,90"
 preco_a_vista : "R$ 199,00"
-# apply url
+desconto : "50% de desconto"
+
 apply_url : "https://pay.hotmart.com/R39550017P?off=ra0najun"
-# type
 type: "cursos"
-# Call to action
-cta: QUERO APRENDER MARCENARIA AGORA!
-weight: 3
+
 ---
 
 
