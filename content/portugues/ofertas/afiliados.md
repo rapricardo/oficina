@@ -44,9 +44,9 @@ teacher: "Marcelo Aguilera"
 duration : "46 aulas"
 weekly : "24 horas"
 de : "R$ 995,00"
-desconto : "80% de desconto"
-preco_parcelado : "10x R$ 19,90"
-preco_a_vista : "R$ 199,00"
+desconto : "70% de desconto"
+preco_parcelado : "12x R$ 24,90"
+preco_a_vista : "R$ 249,00"
 # apply url
 apply_url : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
 # type
