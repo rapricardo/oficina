@@ -1,13 +1,14 @@
 ---
-title: "Promoção Viver de Marcenaria"
+title: "Promoção de Natal"
 subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 date: 2019-07-06T15:27:17+06:00
 draft: false
-
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Faça seu primeiro móvel em menos de 30 dias, mesmo sem ter muitas ferramentas"
-subheadline : "Método fácil e comprovado para quem nunca mexeu com madeira e busca aumentar a qualidade de vida fazendo móveis e objetos"
-cta: QUERO ME INSCREVER AGORA AGORA!
+headline : "Leve 4 cursos completos por apenas R$ 199,00"
+subheadline : "Faça seu primeiro móvel em menos de 30 dias, mesmo sem ter muitas ferramentas"
+#headline : "Faça seu primeiro móvel em menos de 30 dias, mesmo sem ter muitas ferramentas"
+#subheadline : "Método fácil e comprovado para quem nunca mexeu com madeira e busca aumentar a qualidade de vida fazendo móveis e objetos"
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Transforme seu tempo livre em prazer e sinta a satisfação de dizer fui eu que fiz"
 p1 : "Aprenda as técnicas secretas usadas pelos profissionais de marcenaria"
@@ -50,6 +51,7 @@ preco_parcelado : "12x R$ 24,90"
 preco_a_vista : "R$ 249,00"
 # apply url
 apply_url : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
+url_masterpack : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=FELIZNATAL"
 # 249 apply_url : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
 # type
 type: "ofertas"

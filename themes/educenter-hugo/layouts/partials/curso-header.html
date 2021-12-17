@@ -1,10 +1,12 @@
 <section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}'); background-size: cover;" >
-
   <div class="container">
 
     <div class="row" >
+      <div class="col-12 text-center mb-5">
+          <img src="/images/banner-natal.png " max-width="100%" />
+      </div>
       <div class="col text-center">
-        <h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6>
+        <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
         <h2 class="text-primary text-uppercase">{{ .Params.Headline  }}</h2>
         <h3 class="text-white mb-4">{{ .Params.Subheadline }}</h3>
         <p><a class="btn btn-primary btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">

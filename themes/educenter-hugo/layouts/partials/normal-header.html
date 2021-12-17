@@ -1,4 +1,4 @@
-<!-- page title -->
+<!-- page title
 <section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}');" >
   <div class="container">
     <div class="row">
@@ -19,4 +19,27 @@
       </div>
     </div>
   </div>
+</section>
+
+-->
+
+<section class="page-title-section " style="background-color:#d1d7cd !important;" >
+  <div class="container">
+
+  <div class="row">
+    <div class="col-md-8 mt-md-5">
+      <ul class="list-inline custom-breadcrumb">
+        <li class="list-inline-item"><h2 class="text-danger text-uppercase">Promoção de Natal</h2></li>
+          <li class="list-inline-item mb-3"><h3>Descontos de até 80% para você começar a aprender Marcenaria agora</h3></li>
+          <li class="list-inline-item"><a href="/cursos/" class="btn btn-primary">Conheça nossos cursos</a></li>
+          <li class="list-inline-item mt-2"><a href="/ofertas/site/" class="btn btn-secondary">Compre 4 cursos, por R$ 199,00</a></li>
+
+      </ul>
+      <p class="text-lighten">{{ .Params.Description | markdownify }}</p>
+    </div>
+    <div class="col-md-4">
+      <img src="/images/Arvore_Natal.jpg " width="300" />
+    </div>
+  </div>
+</div> <!-- end main -->
 </section>
