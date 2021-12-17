@@ -56,7 +56,7 @@ preco_a_vista : "R$ 399,00"
 preco_parcelado : "12x R$ 39,90"
 desconto : "50% de desconto"
 
-apply_url : "https://pay.hotmart.com/E61113943B?off=8ch9zke8"
+apply_url : "https://pay.hotmart.com/E61113943B?off=c8mndcjt&offDiscount=FELIZNATAL"
 
 # type
 type: "cursos"

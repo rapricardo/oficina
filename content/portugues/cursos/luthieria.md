@@ -50,10 +50,10 @@ duration : "76 aulas"
 weekly : "23 horas"
 de : "1247,00"
 desconto : "50% de desconto"
-preco_parcelado : "12x R$ 49,90"
-preco_a_vista : "R$ 499,00"
+preco_parcelado : "12x R$ 24,90"
+preco_a_vista : "R$ 249,00"
 
-apply_url : "https://pay.hotmart.com/U17228602B?off=oepgxcqa"
+apply_url : "https://pay.hotmart.com/U17228602B?off=k8cm536k&checkoutMode=10&offDiscount=FELIZNATAL"
 type: "cursos"
 ---
 

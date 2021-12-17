@@ -56,9 +56,10 @@ weekly : "11 horas"
 de : "R$ 398,00"
 fee : "10x R$ 19,90"
 preco_parcelado : "10x R$ 19,90"
-preco_a_vista : "R$ 199,00"
+preco_a_vista : "R$ 127,36"
+desconto : "68% de desconto"
 # apply url
-apply_url : "/upsell/tupia"
+apply_url : "https://pay.hotmart.com/C39590427Y?off=zsjpgqfg&checkoutMode=10&offDiscount=FELIZNATAL"
 # type
 type: "cursos"
 cta: QUERO ME INSCREVER AGORA AGORA!

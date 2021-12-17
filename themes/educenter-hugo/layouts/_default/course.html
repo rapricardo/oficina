@@ -8,8 +8,9 @@
     </ul>
     <h4 class="card-title">{{ .Title }}</h4>
     <p class="card-text mb-4">{{ .Params.Subtitle | truncate 140 }}</p>
-    <!--p><small>De: R$ {{ .Params.De }}</small><br/><strong>Por apenas: {{ .Params.Fee }}</strong></p-->
-    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">SAIBA MAIS</a>
+    <p><span class="badge badge-danger">{{ .Params.desconto }}</span> <small>De: R$ {{ .Params.De }}</small><br/><strong>Por apenas: {{ .Params.preco_a_vista }}</strong></p>
+    <a href="{{ .Permalink }}" class="btn btn-primary btn-sm">SAIBA MAIS</a> ou <a href="{{ .Params.apply_url }}" class="">Comprar já!</a>
+
   </div>
   </a>
 </div>

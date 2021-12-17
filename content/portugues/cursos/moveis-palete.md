@@ -53,12 +53,16 @@ teacher: "Marcelo Aguilera"
 duration : "46 aulas"
 weekly : "24 horas"
 de : "R$ 398,00"
-desconto : "50% de desconto"
-preco_parcelado : "10x R$ 19,90"
-preco_a_vista : "R$ 199,00"
+desconto : "63% de desconto"
+preco_parcelado : "12x R$ 14,90"
+preco_a_vista : "R$ 147,00"
 
-apply_url : "/upsell/paletes"
+
+apply_url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"
+#apply_url : "/upsell/paletes"
 type: "cursos"
+#url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"
+#url : /cursos/marcenaria-em-casa/
 ---
 
 ## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos
