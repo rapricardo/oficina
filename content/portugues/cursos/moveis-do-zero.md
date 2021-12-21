@@ -62,7 +62,7 @@ apply_url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&off
 #apply_url : "/upsell/paletes"
 type: "cursos"
 #url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"
-#url : /cursos/marcenaria-em-casa/
+url : /cursos/marcenaria-em-casa/
 ---
 
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.

@@ -54,7 +54,7 @@ preco_parcelado : "10x R$ 19,90"
 apply_url : "/upsell/paletes"
 type: "cursos"
 
-
+url : "/cursos/marcenaria-em-casa/"
 
 ---
 
