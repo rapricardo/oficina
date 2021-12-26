@@ -2,14 +2,14 @@
 title: "Marcenaria do Zero"
 subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
-weight: 1
+weight: 2
 date: 2021-12-13T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "Faça seu primeiro móvel em menos de 30 dias, mesmo sem ter muitas ferramentas"
 subheadline : "Método fácil e comprovado para quem nunca mexeu com madeira e busca aumentar a qualidade de vida fazendo móveis e objetos"
-cta: QUERO ME INSCREVER AGORA AGORA!
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Transforme seu tempo livre em prazer e sinta a satisfação de dizer fui eu que fiz"
 p1 : "Aprenda as técnicas secretas usadas pelos profissionais de marcenaria"
@@ -36,7 +36,7 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para impressionar seus amigos e familiares fazendo seus móveis?"
 
-bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
+bonus : Leve 3 cursos, pelo preço de 1
 
 
 sub1 : "Um curso online feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
@@ -53,12 +53,12 @@ teacher: "Marcelo Aguilera"
 duration : "46 aulas"
 weekly : "24 horas"
 de : "R$ 398,00"
-desconto : "63% de desconto"
-preco_parcelado : "12x R$ 14,90"
-preco_a_vista : "R$ 147,00"
+desconto : "PAGUE 1, LEVE 3"
+preco_parcelado : "12x R$ 29,90"
+preco_a_vista : "R$ 299,00"
 
 
-apply_url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
 #apply_url : "/upsell/paletes"
 type: "cursos"
 #url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"

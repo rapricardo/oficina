@@ -2,14 +2,14 @@
 title: "Marcenaria Criativa"
 subtitle: "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
 description : "Dê um gás na sua oficina"
-weight: 2
+weight: 4
 date: 2021-12-13T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-04.jpg"
 headline : "Impressione amigos e familiares fazendo móveis incríveis no seu tempo livre"
 subheadline : "São mais de 60 projetos para quem quer mobiliar a casa ou fazer uma grana, sem abrir mão da liberdade"
-cta: QUERO ME INSCREVER AGORA AGORA!
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Diversão ou dinheiro? Que tal os dois?"
 p1 : "Aprenda a construir qualquer coisa com madeira"
@@ -36,7 +36,7 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para levar sua criatividade para o próximo nível?"
 
-bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
+bonus : Leve 4 cursos, pelo preço de 1
 
 
 sub1 : "Este curso online foi feito para ajudar você a desenvolver a criatividade enquanto coloca a mão na massa. Ou melhor, na madeira!"
@@ -52,11 +52,11 @@ teacher: "Marcelo Aguilera"
 duration : "103 vídeos"
 weekly : "21 horas"
 de : "R$ 398,00"
-desconto : "68% de desconto"
+desconto : "LEVE 4 CURSOS, pague 1"
 preco_parcelado : "12x R$ 13,90"
-preco_a_vista : "R$ 132,00"
+preco_a_vista : "R$ 349,00"
 
-apply_url : "https://pay.hotmart.com/R39550017P?off=j193eip0&checkoutMode=10&offDiscount=FELIZNATAL"
+apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
 #apply_url : "/upsell/club"
 type: "cursos"
 ---

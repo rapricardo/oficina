@@ -3,53 +3,7 @@
 <section class="bg-light pt-2 pb-2" >
   <div class="container">
 
-    <div class="row pt-5 mb-5 bg-light" >
-      <div class="col-12 text-center  mb-5">
-        <h2 class="text-center text-primary text-uppercase">Você vai aprender muita coisa!</h2>
-        <h3>Conheça os cursos inclusos na promoção</h3>
-      </div>
-
-        {{ if or (eq .RelPermalink "/cursos/marcenaria-em-casa/") (eq .RelPermalink "/cursos/moveis-palete/") }}
-          {{- partial "cta_club.html" . -}}
-        {{ else if or (eq .RelPermalink "/cursos/tupia/") (eq .RelPermalink "/cursos/moveis-planejados/") }}
-          {{- partial "cta_mdf.html" . -}}
-        {{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
-          {{- partial "cta_palete.html" . -}}
-        {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
-          {{- partial "cta_palete.html" . -}}
-        {{ else if ( eq .Section "ofertas" ) }}
-          {{- partial "cta_3cursos.html" . -}}
-          {{- partial "cta_club.html" . -}}
-        {{ end }}
-
-      <div class="col-12 text-center ">
-
-        <p><a class="btn btn-danger btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">
-          {{ .Params.Cta }}
-        </a></p>
-
-        <script type="text/javascript">
-          setInterval(function time(){
-          var d = new Date();
-          var hours = 24 - d.getHours();
-          var min = 60 - d.getMinutes();
-          if((min + '').length == 1){
-            min = '0' + min;
-          }
-          var sec = 60 - d.getSeconds();
-          if((sec + '').length == 1){
-                sec = '0' + sec;
-          }
-          jQuery('#the-final-countdown div').html('<p class="text-danger"><i class="ti-timer mr-2"></i>Esta oferta termina em <strong>'+hours+' : '+min+' : '+sec+'</span></strong></p>')
-          }, 1000);
-
-        </script>
-        <div id="the-final-countdown" class="my_countdown">
-          <div></div>
-        </div>
-
-      </div>
-    </div>
+    {{- partial "cursos_inclusos.html" . -}}
 
   </div>
 </section>

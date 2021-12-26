@@ -10,7 +10,7 @@ draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "Aprenda a fazer um instrumento inusitado e com uma sonoridade incrível"
 subheadline : "Divertido, barato e muito lucrativo"
-cta: QUERO ME INSCREVER AGORA AGORA!
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Impressione amigos e familiares construindo uma guitarra pra lá de charmosa"
 p1 : "Faça seu primeiro instrumento musical, gastando muito pouco"

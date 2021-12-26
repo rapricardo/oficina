@@ -1,24 +1,29 @@
 <div class="row pt-5 mb-5 bg-light" >
-  <div class="col-12 text-center mb-5">
-    <h2 class="text-center">Comprando hoje você leva mais um curso, inteiramente GRÁTIS</h2>
+  <div class="col-12 text-center  mb-5">
+    <h2 class="text-center text-primary text-uppercase">{{ .Params.Bonus }}</h2>
+    <h3>Veja o que você leva nesta promoção!</h3>
   </div>
 
-    {{ if or (eq .RelPermalink "/cursos/marcenaria-em-casa/") (eq .RelPermalink "/cursos/moveis-palete/") }}
-      {{- partial "cta_club.html" . -}}
-    {{ else if or (eq .RelPermalink "/cursos/tupia/") (eq .RelPermalink "/cursos/moveis-planejados/") }}
-      {{- partial "cta_mdf.html" . -}}
+    {{ if or (eq .RelPermalink "/cursos/luthieria/") (eq .RelPermalink "/cursos/moveis-palete/") }}
+      {{- partial "cta_tupia.html" . -}}
+      {{- partial "cta_cigar.html" . -}}
+    {{ else if eq .RelPermalink "/cursos/tupia/" }}
+        {{- partial "cta_tupia.html" . -}}
     {{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
-      {{- partial "cta_palete.html" . -}}
-    {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
-      {{- partial "cta_palete.html" . -}}
-    {{ else if or (eq .RelPermalink "/ofertas/youtube/") (eq .RelPermalink "/ofertas/facebook/") }}
+      {{- partial "cta_club.html" . -}}
+      {{- partial "cta_3cursos.html" . -}}
+    {{ else if eq .RelPermalink "/cursos/moveis-planejados/" }}
+      {{- partial "cta_mdf.html" . -}}
+    {{ else if ( eq .Section "ofertas" ) }}
+      {{- partial "cta_3cursos.html" . -}}
+    {{ else }}
       {{- partial "cta_3cursos.html" . -}}
     {{ end }}
 
   <div class="col-12 text-center ">
 
     <p><a class="btn btn-danger btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">
-      {{ .Params.Cta }}
+      Compre já, por apenas {{ .Params.preco_a_vista }}
     </a></p>
 
     <script type="text/javascript">

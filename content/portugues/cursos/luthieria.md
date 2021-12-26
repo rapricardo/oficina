@@ -1,6 +1,6 @@
 ---
 title: "Profissão Luthier"
-subtitle: "Tudo que você precisa para construir e regular guitarras e baixos de corpo sólido"
+subtitle: "Ganhe dinheiro fazendo e regulando guitarras e baixos"
 description : "Aprenda a fazer guitarras do zero, para destruir nos solos e lucrar muito"
 weight: 8
 date: 2021-12-13T15:27:17+06:00
@@ -9,7 +9,7 @@ draft: false
 bg_image: "images/bg-guitarra.jpg"
 headline : "Aprenda a fazer guitarras do zero, para destruir nos solos ou lucrar muito"
 subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, fazendo guitarras e contrabaixos de corpo sólido"
-cta: QUERO ME INSCREVER AGORA AGORA!
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Que tal viver construindo instrumentos musicais e faturando alto?"
 p1 : "Saiba como luthiers cobram até 10 mil reais por instrumento"
@@ -40,6 +40,8 @@ sub1 : "Neste curso você vai aprender a construir uma guitarra elétrica, model
 sub2 : "Este conhecimento pode ser facilmente aplicado para construir qualquer instrumento de corpo sólido, inclusive contra-baixos elétricos."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
 
+bonus : Compre agora e ganhe mais 2 cursos
+
 # course thumbnail
 image: "images/thumbs/t-guitarras.jpg"
 square_image: "/images/thumbs/guitarras-square.jpg"
@@ -48,12 +50,12 @@ category: "Luthieria"
 teacher: "Paula Bifulco"
 duration : "76 aulas"
 weekly : "23 horas"
-de : "1247,00"
-desconto : "50% de desconto"
-preco_parcelado : "12x R$ 24,90"
-preco_a_vista : "R$ 249,00"
+de : "798,00"
+desconto : "50% OFF + 2 cursos"
+preco_parcelado : "12x R$ 39,90"
+preco_a_vista : "R$ 399,00"
 
-apply_url : "https://pay.hotmart.com/U17228602B?off=k8cm536k&checkoutMode=10&offDiscount=FELIZNATAL"
+apply_url : "https://pay.hotmart.com/U17228602B?off=sk56mxwr&checkoutMode=10&offDiscount=PROFISSAOLUTHIER"
 type: "cursos"
 ---
 

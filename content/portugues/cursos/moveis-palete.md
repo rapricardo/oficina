@@ -1,5 +1,5 @@
 ---
-title: "Como fazer móveis com Paletes"
+title: "Marcenaria com Paletes"
 subtitle : "Mobilie sua casa gastando pouco ou faça uma renda extra"
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
 weight: 6
@@ -10,7 +10,7 @@ draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "Aumente sua renda fazendo móveis planejados com poucas ferramentas"
 subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
-cta: QUERO ME INSCREVER AGORA AGORA!
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Transforme seu tempo livre em prazer e sinta a satisfação de dizer fui eu que fiz"
 p1 : "Aprenda as técnicas secretas usadas pelos profissionais de marcenaria"
@@ -37,7 +37,7 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para impressionar seus amigos e familiares fazendo seus móveis?"
 
-bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
+bonus : Leve 3 cursos, pelo preço de 1
 
 sub1 : "Um curso online feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
 sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
@@ -53,12 +53,12 @@ teacher: "Marcelo Aguilera"
 duration : "46 aulas"
 weekly : "24 horas"
 de : "R$ 398,00"
-desconto : "63% de desconto"
-preco_parcelado : "12x R$ 14,90"
-preco_a_vista : "R$ 147,00"
+desconto : "PAGUE 1, LEVE 3"
+preco_parcelado : "12x R$ 29,90"
+preco_a_vista : "R$ 299,00"
 
 
-apply_url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
 #apply_url : "/upsell/paletes"
 type: "cursos"
 #url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"

@@ -1,6 +1,6 @@
 ---
 title: "Tupia: Segredos & Técnicas"
-subtitle: "Suba de nível na marcenaria, fazendo ranhuras, molduras, entalhes, chanfros, encaixes e detalhes arredondados em madeira."
+subtitle: "Eleve o nível da sua marcenaria e ganhe muito mais dinheiro"
 description: "Aprenda os Segredos e técnicas da Tupia"
 weight: 3
 date: 2019-07-06T15:27:17+06:00
@@ -9,7 +9,7 @@ draft: false
 bg_image: "images/bg-marcenaria-03.jpg"
 headline : "Eleve o nível da sua marcenaria e ganhe muito mais dinheiro"
 subheadline : "Melhore o acabamento das suas peças e venda muito mais"
-cta: QUERO ME INSCREVER AGORA AGORA!
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Dominar a Tupia é o caminho mais rápido e acessível para subir o nível da sua marcenaria"
 p1 : "Conheça os tipos de tupia e fresas"
@@ -36,7 +36,7 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para elevar o nível da sua marcenaria?"
 
-bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
+bonus : 75% DE DESCONTO, PRA VOCÊ SE INSCREVER AGORA
 
 sub1 : "Um curso feito para quem nunca mexeu com madeira e ainda não tem uma oficina montada."
 sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
@@ -55,11 +55,11 @@ weekly : "11 horas"
 # course fee
 de : "R$ 398,00"
 fee : "10x R$ 19,90"
-preco_parcelado : "10x R$ 19,90"
-preco_a_vista : "R$ 127,36"
-desconto : "68% de desconto"
+preco_parcelado : "12x R$ 9,90"
+preco_a_vista : "R$ 99,50"
+desconto : "75% de desconto"
 # apply url
-apply_url : "https://pay.hotmart.com/C39590427Y?off=zsjpgqfg&checkoutMode=10&offDiscount=FELIZNATAL"
+apply_url : "https://pay.hotmart.com/C39590427Y?off=zsjpgqfg&checkoutMode=10&offDiscount=75%OFF"
 # type
 type: "cursos"
 cta: QUERO ME INSCREVER AGORA AGORA!

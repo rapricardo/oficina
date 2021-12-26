@@ -2,49 +2,21 @@
   <div class="container">
 
     <div class="row" >
-      <div class="col-12 text-center mb-5">
+      <!--div class="col-12 text-center mb-5">
           <a href="/ofertas/site/"><img src="/images/banner-natal.png " max-width="100%" /></a>
-      </div>
+      </div-->
       <div class="col text-center">
         <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
         <h2 class="text-primary text-uppercase">{{ .Params.Headline  }}</h2>
         <h3 class="text-white mb-4">{{ .Params.Subheadline }}</h3>
         <p><a class="btn btn-primary btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">
-          Quero comprar com {{ .Params.Desconto }}
+          Quero me inscrever agora!
         </a></p>
       </div>
     </div> <!-- end main -->
     <div class="row" >
-          <div class="col mb-3 ">
-            <ul class="list-inline text-md-center">
-              <li class="list-inline-item mr-4 mb-3 mb-sm-0 ">
-                <div class="d-flex align-items-center">
-                  <i class="ti-calendar text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                    <h6 class="mb-0 text-white">{{ .Params.Duration }}<br/><small>em vídeo HD</small></h6>
-
-                  </div>
-                </div>
-              </li>
-              <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-                <div class="d-flex align-items-center">
-                  <i class="ti-timer text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                    <h6 class="mb-0 text-white">{{ .Params.Weekly }}<br/><small>de carga horária</small></h6>
-
-                  </div>
-                </div>
-              </li>
-              <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-                <div class="d-flex align-items-center">
-                  <i class="ti-credit-card text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                    <h6 class="mb-0 text-white"><small>De: {{ .Params.De }}<del></del></small><br/>Por: {{ .Params.preco_parcelado }}</h6>
-
-                  </div>
-                </div>
-              </li>
-            </ul>
+          <div class="col">
+            <p class="text-white text-center">Parcele em até 12x no cartão</p>
           </div>
 
       </div><!-- end numbers -->

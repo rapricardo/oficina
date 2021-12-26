@@ -10,7 +10,7 @@ draft: false
 bg_image: "images/bg-marcenaria-05.jpg"
 headline : "Aumente sua renda fazendo móveis planejados com poucas ferramentas"
 subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
-cta: QUERO ME INSCREVER AGORA AGORA!
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Você não precisa gastar rios de dinheiro para Viver de Marcenaria, sem sair de casa"
 p1 : "Saiba como marceneiros cobram até 10 mil reais por cômodo"

@@ -9,7 +9,7 @@ draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "23 projetos incríveis para você superar a crise fazendo e vendendo móveis em MDF"
 subheadline : "Aprenda a fazer guarda-roupas, gaveteiros, mesas, cadeiras, bancos e objetos de decoração."
-cta: QUERO ME INSCREVER AGORA AGORA!
+cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Aprenda a fazer móveis para todos os cômodos da casa, com economia e praticidade"
 p1 : "Saiba como fazer móveis e objetos de um jeito fácil e rápido"
@@ -36,7 +36,7 @@ conclusao_superacao : "Se é isso que você deseja para sua vida, este curso é 
 
 provocacao : "Pronto para começar a ganhar uma renda extra fazendo Móveis em MDF?"
 
-bonus : Comprando hoje você leva mais um curso, inteiramente GRÁTIS
+bonus : Leve 3 cursos, pelo preço de 1
 
 
 sub1 : "23 projetos incríveis para você superar a crise e faturar até R$ 8.000 por mês, fazendo e vendendo móveis em MDF."
@@ -53,11 +53,11 @@ teacher: "Marcelo Aguilera"
 duration : "45 aulas"
 weekly : "10 horas"
 de : "R$ 398,00"
-desconto : "75% de desconto"
-preco_parcelado : "10x R$ 10,70"
-preco_a_vista : "R$ 94,23"
+desconto : "PAGUE 1, LEVE 3"
+preco_parcelado : "12x R$ 29,90"
+preco_a_vista : "R$ 299,00"
 
-apply_url : "https://pay.hotmart.com/G39590368D?off=s7k8rms9&checkoutMode=10&offDiscount=FELIZNATAL"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
 #apply_url : "/upsell/mdf"
 # type
 type: "cursos"
