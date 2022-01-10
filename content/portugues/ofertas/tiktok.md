@@ -1,5 +1,5 @@
 ---
-title: "Promoção de Natal"
+title: "Promoção Viver de Marcenaria"
 subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 date: 2019-07-06T15:27:17+06:00
 draft: false
@@ -53,7 +53,7 @@ preco_a_vista : "R$ 299,00"
 # apply url
 #apply_url : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
 #promo natal materpack
-apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=rasfixnc&checkoutMode=10&offDiscount=TIKTOK70"
 # type
 type: "ofertas"
 # Call to action

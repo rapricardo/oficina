@@ -53,7 +53,7 @@ duration : "103 vídeos"
 weekly : "21 horas"
 de : "R$ 398,00"
 desconto : "LEVE 4 CURSOS, pague 1"
-preco_parcelado : "12x R$ 13,90"
+preco_parcelado : "12x R$ 34,90"
 preco_a_vista : "R$ 349,00"
 
 apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"

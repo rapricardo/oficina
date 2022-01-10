@@ -1,5 +1,5 @@
 ---
-title: "Promoção de Natal"
+title: "Promoção Viver de Marcenaria"
 subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 date: 2019-07-06T15:27:17+06:00
 draft: false
