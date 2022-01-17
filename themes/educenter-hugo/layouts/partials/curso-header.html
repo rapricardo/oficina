@@ -9,14 +9,16 @@
         <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
         <h2 class="text-primary text-uppercase">{{ .Params.Headline  }}</h2>
         <h3 class="text-white mb-4">{{ .Params.Subheadline }}</h3>
-        <p><a class="btn btn-primary btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">
-          Quero me inscrever agora!
+        <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%"/>
+
+        <p><a class="btn btn-danger btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
+          Quero comprar!
         </a></p>
       </div>
     </div> <!-- end main -->
     <div class="row" >
           <div class="col">
-            <p class="text-white text-center">Parcele em até 12x no cartão</p>
+            <p class="text-white text-center">Parcele em até {{ .Params.Preco_parcelado | safeURL }} no cartão</p>
           </div>
 
       </div><!-- end numbers -->

@@ -3,158 +3,80 @@
 <section class="bg-light pt-2 pb-2" >
   <div class="container">
 
-    {{- partial "cursos_inclusos.html" . -}}
+    <div class="row pt-5 mb-5" >
+
+    <div class="col-12 text-center  mb-3">
+      <h2 class="text-center text-primary text-uppercase">Leve 3 cursos completos, </h2>
+      <h3>pelo preço de 1</h3>
+    </div>
+
+    <div class="col-lg-4 ">
+        <img src="/images/marcenaria-square.jpg" width="100%" class="mb-3" />
+    </div>
+
+    <div class="col-lg-4 ">
+        <img src="/images/thumbs/tupia-square.jpg" width="100%" class="mb-3" />
+    </div>
+
+    <div class="col-lg-4 ">
+      <img src="/images/thumbs/mdf-square.jpg" width="100%" class="mb-3" />
+    </div>
+
+    <div class="col-12 mt-3">
+
+      <ul class="list-inline text-xl-center mb-3">
+        <li class="list-inline-item mr-3 mb-3 mb-sm-0">
+          <div class="d-flex align-items-center">
+            <i class="ti-calendar text-primary icon-md mr-2"></i>
+            <div class="text-left">
+              <h6 class="mb-0">119 aulas<br/><small>em vídeo HD</small></h6>
+
+            </div>
+          </div>
+        </li>
+        <li class="list-inline-item mr-3 mb-3 mb-sm-0">
+          <div class="d-flex align-items-center">
+            <i class="ti-timer text-primary icon-md mr-2"></i>
+            <div class="text-left">
+              <h6 class="mb-0">45 horas<br/><small>de carga horária</small></h6>
+            </div>
+          </div>
+        </li>
+
+        <li class="list-inline-item mr-3 mb-3 mb-sm-0">
+          <div class="d-flex align-items-center">
+            <i class="ti-ruler-pencil text-primary icon-md mr-2"></i>
+            <div class="text-left">
+              <h6 class="mb-0">35 projetos<br/><small>Passo a passo</small></h6>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+
+
+
+
 
   </div>
-</section>
-<section class="bg-dark pt-5 pb-5" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center mb-2 ">
-        <h2 class="text-white ">{{ .Params.Promessa }}</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">01</p>
-        <p class="text-white">{{ .Params.P1 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">02</p>
-        <p class="text-white">{{ .Params.P2 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">03</p>
-        <p class="text-white">{{ .Params.P3 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">04</p>
-        <p class="text-white">{{ .Params.P4 }}</p>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">05</p>
-        <p class="text-white">{{ .Params.P5 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">06</p>
-        <p class="text-white">{{ .Params.P6 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">07</p>
-        <p class="text-white">{{ .Params.P7 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">08</p>
-        <p class="text-white">{{ .Params.P8 }}</p>
-      </div>
-
-    </div>
   </div>
 </section>
 
 <section class="pt-5 pb-5" >
   <div class="container">
+
     <div class="row">
+
+      <div class="col-12 text-center ">
+
+        <h2 class="text-center text-primary text-uppercase">Acesso Online + Certificado</h2>
+
+      </div>
+
+
       <div class="col text-center mb-4 ">
-        <h2 class="">{{ .Params.Superacao }}</h2>
-        <h4 class="">{{ .Params.Sub_superacao }}</h4>
-      </div>
-    </div>
-
-    <div class="row mb-4">
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
-        <p class="text-center">{{ .Params.S1 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
-        <p class="text-center">{{ .Params.S2 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
-        <p class="text-center">{{ .Params.S3 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
-        <p class="text-center">{{ .Params.S4 }}</p>
-      </div>
-
-    </div>
-
-
-    <div class="row">
-      <div class="col text-center mb-2 mt-3">
-        <h3 class="">{{ .Params.conclusao_superacao }}</h3>
-      </div>
-    </div>
-
-  </div>
-</section><!-- superacao -->
-
-<section class="bg-light pt-5 pb-5" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center mb-2 ">
-        <h2 class="">{{ .Params.subtitle }}</h2>
-      </div>
-    </div>
-    <div class="row mb-2">
-      <div class="col-md-2 ">
-      </div>
-      <div class="col-md-8 mb-2 ">
-        {{ .Content }}
-      </div>
-      <div class="col-md-2 ">
-      </div>
-    </div>
-
-  </div>
-</section><!-- content -->
-
-<section class="bg-primary pt-5 pb-5" >
-  <div class="container">
-
-
-    <div class="row">
-      <div class="col text-center mb-4 ">
-        <h2 class="">"Meu trabalho ensinando pessoas a Viver de Marcenaria é muito sério"</h2>
-        <h4 class="">Professor Marcelo Aguilera</h4>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-3">
-        <img src="/images/profile-marcelo.jpg" alt="Professor de Marcenaria e faça você mesmo" width="100%"/>
-      </div>
-      <div class="col-md-5">
-        <p>Arquiteto, professor e apresentador do canal Oficina de Casa, Marcelo Aguilera é um entusiasta pelo ensino da marcenaria e do faça você mesmo, que propõe o uso de técnicas e métodos simples e fáceis de aplicar na construção de móveis e objetos. O sucesso de sua metodologia é reconhecido pelos mais de 700 mil assinantes do canal do youtube.</p>
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-  </div>
-</section><!-- seriedade -->
-
-
-<section class=" pt-5 pb-5" >
-  <div class="container">
-
-    <div class="row">
-      <div class="col text-center mb-4 ">
-        <h2 class="">Conheça alguns diferenciais de nossos cursos</h2>
+        <img src="/images/projetos/display-curso-online-oficina-de-casa.jpg"  />
       </div>
     </div>
 
@@ -184,52 +106,25 @@
     <div class="row">
       <div class="col text-center mb-4 ">
         <h3 class="">E melhor: VOCÊ PODE ASSISTIR PARA SEMPRE</h3>
+        <p><a href="https://www.youtube.com/watch?v=EynX9ENnX3U" target="_blank"><i>Clique aqui e assista ao vídeo e conheça o Espaço do aluno</i></a></p>
       </div>
     </div>
 
-    <div class="row mb-2">
-      <div class="col-md-2 ">
+    <!--div class="row mb-2">
+      <div class="col text-center">
+
+        <div class="jmvplayer" style="position: relative; padding-bottom: calc(100% / (16/9));">
+          <iframe src="https://www.youtube.com/embed/EynX9ENnX3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
       </div>
-      <div class="col-md-8 text-center">
-        <i>Assista ao vídeo e conheça o Espaço do aluno</i>
-      </div>
-      <div class="col-md-2 ">
-      </div>
-    </div>
+    </div-->
 
   </div>
 </section><!-- diferenciais -->
 
-<section class="bg-light pt-5 pb-5" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center mb-4 ">
-        <h2 class="">{{ .Params.Resultados }}</h2>
-        <h4 class="">{{ .Params.Sub_resultados }}</h4>
-      </div>
-    </div>
 
-    {{- partial "curso_social.html" . -}}
-
-    <div class="row">
-      <div class="col text-center">
-        <h2 class="text-center">{{ .Params.Provocacao }}</h2>
-        <h3 class="">Apenas {{ .Params.Preco_a_vista }}</h3>
-           <p>{{ .Params.Desconto }} <del>{{ .Params.De }}</del></p>
-           <p><a class="btn btn-primary btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">
-             {{ .Params.Cta }}
-           </a></p>
-           <p><strong>Consulte parcelamento no boleto pelo whatsapp</strong></p>
-
-          <p class="text-align"><img class="mr-4 img-fluid" src="/images/formas-pagamento.png" alt="Pagamento seguro com hotmart."></p>
-          </div>
-      </div>
-
-
-  </div>
-</section><!-- prova social -->
-
-<section class=" pt-5 pb-5" >
+<section class="bg-light  pt-5 pb-5" >
   <div class="container">
 
     {{- partial "curso_marcenaria_planos.html" . -}}
@@ -241,43 +136,36 @@
   </div>
 </section><!-- curriculum -->
 
-<section class="pt-5 pb-3" >
+<section class=" pt-5 pb-5" >
   <div class="container">
-    {{- partial "curso_bonus.html" . -}}
+    <div class="row">
+      <div class="col text-center mb-4 ">
+        <h2 class="text-uppercase">{{ .Params.Sub_resultados }}</h2>
+
+      </div>
+    </div>
+
+    {{- partial "curso_social.html" . -}}
+
+    <div class="col-12 text-center ">
+
+      <h3 class="mb-3">PROMOÇÃO VÁLIDA POR TEMPO LIMITADO</h3>
+      <a class="btn btn-danger btn-large mb-3" href="{{ .Params.Apply_url | safeURL }}" role="button">COMPRE AGORA! POR APENAS {{ .Params.preco_parcelado }}</a>
+        <p><strong>Consulte parcelamento no boleto pelo whatsapp</strong></p>
+
+      <img class="mr-4 img-fluid" src="/images/formas-pagamento.png" alt="Pagamento seguro com hotmart.">
+    </div>
+
   </div>
-</section><!-- Bônus -->
+</section><!-- prova social -->
+
+
 
 <section class="bg-light pt-3 pb-3" >
   <div class="container">
     {{- partial "curso_faq.html" . -}}
   </div>
 </section><!-- faq -->
-
-<!-- section -->
-<section class="section-sm">
-  <div class="container">
-    {{- partial "curso_cta.html" . -}}
-  </div>
-</section><!-- cta -->
-
-
-<section class="pt-3 pb-3" >
-  <div class="container">
-    {{- partial "related_cursos.html" . -}}
-  </div>
-</section><!-- related -->
-
-<!-- section -->
-<section class="section-sm">
-  <div class="container">
-
-{{- partial "oferta.html" . -}}
-{{- partial "curso_content.html" . -}}
-
-
-
-</div>
-</section>
 
 
 {{ end }}

@@ -4,8 +4,8 @@ subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Faça seu primeiro móvel em menos de 30 dias, mesmo sem ter muitas ferramentas"
-subheadline : "Método fácil e comprovado para quem nunca mexeu com madeira e busca aumentar a qualidade de vida fazendo móveis e objetos"
+headline : "Faça seu primeiro móvel em menos de 30 dias"
+subheadline : "35 projetos incríveis para você mobiliar sua casa ou fazer uma grana extra"
 cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Transforme seu tempo livre em prazer e sinta a satisfação de dizer fui eu que fiz"
@@ -19,7 +19,7 @@ p7 : "Estimule sua criatividade para fazer o que imaginar"
 p8 : "Junte-se a uma comunidade de apaixonados por marcenaria"
 
 resultados : "Com nossa metodologia, qualquer pessoa pode começar a faturar rápido"
-sub_resultados: "Agora, esta metodologia está disponível pra você. Basta ver os resultados de alguns dos nossos alunos:"
+sub_resultados: "Veja os resultados de nossos alunos:"
 
 confianca : "Ensinamos Marcenaria para quem não sabe nada, há mais de 11 anos"
 
@@ -36,6 +36,7 @@ provocacao : "Pronto para impressionar seus amigos e familiares fazendo seus mó
 bonus : Leve 3 cursos, pelo preço de 1
 
 square_image: "/images/marcenaria-square.jpg"
+projects_image: "/images/projetos/projetos-marcenaria-01.gif"
 # course thumbnail
 image: "images/thumb-marcenaria.jpg"
 # taxonomy
