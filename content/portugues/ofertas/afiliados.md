@@ -5,7 +5,7 @@ date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "Faça seu primeiro móvel em menos de 30 dias"
-subheadline : "35 projetos incríveis para você mobiliar sua casa ou fazer uma grana extra"
+subheadline : "95 projetos incríveis para você mobiliar sua casa ou fazer uma grana extra"
 cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Transforme seu tempo livre em prazer e sinta a satisfação de dizer fui eu que fiz"
@@ -50,12 +50,13 @@ de : "R$ 995,00"
 #preco_a_vista : "R$ 249,00"
 
 desconto : "70% de desconto"
-preco_parcelado : "12x R$ 29,90"
-preco_a_vista : "R$ 299,00"
+preco_parcelado : "12x R$ 34,90"
+preco_a_vista : "R$ 349,00"
 # apply url
 #apply_url : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
 #promo natal materpack
-apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
+# viver apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
+apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
 # type
 type: "ofertas"
 # Call to action
