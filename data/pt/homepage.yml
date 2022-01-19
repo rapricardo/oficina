@@ -84,7 +84,7 @@ course:
 
 ########################## Call to action ############################
 cta:
-  enable : true
+  enable : false
   subtitle : "Participe do grupo exclusivo e tenha acesso a brindes e condições imperdíveis"
   title : "Quer conteúdo exclusivo, direto no seu zap?"
   button:
@@ -95,7 +95,7 @@ cta:
 
 ######################## Success story #############################
 success_story:
-  enable : true
+  enable : false
   bg_image : "images/backgrounds/success-story.jpg"
   title : "VOCÊ PODE FAZER COISAS INCRÍVEIS"
   content : "Criamos estes cursos pensando em quem está começando ou nunca mexeu com madeira.
@@ -150,6 +150,6 @@ funfacts:
 
 ############################# blog ################################
 blog:
-  enable : true
+  enable : false
   title : "Novidades"
   # blog item comes from "content/**/blog" folder.

@@ -6,6 +6,10 @@
 
   {{- partial "curso-header.html" . -}}
 
+{{ else if ( eq .Section "masterpack" )  }}
+
+    {{- partial "curso-header.html" . -}}
+
 {{ else if  ( eq .Section "upsell" )  }}
 
     {{- partial "upsell-header.html" . -}}

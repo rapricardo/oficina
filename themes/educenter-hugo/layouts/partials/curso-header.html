@@ -9,7 +9,9 @@
         <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
         <h2 class="text-primary text-uppercase">{{ .Params.Headline  }}</h2>
         <h3 class="text-white mb-4">{{ .Params.Subheadline }}</h3>
-        <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%"/>
+        {{ if .Params.Projects_image }}
+          <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%"/>
+        {{ end }}
 
         <p><a class="btn btn-danger btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
           Quero comprar!

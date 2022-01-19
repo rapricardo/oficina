@@ -86,6 +86,18 @@ map_marker = "images/marker.png" # marker size 37*55 px
 enable = true
 expire_days = 60
 
+############################# masaterpack ########################
+[params.masterpack]
+link = "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
+preco_parcelado = "12x R$ 34,90"
+preco_a_vista = "R$ 349,00"
+
+
+
+
+
+
+
 ############################# social site ########################
 [[params.social]]
 title = "facebook"
