@@ -7,7 +7,7 @@ date: 2021-12-13T15:27:17+06:00
 draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Faça seu primeiro móvel em menos de 30 dias, mesmo sem ter muitas ferramentas"
+headline : "Aprenda a fazer móveis do ZERO, mesmo sem ter muitas ferramentas"
 subheadline : "Método fácil e comprovado para quem nunca mexeu com madeira e busca aumentar a qualidade de vida fazendo móveis e objetos"
 cta: QUERO ME INSCREVER AGORA!
 
