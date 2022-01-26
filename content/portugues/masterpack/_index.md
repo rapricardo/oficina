@@ -1,7 +1,7 @@
 ---
 title: "Aprenda a fazer móveis do ZERO com poucas ferramentas"
 
-headline : "De iniciante a especialista em 12 semanas"
+headline : "De iniciante a especialista em apenas 12 semanas"
 subheadline : "95 projetos incríveis para você mobiliar sua casa ou fazer uma grana extra"
 
 projects_image: "/images/projetos/projetos-marcenaria-01.gif"

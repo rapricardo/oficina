@@ -10,24 +10,15 @@
         <h2 class="text-primary text-uppercase">{{ .Params.Headline  }}</h2>
         <h3 class="text-white mb-4">{{ .Params.Subheadline }}</h3>
         {{ if .Params.Projects_image }}
-          <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%"/>
+          <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
         {{ end }}
-
-        <p><a class="btn btn-danger btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
-          Quero comprar!
-        </a></p>
       </div>
     </div> <!-- end main -->
     <div class="row" >
-          <div class="col">
-            <p class="text-white text-center">Parcele em até {{ .Params.Preco_parcelado | safeURL }} no cartão</p>
+          <div class="col text-center mt-3">
+            <i class="ti-arrow-circle-down text-primary icon-md mr-2"></i>
           </div>
-
       </div><!-- end numbers -->
-      <div class="row">
-          <div class="col text-center">
-          <img src="/images/formas-pagamento-2.png" width="465" hieght="40" alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
-        </div>
-      </div><!-- img forma de pagamento -->
+
     </div>
 </section>

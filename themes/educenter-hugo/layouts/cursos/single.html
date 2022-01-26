@@ -65,22 +65,42 @@
 <section class=" pt-5 pb-5" >
   <div class="container">
 
+    <h2 class="text-center text-primary">Conteúdo dos cursos</h2>
+    <h3 class="text-center">Veja o que você vai aprender com todos estes cursos!</h3>
+
+    <div class="row mb-5 card-deck mt-3">
+
     {{ if eq .RelPermalink "/cursos/marcenaria-em-casa/" }}
-      {{- partial "curso_marcenaria_planos.html" . -}}
       {{- partial "curso_programa_m20.html" . -}}
+      {{- partial "curso_programa_mdf.html" . -}}
+      {{- partial "curso_programa_tupia.html" . -}}
     {{ else if eq .RelPermalink "/cursos/tupia/" }}
-      {{- partial "curso_marcenaria_planos.html" . -}}
       {{- partial "curso_programa_tupia.html" . -}}
     {{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
-      {{- partial "curso_marcenaria_planos.html" . -}}
-      {{- partial "curso_programa_club.html" . -}}
-    {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
-      {{- partial "curso_marcenaria_planos.html" . -}}
+      {{- partial "curso_programa_m20.html" . -}}
       {{- partial "curso_programa_mdf.html" . -}}
+      {{- partial "curso_programa_club.html" . -}}
+      {{- partial "curso_programa_tupia.html" . -}}
+    {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
+      {{- partial "curso_programa_m20.html" . -}}
+      {{- partial "curso_programa_mdf.html" . -}}
+      {{- partial "curso_programa_tupia.html" . -}}
     {{ else if or (eq .RelPermalink "/cursos/curso-luthieria-pauleira-oficina-de-casa/") (eq .RelPermalink "/cursos/luthieria/") }}
-      {{- partial "curso_marcenaria_planos.html" . -}}
       {{- partial "curso_programa_guitarra.html" . -}}
+      {{- partial "curso_programa_tupia.html" . -}}
     {{ end }}
+
+    </div>
+
+    {{ if or (eq .RelPermalink "/cursos/curso-luthieria-pauleira-oficina-de-casa/") (eq .RelPermalink "/cursos/luthieria/") }}
+      {{- partial "curso_marcenaria_planos.html" . -}}
+    {{ else }}
+      {{- partial "curso_marcenaria_planos.html" . -}}
+    {{ end }}
+
+
+
+
 
   </div>
 </section><!-- curriculum -->

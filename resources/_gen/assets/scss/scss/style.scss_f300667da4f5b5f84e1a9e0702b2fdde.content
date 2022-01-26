@@ -793,6 +793,28 @@ img {
   max-width: 100%;
   object-fit: cover; }
 
+.page-title-section {
+  padding: 200px 0 40px; }
+
+.card-curso p {
+  font-size: 18px;
+  line-height: 1.5em; }
+
+.card-curso {
+  border-radius: 15px;
+  border: solid 3px #ffbc3b;
+  padding-top: 25px; }
+
+.card-cta {
+  border-radius: 15px;
+  padding-top: 35px; }
+
+.card-curso .card-body {
+  padding: 0.25rem; }
+
+.card-icon {
+  margin: 0 auto -25px auto; }
+
 .card-header .btn {
   white-space: normal;
   padding: 5px 10px;
