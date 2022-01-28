@@ -11,6 +11,10 @@ desconto : "70% de desconto"
 preco_parcelado : "12x R$ 34,90"
 preco_a_vista : "R$ 349,00"
 
+duration : "165 aulas"
+weekly : "75 horas"
+projetos: "95"
+
 draft: false
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"

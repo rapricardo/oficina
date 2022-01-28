@@ -5,6 +5,8 @@ description : "23 projetos incríveis para você superar a crise e faturar até 
 weight: 4
 date: 2021-12-13T15:27:17+06:00
 draft: false
+
+projects_image: "/images/projetos/projetos-mdf.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "23 projetos incríveis para você superar a crise fazendo e vendendo móveis em MDF"
@@ -53,11 +55,14 @@ teacher: "Marcelo Aguilera"
 duration : "45 aulas"
 weekly : "10 horas"
 de : "R$ 398,00"
-desconto : "PAGUE 1, LEVE 3"
-preco_parcelado : "12x R$ 29,90"
-preco_a_vista : "R$ 299,00"
+desconto : "50% de desconto"
+preco_parcelado : "12x R$ 19,90"
+preco_a_vista : "R$ 199,00"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 
-apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
+projetos: "23"
+
+#apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
 #apply_url : "/upsell/mdf"
 # type
 type: "cursos"

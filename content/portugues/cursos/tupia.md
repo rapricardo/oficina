@@ -55,11 +55,12 @@ weekly : "11 horas"
 # course fee
 de : "R$ 398,00"
 fee : "10x R$ 19,90"
-preco_parcelado : "12x R$ 9,90"
-preco_a_vista : "R$ 99,50"
-desconto : "75% de desconto"
-# apply url
-apply_url : "https://pay.hotmart.com/C39590427Y?off=zsjpgqfg&checkoutMode=10&offDiscount=75%OFF"
+preco_parcelado : "12x R$ 19,90"
+preco_a_vista : "R$ 199,00"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
+desconto : "50% de desconto"
+
+# apply_url : "https://pay.hotmart.com/C39590427Y?off=zsjpgqfg&checkoutMode=10&offDiscount=75%OFF"
 # type
 type: "cursos"
 cta: QUERO ME INSCREVER AGORA AGORA!

@@ -5,6 +5,8 @@ description : "Dê um gás na sua oficina"
 weight: 4
 date: 2021-12-13T15:27:17+06:00
 draft: false
+
+projects_image: "/images/projetos/projetos-club.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-04.jpg"
 headline : "Impressione amigos e familiares fazendo móveis incríveis no seu tempo livre"
@@ -51,13 +53,14 @@ category: "Marcenaria"
 teacher: "Marcelo Aguilera"
 duration : "103 vídeos"
 weekly : "21 horas"
+projetos: "60"
 de : "R$ 398,00"
-desconto : "LEVE 4 CURSOS, pague 1"
-preco_parcelado : "12x R$ 34,90"
-preco_a_vista : "R$ 349,00"
+desconto : "50% de desconto"
+preco_parcelado : "12x R$ 19,90"
+preco_a_vista : "R$ 199,00"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 
-apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
-#apply_url : "/upsell/club"
+#apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
 type: "cursos"
 ---
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.

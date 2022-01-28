@@ -5,9 +5,11 @@ description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramen
 weight: 2
 date: 2021-12-13T15:27:17+06:00
 draft: false
+
+projects_image: "/images/projetos/projetos-marcenaria-m20.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Aprenda a fazer móveis do ZERO, mesmo sem ter muitas ferramentas"
+headline : "Aprenda a fazer móveis do ZERO, com poucas ferramentas em espaços pequenos"
 subheadline : "Método fácil e comprovado para quem nunca mexeu com madeira e busca aumentar a qualidade de vida fazendo móveis e objetos"
 cta: QUERO ME INSCREVER AGORA!
 
@@ -53,12 +55,13 @@ teacher: "Marcelo Aguilera"
 duration : "46 aulas"
 weekly : "24 horas"
 de : "R$ 398,00"
-desconto : "PAGUE 1, LEVE 3"
-preco_parcelado : "12x R$ 29,90"
-preco_a_vista : "R$ 299,00"
+desconto : "50% de desconto"
+preco_parcelado : "12x R$ 19,90"
+preco_a_vista : "R$ 199,00"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 
 
-apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
+#apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
 #apply_url : "/upsell/paletes"
 type: "cursos"
 #url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"
