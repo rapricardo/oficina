@@ -160,11 +160,11 @@
 
         <div class="col-lg-3 card text-center card-curso mb-2" style="z-index:5">
           <h3 class="text-center text-uppercase">Curso Online</h3>
-          <img src="/small/t-tupia.jpg" width="100%"  class="mb-3" />
+          <img src="/small/t-mdf-2.jpg" width="100%"  class="mb-3" />
           <div class="card-body">
-            <p>Eleve o nível da sua marcenaria e ganhe muito mais dinheiro</p>
-            <p><a href="#collapseTupia" class="text-primary" data-toggle="collapse" data-target="#collapseTupia"  role="button" aria-expanded="false" aria-controls="collapseTupia">Conheça o programa do curso</a></p>
-              {{- partial "curso_programa_tupia.html" . -}}
+            <p>{{ .Params.Subtitle }}</p>
+            <p><a href="#collapseMdf" class="text-primary" data-toggle="collapse" data-target="#collapseMdf"  role="button" aria-expanded="false" aria-controls="collapseMdf">Conheça o programa do curso</a></p>
+            {{- partial "curso_programa_mdf.html" . -}}
           </div>
           </div>
 
