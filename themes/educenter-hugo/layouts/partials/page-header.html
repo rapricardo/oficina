@@ -4,11 +4,11 @@
 
 {{ else if and ( not ( eq .RelPermalink "/ofertas/" )) ( eq .Section "ofertas" )  }}
 
-  {{- partial "header_curso.html" . -}}
+  {{- partial "header_oferta.html" . -}}
 
 {{ else if ( eq .Section "masterpack" )  }}
 
-    {{- partial "header_curso.html" . -}}
+    {{- partial "header_oferta.html" . -}}
 
 {{ else if  ( eq .Section "upsell" )  }}
 

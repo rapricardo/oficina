@@ -3,19 +3,20 @@
 
     <div class="row" >
       <!--div class="col-12 text-center mb-5">
-          <img src="/images/banner-natal.png " max-width="100%" />
+          <a href="/ofertas/site/"><img src="/images/banner-natal.png " max-width="100%" /></a>
       </div-->
       <div class="col text-center">
         <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
         <h2 class="text-primary text-uppercase">{{ .Params.Headline  }}</h2>
         <h3 class="text-white mb-4">{{ .Params.Subheadline }}</h3>
-        <p><a class="btn btn-primary btn-large mb-2" href="{{ .Params.Apply_url | safeURL }}" role="button">
-          {{ .Params.Cta }}
-        </a></p>
+        {{ if .Params.Projects_image }}
+          <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
+        {{ end }}
       </div>
     </div> <!-- end main -->
+
     <div class="row" >
-          <div class="col mb-3 ">
+          <div class="col mb-3 mt-3">
             <ul class="list-inline text-md-center">
               <li class="list-inline-item mr-4 mb-3 mb-sm-0 ">
                 <div class="d-flex align-items-center">
@@ -37,9 +38,9 @@
               </li>
               <li class="list-inline-item mr-4 mb-3 mb-sm-0">
                 <div class="d-flex align-items-center">
-                  <i class="ti-credit-card text-primary icon-md mr-2"></i>
+                  <i class="ti-ruler-pencil text-primary icon-md mr-2"></i>
                   <div class="text-left">
-                    <h6 class="mb-0 text-white"><small>De: {{ .Params.De }}<del></del></small><br/>Por: {{ .Params.preco_parcelado }}</h6>
+                    <h6 class="mb-0 text-white">{{ .Params.Projetos }} Projetos<br/><small>Passo a passo</small></h6>
 
                   </div>
                 </div>
@@ -48,10 +49,13 @@
           </div>
 
       </div><!-- end numbers -->
-      <div class="row">
-          <div class="col text-center">
-          <img src="/images/formas-pagamento-2.png" width="465" hieght="40" alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
-        </div>
-      </div><!-- img forma de pagamento -->
+
+    <div class="row" >
+          <div class="col text-center mt-3">
+            <a href="#oferta"><i class="ti-arrow-circle-down text-primary icon-md mr-2"></i></a>
+          </div>
+      </div><!-- end numbers -->
+
+
     </div>
 </section>

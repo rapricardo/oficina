@@ -7,54 +7,14 @@
       </div-->
       <div class="col text-center">
         <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
-        <h2 class="text-primary text-uppercase">{{ .Params.Headline  }}</h2>
-        <h3 class="text-white mb-4">{{ .Params.Subheadline }}</h3>
+        <h2 class="text-primary text-uppercase">{{ .Title  }}</h2>
+        <h3 class="text-white mb-4">{{ .Params.Headline }}</h3>
         {{ if .Params.Projects_image }}
           <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
         {{ end }}
       </div>
     </div> <!-- end main -->
 
-    <div class="row" >
-          <div class="col mb-3 mt-3">
-            <ul class="list-inline text-md-center">
-              <li class="list-inline-item mr-4 mb-3 mb-sm-0 ">
-                <div class="d-flex align-items-center">
-                  <i class="ti-calendar text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                    <h6 class="mb-0 text-white">{{ .Params.Duration }}<br/><small>em vídeo HD</small></h6>
-
-                  </div>
-                </div>
-              </li>
-              <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-                <div class="d-flex align-items-center">
-                  <i class="ti-timer text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                    <h6 class="mb-0 text-white">{{ .Params.Weekly }}<br/><small>de carga horária</small></h6>
-
-                  </div>
-                </div>
-              </li>
-              <li class="list-inline-item mr-4 mb-3 mb-sm-0">
-                <div class="d-flex align-items-center">
-                  <i class="ti-ruler-pencil text-primary icon-md mr-2"></i>
-                  <div class="text-left">
-                    <h6 class="mb-0 text-white">{{ .Params.Projetos }} Projetos<br/><small>Passo a passo</small></h6>
-
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-
-      </div><!-- end numbers -->
-
-    <div class="row" >
-          <div class="col text-center mt-3">
-            <a href="#oferta"><i class="ti-arrow-circle-down text-primary icon-md mr-2"></i></a>
-          </div>
-      </div><!-- end numbers -->
 
 
     </div>
