@@ -164,12 +164,10 @@
 
   </div>
 
-
-
-  <div class="row mb-5 ">
+<div class="row mb-5 ">
 
   <div class="col-lg-6 offset-lg-3 pb-3 card card-cta text-center bg-danger ">
-    <h3 class="text-center text-uppercase text-white">Promoção por tempo limitado</h3>
+    <h2 class="text-center text-uppercase text-white">Oferta surpresa</h2>
     <script type="text/javascript">
       setInterval(function time(){
       var d = new Date();
@@ -184,23 +182,24 @@
       }
       jQuery('#the-final-countdown div').html('<p class="text-white"><i class="ti-timer mr-2"></i>Esta oferta termina em <strong>'+hours+' : '+min+' : '+sec+'</span></strong></p>')
       }, 1000);
-
     </script>
-    <div id="the-final-countdown" class="my_countdown">
-      <div></div>
-    </div>
 
     <hr />
 
-    <h2 class="text-white"><small style="color: #ffffff8c">R$ <del>{{ .Params.De }}</del></small><br/>
-      {{ .Params.preco_parcelado }}</h2>
+    <h2 class="text-white"><small style="color: #ffffff8c">R$ <del>{{ .Params.De }}</del></small></h2>
+    <h4 class="text-white"> mas você pode comprar por muito menos</h4>
+
+    <div id="the-final-countdown" class="my_countdown">
+      <div></div>
+    </div>
       <p><a class="btn btn-primary btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
-        Garanta sua vaga!
+        Descubra o Desconto Especial!
       </a></p>
-      <img src="/images/formas-pagamento-3.png" width="465" hieght="40" alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
+      <p class="text-white">E mais algumas surpresas...</p>
+      <img src="/images/formas-pagamento-3.png"  alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
   </div>
 
-  </div>
+</div>
 
 
   {{- partial "row_social.html" . -}}
