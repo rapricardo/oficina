@@ -6,7 +6,7 @@ subheadline : "95 projetos incríveis para você mobiliar sua casa ou fazer uma 
 
 projects_image: "/images/projetos/projetos-marcenaria-01.gif"
 
-apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
+apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
 desconto : "70% de desconto"
 preco_parcelado : "12x R$ 34,90"
 preco_a_vista : "R$ 349,00"
