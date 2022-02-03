@@ -65,7 +65,7 @@ apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 #apply_url : "/upsell/paletes"
 type: "cursos"
 #url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"
-#url : /cursos/marcenaria-em-casa/
+url : /cursos/marcenaria/
 ---
 
 ## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos
