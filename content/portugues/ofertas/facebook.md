@@ -4,8 +4,8 @@ subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Faça seu primeiro móvel em menos de 30 dias"
-subheadline : "95 projetos incríveis para você mobiliar sua casa ou fazer uma grana extra"
+headline : "Desperte o marceneiro que existe em você!"
+subheadline : "Descubra de forma simples e prática como transformar seu amor pela marcenaria num hobby lucrativo"
 cta: QUERO ME INSCREVER AGORA!
 
 promessa : "Transforme seu tempo livre em prazer e sinta a satisfação de dizer fui eu que fiz"
@@ -44,19 +44,21 @@ category: "Marcenaria"
 teacher: "Marcelo Aguilera"
 duration : "46 aulas"
 weekly : "24 horas"
-de : "R$ 995,00"
+de : "R$ 1743,00"
+projetos: 95
 #desconto : "70% de desconto"
 #preco_parcelado : "12x R$ 24,90"
 #preco_a_vista : "R$ 249,00"
 
 desconto : "70% de desconto"
-preco_parcelado : "12x R$ 34,90"
-preco_a_vista : "R$ 349,00"
+preco_parcelado : "12x R$ 24,90"
+preco_a_vista : "R$ 256,00"
 # apply url
 #apply_url : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
 #promo natal materpack
 # viver apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
-apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
+# apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
+apply_url : "https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10"
 # type
 type: "ofertas"
 # Call to action

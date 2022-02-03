@@ -1,62 +1,6 @@
 {{ define "main" }}
 
-<!--section class="bg-dark pt-5 pb-3" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center mb-2 ">
-        <h2 class="text-white ">{{ .Params.Promessa }}</h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">01</p>
-        <p class="text-white">{{ .Params.P1 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">02</p>
-        <p class="text-white">{{ .Params.P2 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">03</p>
-        <p class="text-white">{{ .Params.P3 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">04</p>
-        <p class="text-white">{{ .Params.P4 }}</p>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">05</p>
-        <p class="text-white">{{ .Params.P5 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">06</p>
-        <p class="text-white">{{ .Params.P6 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">07</p>
-        <p class="text-white">{{ .Params.P7 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="destaque  text-primary mb-0">08</p>
-        <p class="text-white">{{ .Params.P8 }}</p>
-      </div>
-
-    </div>
-  </div>
-</section -->
-
-<section class="bg-light pt-5 pb-3" id="oferta">
+<section class="bg-light pt-5 pb-3">
   <div class="container">
     <div class="row">
       <div class="col mb-4">
@@ -203,7 +147,7 @@
     <hr />
 
     <h2 class="text-white"><small style="color: #ffffff8c">R$ <del>{{ .Params.De }}</del></small><br/>
-      {{ .Params.preco_parcelado }}
+      {{ .Params.preco_parcelado }}</h2>
       <p><a class="btn btn-primary btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
         Garanta sua vaga!
       </a></p>
@@ -213,172 +157,15 @@
   </div>
 
 
-  <div class="row">
-    <div class="col text-center mb-4 ">
-      <h2 class="">Eles começaram do zero igual a você!</h2>
-    </div>
-  </div>
+  {{- partial "row_social.html" . -}}
+  {{- partial "row_professor.html" . -}}
+  {{- partial "row_garantia.html" . -}}
+  {{- partial "cta_vermelho.html" . -}}
 
-  {{- partial "curso_social.html" . -}}
-
-  {{- partial "curso_garantia.html" . -}}
-    <!-- curso extra -->
-
-    <div class="row mb-5 ">
-
-    <div class="col-lg-6 offset-lg-3 pb-3 card card-cta text-center bg-danger ">
-      <h3 class="text-center text-uppercase text-white">Promoção por tempo limitado</h3>
-
-      <hr />
-
-      <h2 class="text-white"><small style="color: #ffffff8c">R$ <del>{{ .Params.De }}</del></small><br/>
-        {{ .Params.preco_parcelado }}
-        <p><a class="btn btn-primary btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
-          Garanta sua vaga!
-        </a></p>
-        <img src="/images/formas-pagamento-3.png" width="465" hieght="40" alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
-    </div>
-
-    </div>
-
-    {{- partial "curso_faq.html" . -}}
-
+  {{- partial "row_faq.html" . -}}
 
   </div>
 
 </section>
-
-
-
-<!--section class="pt-5 pb-5" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center mb-4 ">
-        <h2 class="">{{ .Params.Superacao }}</h2>
-        <h4 class="">{{ .Params.Sub_superacao }}</h4>
-      </div>
-    </div>
-
-    <div class="row mb-4">
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
-        <p class="text-center">{{ .Params.S1 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
-        <p class="text-center">{{ .Params.S2 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
-        <p class="text-center">{{ .Params.S3 }}</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-heart text-primary icon-md"></i></p>
-        <p class="text-center">{{ .Params.S4 }}</p>
-      </div>
-
-    </div>
-
-
-    <div class="row">
-      <div class="col text-center mb-2 mt-3">
-        <h3 class="">{{ .Params.conclusao_superacao }}</h3>
-      </div>
-    </div>
-
-  </div>
-</section><!-- superacao -->
-
-<!--section class="bg-light pt-5 pb-5" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center mb-2 ">
-        <h2 class="">{{ .Params.subtitle }}</h2>
-      </div>
-    </div>
-    <div class="row mb-2">
-      <div class="col-md-2 ">
-      </div>
-      <div class="col-md-8 mb-2 ">
-        {{ .Content }}
-      </div>
-      <div class="col-md-2 ">
-      </div>
-    </div>
-
-  </div>
-</section><!-- content -->
-
-<section class="bg-primary pt-5 pb-3" >
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2"></div>
-      <div class="col-md-3">
-        <img src="/images/profile-marcelo.jpg" alt="Professor de Marcenaria e faça você mesmo" width="100%"/>
-      </div>
-      <div class="col-md-5">
-        <h3>Conheça o professor</h3>
-        <p>Há 10 anos ensinando a arte da Marcenaria no YouTube, com 30 Anos de experiência em Faça você mesmo, já treinou mais de 5000 alunos online e mais de 100 presenciais. Especialista em criar alternativas para se usar poucas ferramentas, criador de diversos gabaritos super copiados nas redes sociais. Seu propósito é tornar você independente em todos os sentidos, poderoso para criar e fazer.</p>
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-  </div>
-</section><!-- seriedade -->
-
-
-<!--section class=" pt-5 pb-3" >
-  <div class="container">
-
-    <div class="row">
-      <div class="col text-center mb-4 ">
-        <h2 class="">Conheça alguns diferenciais de nossos cursos</h2>
-      </div>
-    </div>
-
-    <div class="row mb-4">
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
-        <p class="text-center"><strong>Curso 100% Online</strong><br/>Vídeo aulas gravdas em alta qualidade</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
-        <p class="text-center"><strong>Grupo Exclusivo no Telegram </strong><br/> para compartilhar e trocar experiências com outros alunos</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
-        <p class="text-center"><strong>Assista de qualquer lugar</strong><br/> no celular, tablet ou computador, apenas com uma conexão à Internet</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
-        <p class="text-center"><strong>Suporte nota 10</strong><br/> da Equipe Oficina de Casa para tirar todas suas dúvidas</p>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col text-center mb-4 ">
-        <h3 class="">E melhor: VOCÊ PODE ASSISTIR PARA SEMPRE</h3>
-      </div>
-    </div>
-
-    <div class="row mb-2">
-      <div class="col-md-2 ">
-      </div>
-      <div class="col-md-8 text-center">
-        <i>Assista ao vídeo e conheça o Espaço do aluno</i>
-      </div>
-      <div class="col-md-2 ">
-      </div>
-    </div>
-
-  </div>
-</section><!-- diferenciais -->
-
 
 {{ end }}

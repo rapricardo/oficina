@@ -1,25 +1,25 @@
 {{ if and ( not ( eq .RelPermalink "/cursos/" )) ( eq .Section "cursos" )  }}
 
-  {{- partial "curso-header.html" . -}}
+  {{- partial "header_curso.html" . -}}
 
 {{ else if and ( not ( eq .RelPermalink "/ofertas/" )) ( eq .Section "ofertas" )  }}
 
-  {{- partial "curso-header.html" . -}}
+  {{- partial "header_curso.html" . -}}
 
 {{ else if ( eq .Section "masterpack" )  }}
 
-    {{- partial "curso-header.html" . -}}
+    {{- partial "header_curso.html" . -}}
 
 {{ else if  ( eq .Section "upsell" )  }}
 
-    {{- partial "upsell-header.html" . -}}
+    {{- partial "header_upsell.html" . -}}
 
 {{ else if  ( eq .Section "lancamento" )  }}
 
-      {{- partial "lancamento-header.html" . -}}
+      {{- partial "header_lancamento.html" . -}}
 
 {{ else }}
 
-  {{- partial "normal-header.html" . -}}
+  {{- partial "header_normal.html" . -}}
 
 {{ end }}

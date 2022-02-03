@@ -6,47 +6,55 @@
     <div class="row pt-5 mb-5 card-deck" >
 
     <div class="col-12 text-center  mb-3">
-      <h2 class="text-center text-primary"> Pacote com <strong>4 cursos completos pelo preço de 1</strong> </h2>
+      <h2 class="text-center text-primary">Com o Método Oficina de Casa você pode ir de iniciante a especialista em apenas 12 semanas </h2>
 
-      <h3>Mais de <strong>75 horas</strong> de conteúdo,<strong>165 aulas</strong> e 95 projetos pra você arrebentar na sua oficina</h3>
+      <h3>Veja os cursos e bônus inclusos neste pacote</h3>
     </div>
 
-    <div class="col-lg-3 card text-center card-curso mb-2" style="z-index:10">
+    <div class="col-lg-3 card text-center card-curso mb-2" >
       <h3 class="text-uppercase">Iniciante</h3>
         <img src="/small/thumb-marcenaria.jpg" width="100%" class="mb-3" />
         <div class="card-body">
         <p class="">Aprenda a fazer móveis do zero, mesmo sem ter muitas ferramentas</p>
+        <p><a href="#collapseMzero" class="btn-primary btn btn-xs text-center" data-toggle="collapse" data-target="#collapseMzero"  role="button" aria-expanded="false" aria-controls="collapseMzero">Programa do curso</a></p>
+        {{- partial "curso_programa_m20.html" . -}}
 
         </div>
-        <img src="/plus-icon.png" width="50px" height="50px" class="card-icon" />
+
     </div>
 
-    <div class="col-lg-3 card text-center card-curso mb-2" style="z-index:9">
+    <div class="col-lg-3 card text-center card-curso mb-2" >
       <h3 class="text-center text-uppercase">Intermediário</h3>
       <img src="/small/t-mdf-2.jpg" width="100%" class="mb-3" />
       <div class="card-body">
       <p class="">23 projetos para você superar a crise fazendo e vendendo móveis </p>
+      <p><a href="#collapseMdf" class="btn-primary btn btn-xs text-center" data-toggle="collapse" data-target="#collapseMdf"  role="button" aria-expanded="false" aria-controls="collapseMdf">Programa do curso</a></p>
+      {{- partial "curso_programa_mdf.html" . -}}
 
       </div>
-      <img src="/plus-icon.png" width="50px" height="50px" class="card-icon" />
+
     </div>
 
-    <div class="col-lg-3 card text-center card-curso mb-2" style="z-index:8">
+    <div class="col-lg-3 card text-center card-curso mb-2" >
       <h3 class="text-center text-uppercase">Especialista</h3>
         <img src="/small/t-tupia.jpg" width="100%" class="mb-3" />
         <div class="card-body">
           <p class="">A queridinha dos marceneiros. Você precisa dominar esta ferramenta!</p>
+          <p><a href="#collapseTupia" class="btn-primary btn btn-xs text-center" data-toggle="collapse" data-target="#collapseTupia"  role="button" aria-expanded="false" aria-controls="collapseTupia">Programa do curso</a></p>
+            {{- partial "curso_programa_tupia.html" . -}}
 
         </div>
-        <img src="/plus-icon.png" width="50px" height="50px" class="card-icon" />
+
     </div>
 
-    <div class="col-lg-3 card text-center card-curso mb-2" style="z-index:7">
+    <div class="col-lg-3 card text-center card-curso mb-2" >
       <h3 class="text-center text-uppercase">Especialista</h3>
       <img src="/small/t-ideias.jpg" width="100%" class="mb-3" />
       <div class="card-body">
         <p class="">60 projetos para você impressionar, fazendo móveis no seu tempo livre</p>
-        <img src="/plus-icon.png" width="50px" height="50px" class="card-icon text-center " />
+        <p><a href="#collapseClub" class="btn-primary btn btn-xs text-center" data-toggle="collapse" data-target="#collapseClub"  role="button" aria-expanded="false" aria-controls="collapseClub">Programa do curso</a></p>
+          {{- partial "curso_programa_club.html" . -}}
+
       </div>
     </div>
     </div>
@@ -54,7 +62,7 @@
     <div class="row mb-5 ">
 
     <div class="col-lg-6 offset-lg-3  card text-center card-curso mb-2" style="z-index:7">
-      <h3 class="text-center text-uppercase">+ Bônus</h3>
+      <h3 class="text-center text-uppercase">Leve de Bônus</h3>
 
       <div class="card-body">
         <img src="/images/bonus.gif" width="250px" class="mb-3" />
@@ -94,7 +102,7 @@
       <hr />
 
       <h2 class="text-white"><small style="color: #ffffff8c">R$ <del>995,00</del></small><br/>
-        {{ .Params.preco_parcelado }}
+        {{ .Params.preco_parcelado }}</h2>
         <p><a class="btn btn-primary btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
           Garanta sua vaga!
         </a></p>
@@ -102,144 +110,14 @@
     </div>
 
   </div>
+
+  {{- partial "curso_marcenaria_planos.html" . -}}
+  {{- partial "row_social.html" . -}}
+  {{- partial "row_professor.html" . -}}
+  {{- partial "row_acesso.html" . -}}
+  {{- partial "row_faq.html" . -}}
+
   </div>
 </section>
-
-<section class="bg-light  pt-5 pb-5" >
-  <div class="container">
-    <h2 class="text-center text-primary">Conteúdo dos cursos</h2>
-    <h3 class="text-center">Veja o que você vai aprender com todos estes cursos!</h3>
-
-    <div class="row mb-5 card-deck mt-3">
-
-      <div class="col-lg-4 mb-3 card p-0">
-
-          <img src="/small/thumb-marcenaria.jpg" width="100%" />
-          <div class="card-body">
-            <p><a href="#collapseMzero" class="text-primary" data-toggle="collapse" data-target="#collapseMzero"  role="button" aria-expanded="false" aria-controls="collapseMzero">Saiba Mais</a></p>
-          {{- partial "curso_programa_m20.html" . -}}
-          </div>
-      </div>
-
-      <div class="col-lg-4 mb-3 card p-0">
-          <img src="/small/t-tupia.jpg" width="100%" />
-          <div class="card-body">
-            <p><a href="#collapseTupia" class="text-primary" data-toggle="collapse" data-target="#collapseTupia"  role="button" aria-expanded="false" aria-controls="collapseTupia">
-              Saiba Mais</a></p>
-            {{- partial "curso_programa_tupia.html" . -}}
-          </div>
-      </div>
-
-
-        <div class="col-lg-4 mb-3 card p-0">
-            <img src="/small/t-ideias.jpg" width="100%" />
-            <div class="card-body">
-              <p><a href="#collapseClub" class="text-primary" data-toggle="collapse" data-target="#collapseClub"  role="button" aria-expanded="false" aria-controls="collapseClub">Saiba Mais</a></p>
-            {{- partial "curso_programa_club.html" . -}}
-            </div>
-        </div>
-
-      <div class="col-lg-4 mb-3 card p-0">
-          <img src="/small/t-mdf-2.jpg" width="100%" />
-          <div class="card-body">
-            <p><a href="#collapseMdf" class="text-primary" data-toggle="collapse" data-target="#collapseMdf"  role="button" aria-expanded="false" aria-controls="collapseMdf">Saiba Mais</a></p>
-          {{- partial "curso_programa_mdf.html" . -}}
-          </div>
-      </div>
-
-  </div>
-  </div>
-</section><!-- curriculum -->
-
-<section class="pt-5 pb-5" >
-  <div class="container">
-
-    <div class="row">
-
-      <div class="col-12 text-center ">
-        <h2 class="text-center text-primary text-uppercase">Acesso Online + Certificado</h2>
-      </div>
-      <div class="col text-center mb-4 ">
-        <img src="/images/projetos/display-curso-online-oficina-de-casa.jpg"  />
-      </div>
-    </div>
-
-    <div class="row mb-4">
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
-        <p class="text-center"><strong>Curso 100% Online</strong><br/>Vídeo aulas gravdas em alta qualidade</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
-        <p class="text-center"><strong>Grupo Exclusivo no Telegram </strong><br/> para compartilhar e trocar experiências com outros alunos</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
-        <p class="text-center"><strong>Assista de qualquer lugar</strong><br/> no celular, tablet ou computador, apenas com uma conexão à Internet</p>
-      </div>
-
-      <div class="col-md-3">
-        <p class="text-center"><i class="ti-star text-primary icon-md"></i></p>
-        <p class="text-center"><strong>Suporte nota 10</strong><br/> da Equipe Oficina de Casa para tirar todas suas dúvidas</p>
-      </div>
-
-    </div>
-
-    <div class="row">
-      <div class="col text-center mb-4 ">
-        <h3 class="">E melhor: VOCÊ PODE ASSISTIR PARA SEMPRE</h3>
-        <p><a href="https://www.youtube.com/watch?v=EynX9ENnX3U" target="_blank"><i>Clique aqui e assista ao vídeo e conheça o Espaço do aluno</i></a></p>
-      </div>
-    </div>
-
-    <!--div class="row mb-2">
-      <div class="col text-center">
-
-        <div class="jmvplayer" style="position: relative; padding-bottom: calc(100% / (16/9));">
-          <iframe src="https://www.youtube.com/embed/EynX9ENnX3U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-
-      </div>
-    </div-->
-
-  </div>
-</section><!-- diferenciais -->
-
-
-
-
-<section class=" pt-5 pb-5" >
-  <div class="container">
-    <div class="row">
-      <div class="col text-center mb-4 ">
-        <h2 class="text-uppercase">VEJA OS RESULTADOS DE NOSSOS ALUNOS</h2>
-
-      </div>
-    </div>
-
-    {{- partial "curso_social.html" . -}}
-
-    <div class="col-12 text-center ">
-
-      <h3 class="mb-3">PROMOÇÃO VÁLIDA POR TEMPO LIMITADO</h3>
-      <a class="btn btn-danger btn-large mb-3" href="{{ .Params.Apply_url | safeURL }}" role="button">COMPRE AGORA! POR APENAS {{ .Params.preco_parcelado }}</a>
-        <p><strong>Consulte parcelamento no boleto pelo whatsapp</strong></p>
-
-      <img class="mr-4 img-fluid" src="/images/formas-pagamento.png" alt="Pagamento seguro com hotmart.">
-    </div>
-
-  </div>
-</section><!-- prova social -->
-
-
-
-<section class="bg-light pt-3 pb-3" >
-  <div class="container">
-    {{- partial "curso_faq.html" . -}}
-  </div>
-</section><!-- faq -->
-
 
 {{ end }}
