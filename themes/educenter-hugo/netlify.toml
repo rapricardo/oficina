@@ -1,8 +1,18 @@
 [build]
   publish = "exampleSite/public"
   command = "cd exampleSite && hugo --gc --themesDir ../.."
-  
+
 [build.environment]
   HUGO_VERSION = "0.73.0"
   HUGO_THEME = "repo"
   HUGO_BASEURL = "/"
+
+[[redirects]]
+  from = "/blog/moveis-palete/"
+  to = "/cursos/marcenaria/"
+  status = 301
+
+[[redirects]]
+  from = "/cursos/curso-luthieria-pauleira-oficina-de-casa/"
+  to = "/cursos/luthieria/"
+  status = 301

@@ -66,7 +66,7 @@
             {{- partial "curso_programa_planejados.html" . -}}
 
           </div>
-      {{ else if eq .RelPermalink "/cursos/marcenaria-em-casa/" }}
+      {{ else if or (eq .RelPermalink "/cursos/marcenaria-em-casa/") (eq .RelPermalink "/cursos/marcenaria/") }}
           <img src="/small/thumb-marcenaria.jpg" width="100%"  class="mb-3" />
           <div class="card-body">
             <p>{{ .Params.Subtitle }}</p>
