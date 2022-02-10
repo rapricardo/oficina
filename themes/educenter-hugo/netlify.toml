@@ -12,7 +12,6 @@
   to = "/cursos/marcenaria/"
   status = 301
 
-[[redirects]]
   from = "/cursos/curso-luthieria-pauleira-oficina-de-casa/"
   to = "/cursos/luthieria/"
   status = 301
