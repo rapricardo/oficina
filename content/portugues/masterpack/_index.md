@@ -6,10 +6,12 @@ subheadline : "95 projetos incríveis para você mobiliar sua casa ou fazer uma 
 
 projects_image: "/images/projetos/projetos-marcenaria-01.gif"
 
-apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
+#apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10" escolha de cursos
+apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 desconto : "70% de desconto"
 preco_parcelado : "12x R$ 34,90"
 preco_a_vista : "R$ 349,00"
+de : "998,00"
 
 duration : "165 aulas"
 weekly : "75 horas"

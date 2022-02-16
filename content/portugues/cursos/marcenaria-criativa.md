@@ -2,7 +2,7 @@
 title: "Marcenaria Criativa"
 subtitle: "60 projetos incríveis para você mobiliar sua casa ou fazer um extra"
 description : "Dê um gás na sua oficina"
-weight: 4
+weight: 3
 date: 2021-12-13T15:27:17+06:00
 draft: false
 
@@ -54,7 +54,7 @@ teacher: "Marcelo Aguilera"
 duration : "103 vídeos"
 weekly : "21 horas"
 projetos: "60"
-de : "R$ 398,00"
+de : "398,00"
 desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"

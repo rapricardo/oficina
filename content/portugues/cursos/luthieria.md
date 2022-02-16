@@ -2,7 +2,7 @@
 title: "Profissão Luthier"
 subtitle: "Ganhe dinheiro fazendo e regulando guitarras e baixos"
 description : "Aprenda a fazer guitarras do zero, para destruir nos solos e lucrar muito"
-weight: 8
+weight: 6
 date: 2021-12-13T15:27:17+06:00
 draft: false
 # page title background image

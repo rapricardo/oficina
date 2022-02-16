@@ -2,7 +2,7 @@
 title: "Tupia: Segredos & Técnicas"
 subtitle: "Eleve o nível da sua marcenaria e ganhe muito mais dinheiro"
 description: "Aprenda os Segredos e técnicas da Tupia"
-weight: 3
+weight: 5
 date: 2019-07-06T15:27:17+06:00
 draft: false
 
@@ -55,7 +55,7 @@ duration : "28 aulas"
 # weekly
 weekly : "11 horas"
 # course fee
-de : "R$ 398,00"
+de : "398,00"
 fee : "10x R$ 19,90"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"

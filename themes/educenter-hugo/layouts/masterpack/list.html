@@ -75,47 +75,44 @@
     </div>
     </div>
 
-    <div class="row mb-5 ">
+  {{- partial "curso_marcenaria_planos.html" . -}}
+  {{- partial "row_social.html" . -}}
+  <div class="row mb-5 " id="oferta">
 
     <div class="col-lg-6 offset-lg-3 pb-3 card card-cta text-center bg-danger ">
-      <h3 class="text-center text-uppercase text-white"></h3>
+      <h2 class="text-center text-uppercase text-white">Oferta surpresa</h2>
+      <script type="text/javascript">
+        setInterval(function time(){
+        var d = new Date();
+        var hours = 24 - d.getHours();
+        var min = 60 - d.getMinutes();
+        if((min + '').length == 1){
+          min = '0' + min;
+        }
+        var sec = 60 - d.getSeconds();
+        if((sec + '').length == 1){
+              sec = '0' + sec;
+        }
+        jQuery('#the-final-countdown div').html('<p class="text-white"><i class="ti-timer mr-2"></i>Esta oferta termina em <strong>'+hours+' : '+min+' : '+sec+'</span></strong></p>')
+        }, 1000);
+      </script>
 
-        <h3 class="text-center text-uppercase text-white">Pacotes a partir de </h3>
-          <h2 class="text-white">R$ 149,00</h2>
-          <p><a class="btn btn-primary btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
-            Monte seu pacote agora!
-          </a></p>
+      <hr />
 
+      <h2 class="text-white"><small style="color: #ffffff8c">R$ <del>{{ .Params.De }}</del></small></h2>
+      <h4 class="text-white"> mas você pode comprar por muito menos</h4>
 
-
-        <script type="text/javascript">
-          setInterval(function time(){
-          var d = new Date();
-          var hours = 24 - d.getHours();
-          var min = 60 - d.getMinutes();
-          if((min + '').length == 1){
-            min = '0' + min;
-          }
-          var sec = 60 - d.getSeconds();
-          if((sec + '').length == 1){
-                sec = '0' + sec;
-          }
-          jQuery('#the-final-countdown div').html('<p class="text-white"><i class="ti-timer mr-2"></i>Esta oferta termina em <strong>'+hours+' : '+min+' : '+sec+'</span></strong></p>')
-          }, 1000);
-
-        </script>
-        <div id="the-final-countdown" class="my_countdown">
-          <div></div>
-        </div>
-
-
-        <img src="/images/formas-pagamento-3.png" alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100% margin:0 auto;" class="text-center"/>
+      <div id="the-final-countdown" class="my_countdown">
+        <div></div>
+      </div>
+        <p><a class="btn btn-primary btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
+          Descubra o Desconto Especial!
+        </a></p>
+        <p class="text-white">E mais algumas surpresas...</p>
+        <img src="/images/formas-pagamento-3.png"  alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
     </div>
 
   </div>
-
-  {{- partial "curso_marcenaria_planos.html" . -}}
-  {{- partial "row_social.html" . -}}
   {{- partial "row_professor.html" . -}}
   {{- partial "row_acesso.html" . -}}
   {{- partial "row_faq.html" . -}}

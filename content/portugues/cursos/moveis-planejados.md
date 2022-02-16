@@ -2,7 +2,7 @@
 title: "Como fazer Móveis Planejados"
 subtitle : "Aprenda a fazer e vender móveis planejados com poucas ferramentas"
 description : "Aprenda da medição à montagem como fazer seu próprio móvel sob medida, com qualidade e sem gastar rios de dinheiro"
-weight: 1
+weight: 2
 date: 2021-12-13T15:27:17+06:00
 draft: false
 
@@ -51,7 +51,7 @@ category: "Marcenaria"
 teacher: "Marcelo Aguilera"
 duration : "68 aulas"
 weekly : "12 horas"
-de : "R$ 798,00"
+de : "798,00"
 preco_a_vista : "R$ 399,00"
 preco_parcelado : "12x R$ 39,90"
 desconto : "50% de desconto"

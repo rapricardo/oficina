@@ -2,7 +2,7 @@
 title: "Marcenaria com Paletes"
 subtitle : "Mobilie sua casa gastando pouco ou faça uma renda extra"
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
-weight: 6
+weight: 7
 date: 2021-12-13T15:27:17+06:00
 draft: false
 
@@ -54,7 +54,7 @@ category: "Marcenaria"
 teacher: "Marcelo Aguilera"
 duration : "46 aulas"
 weekly : "24 horas"
-de : "R$ 398,00"
+de : "398,00"
 desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"
