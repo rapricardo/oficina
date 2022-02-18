@@ -9,8 +9,15 @@
         <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
         <h2 class="text-primary text-uppercase">{{ .Title  }}</h2>
         <h3 class="text-white mb-4">{{ .Params.Headline }}</h3>
-        {{ if .Params.Projects_image }}
-          <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
+        {{ if .Params.Video_vendas }}
+        <a href="{{ .Params.Video_vendas }}" class="venobox vbox-item" data-vbtype="video">
+        <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
+        </a>
+
+        {{ else }}
+          {{ if .Params.Projects_image }}
+            <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
+          {{ end }}
         {{ end }}
       </div>
     </div> <!-- end main -->

@@ -58,7 +58,7 @@ de : "398,00"
 desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"
-apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
+apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
 
 
 #apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
