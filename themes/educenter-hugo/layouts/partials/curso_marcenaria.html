@@ -2,10 +2,10 @@
   <div class="col-12 mb-3">
     <h2 class="text-center">Você sabia que as vendas de móveis e objetos para casa <em>crescem sem parar</em>?</h2>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-4 offset-md-2">
     <img src="/images/crescimento-vendas-moveis.jpg" width="100%"  class="mb-3" />
   </div>
-  <div class="col-md-8">
+  <div class="col-md-6">
     <p>É isso aí, o mercado está bombando.</p>
 
     <p>A pandemia fez com que muitas pessoas investissem em aumentar o conforto de suas casas, para compensar o isolamento social. </p>
@@ -188,51 +188,14 @@
 
 <div class="col-lg-3 card text-center card-curso mb-2" style="z-index:10">
   <h3 class="text-center text-uppercase">Curso Online</h3>
-  {{ if eq .RelPermalink "/cursos/moveis-planejados/" }}
-      <img src="/small/t-planejados.jpg" width="100%"  class="mb-3" />
-      <div class="card-body">
-        <p>{{ .Params.Subtitle }}</p>
-        <p><a href="#collapsePlan" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapsePlan"  role="button" aria-expanded="false" aria-controls="collapsePlan">Programa do curso</a></p>
-        {{- partial "curso_programa_planejados.html" . -}}
-
-      </div>
-  {{ else if or (eq .RelPermalink "/cursos/marcenaria-em-casa/") (eq .RelPermalink "/cursos/marcenaria/") }}
       <img src="/small/thumb-marcenaria.jpg" width="100%"  class="mb-3" />
       <div class="card-body">
         <p>{{ .Params.Subtitle }}</p>
+        <p>Um curso para quem quer fazer móveis do ZERO com poucas ferramentas</p>
         <p><a href="#collapseMzero" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseMzero"  role="button" aria-expanded="false" aria-controls="collapseMzero">Programa do curso</a></p>
         {{- partial "curso_programa_m20.html" . -}}
       </div>
-    {{ else if eq .RelPermalink "/cursos/tupia/" }}
-      <img src="/small/t-tupia.jpg" width="100%"  class="mb-3" />
-      <div class="card-body">
-        <p>{{ .Params.Subtitle }}</p>
-        <p><a href="#collapseTupia" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseTupia"  role="button" aria-expanded="false" aria-controls="collapseTupia">Programa do curso</a></p>
-          {{- partial "curso_programa_tupia.html" . -}}
-      </div>
-    {{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
-      <img src="/small/t-ideias.jpg" width="100%"  class="mb-3" />
-      <div class="card-body">
-        <p>{{ .Params.Subtitle }}</p>
-        <p><a href="#collapseClub" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseClub"  role="button" aria-expanded="false" aria-controls="collapseClub">Programa do curso</a></p>
-        {{- partial "curso_programa_club.html" . -}}
-      </div>
-    {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
-      <img src="/small/t-mdf-2.jpg" width="100%"  class="mb-3" />
-      <div class="card-body">
-        <p>{{ .Params.Subtitle }}</p>
-        <p><a href="#collapseMdf" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseMdf"  role="button" aria-expanded="false" aria-controls="collapseMdf">Programa do curso</a></p>
-        {{- partial "curso_programa_mdf.html" . -}}
-      </div>
-    {{ else if or (eq .RelPermalink "/cursos/curso-luthieria-pauleira-oficina-de-casa/") (eq .RelPermalink "/cursos/luthieria/") }}
-    <img src="/small/t-guitarras.jpg" width="100%"  class="mb-3" />
-      <div class="card-body">
-        <p>{{ .Params.Subtitle }}</p>
-        <p><a href="#collapseLuthieria" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseLuthieria"  role="button" aria-expanded="false" aria-controls="collapseLuthieria">Programa do curso</a></p>
-        {{- partial "curso_programa_guitarra.html" . -}}
-      </div>
 
-    {{ end }}
     <img src="/plus-icon.png" width="50px" height="50px" class="card-icon" />
 </div>
 

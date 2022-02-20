@@ -4,7 +4,7 @@ subtitle : "Sabia que dá pra fazer uma guitarra com uma caixa de charuto?"
 description : "Aprenda a fazer um instrumento inusitado e com uma sonoridade incrível."
 weight: 10
 date: 2021-12-13T15:27:17+06:00
-draft: false
+draft: true
 
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
