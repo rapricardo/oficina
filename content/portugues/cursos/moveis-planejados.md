@@ -5,10 +5,11 @@ description : "Aprenda da medição à montagem como fazer seu próprio móvel s
 weight: 2
 date: 2021-12-13T15:27:17+06:00
 draft: false
+ebook_gif: /images/ebook-mdf.gif"
 
 # page title background image
 bg_image: "images/bg-marcenaria-05.jpg"
-headline : "Aumente sua renda fazendo móveis planejados com poucas ferramentas"
+headline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
 subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
 cta: QUERO ME INSCREVER AGORA!
 

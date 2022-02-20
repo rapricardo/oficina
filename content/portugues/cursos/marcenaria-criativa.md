@@ -5,11 +5,12 @@ description : "Dê um gás na sua oficina"
 weight: 3
 date: 2021-12-13T15:27:17+06:00
 draft: false
+ebook_gif: /images/ebook-criativa.gif"
 
-projects_image: "/images/projetos/projetos-club.gif"
+# projects_image: "/images/projetos/projetos-club.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-04.jpg"
-headline : "Impressione amigos e familiares fazendo móveis incríveis no seu tempo livre"
+headline : "60 ideias para você ganhar dinheiro com marcenaria, sem sair de casa"
 subheadline : "São mais de 60 projetos para quem quer mobiliar a casa ou fazer uma grana, sem abrir mão da liberdade"
 cta: QUERO ME INSCREVER AGORA!
 

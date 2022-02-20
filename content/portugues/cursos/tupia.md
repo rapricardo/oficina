@@ -1,15 +1,17 @@
 ---
 title: "Tupia: Segredos & Técnicas"
 subtitle: "Eleve o nível da sua marcenaria e ganhe muito mais dinheiro"
+headline : "Eleve o nível da sua marcenaria e ganhe muito mais dinheiro"
 description: "Aprenda os Segredos e técnicas da Tupia"
 weight: 5
 date: 2019-07-06T15:27:17+06:00
 draft: false
+ebook_gif: /images/ebook-tupia.gif"
 
 projects_image: "/images/projetos/projetos-tupia.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-03.jpg"
-headline : "Eleve o nível da sua marcenaria e ganhe muito mais dinheiro"
+
 subheadline : "Melhore o acabamento das suas peças e venda muito mais"
 cta: QUERO ME INSCREVER AGORA!
 

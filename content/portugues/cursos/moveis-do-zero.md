@@ -1,15 +1,38 @@
 ---
-title: "Marcenaria do Zero"
+title: "Marcenaria Lucrativa, do Zero"
 subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
+bg_image: "images/bg-marcenaria-02.jpg"
+headline : "Ganhe dinheiro fazendo e vendendo móveis em casa, com poucas ferramentas"
+url : /cursos/marcenaria-em-casa/
 weight: 1
 date: 2021-12-13T15:27:17+06:00
 draft: false
+type: "cursos"
 
-projects_image: "/images/projetos/projetos-marcenaria-m20.gif"
+# course thumbnail
+image: "images/thumb-marcenaria.jpg"
+square_image: "/images/marcenaria-square.jpg"
+ebook_gif: /images/ebook-palete.gif
+
+# taxonomy
+category: "Marcenaria"
+teacher: "Marcelo Aguilera"
+duration : "46 aulas"
+weekly : "24 horas"
+de : "398,00"
+desconto : "50% de desconto"
+preco_parcelado : "12x R$ 19,90"
+preco_a_vista : "R$ 199,00"
+apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
+
+
+
+
+#projects_image: "/images/projetos/projetos-marcenaria-m20.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Aprenda a fazer móveis do ZERO, com poucas ferramentas em espaços pequenos"
+headline : "Ganhe dinheiro fazendo e vendendo móveis em casa, com poucas ferramentas"
 subheadline : "Método fácil e comprovado para quem nunca mexeu com madeira e busca aumentar a qualidade de vida fazendo móveis e objetos"
 cta: QUERO ME INSCREVER AGORA!
 
@@ -45,27 +68,14 @@ sub1 : "Um curso online feito para quem nunca mexeu com madeira e ainda não tem
 sub2 : "Você vai aprender todas as técnicas da marcenaria, passo-a-passo, em vídeo aulas muito bem explicadas."
 sub3 : "As aulas ficam disponíveis o tempo todo, para você assistir quando quiser e de onde quiser. E você terá acesso a um grupo exclusivo no Telegram, para resolver todas as suas dúvidas."
 
-# course thumbnail
-image: "images/thumb-marcenaria.jpg"
-square_image: "/images/marcenaria-square.jpg"
 
-# taxonomy
-category: "Marcenaria"
-teacher: "Marcelo Aguilera"
-duration : "46 aulas"
-weekly : "24 horas"
-de : "398,00"
-desconto : "50% de desconto"
-preco_parcelado : "12x R$ 19,90"
-preco_a_vista : "R$ 199,00"
-apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
 
 
 #apply_url : "https://pay.hotmart.com/E16036150Y?off=v9l8zsky&checkoutMode=10&offDiscount=70OFF"
 #apply_url : "/upsell/paletes"
-type: "cursos"
+
 #url : "https://pay.hotmart.com/F12917267H?off=xwqns8rb&checkoutMode=10&offDiscount=FELIZNATAL"
-url : /cursos/marcenaria-em-casa/
+
 ---
 
 Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.

@@ -793,6 +793,10 @@ img {
   max-width: 100%;
   object-fit: cover; }
 
+em {
+  border-bottom: 3px #febb3b solid;
+  font-style: normal; }
+
 .page-title-section {
   padding: 200px 0 40px; }
 

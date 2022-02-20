@@ -1,15 +1,17 @@
 ---
 title: "Como fazer Móveis em MDF"
 subtitle : "Aprenda a fazer Móveis em MDF, passo-a-passo"
-description : "23 projetos incríveis para você superar a crise e faturar até R$ 8.000 por mês, fazendo e vendendo móveis em MDF."
+description : "23 projetos incríveis para você superar a crise e faturar até R$ 5.000 por mês, fazendo e vendendo móveis em MDF."
 weight: 4
 date: 2021-12-13T15:27:17+06:00
 draft: false
+ebook_gif: /images/ebook-mdf.gif"
+
 
 projects_image: "/images/projetos/projetos-mdf.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "23 projetos incríveis para você superar a crise fazendo e vendendo móveis em MDF"
+headline : "23 projetos incríveis para você superar a crise e faturar R$ 5.000 por mês ou mais"
 subheadline : "Aprenda a fazer guarda-roupas, gaveteiros, mesas, cadeiras, bancos e objetos de decoração."
 cta: QUERO ME INSCREVER AGORA!
 
