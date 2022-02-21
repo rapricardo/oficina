@@ -1,105 +1,55 @@
 {{ define "main" }}
 
-<section class="bg-light pt-2 pb-2" >
+<!-- section -->
+<section class="section-sm">
   <div class="container">
 
-    <div class="row pt-5 mb-5 card-deck" >
+      {{- partial "curso_marcenaria.html"  -}}
+      {{- partial "row_curso_info.html" . -}}
 
-    <div class="col-12 text-center  mb-3">
-      <h2 class="text-center text-primary">Com o Método Oficina de Casa você pode ir de iniciante a especialista em apenas 12 semanas </h2>
+  <div class="row mb-5 " id="oferta">
 
-      <h3>3 cursos incríveis pelo preço de 1</h3>
-    </div>
+    <div class="col-lg-6 offset-lg-3 pb-3 card card-cta text-center bg-danger ">
+      <h2 class="text-center text-uppercase text-white">Oferta surpresa</h2>
+      <script type="text/javascript">
+        setInterval(function time(){
+        var d = new Date();
+        var hours = 24 - d.getHours();
+        var min = 60 - d.getMinutes();
+        if((min + '').length == 1){
+          min = '0' + min;
+        }
+        var sec = 60 - d.getSeconds();
+        if((sec + '').length == 1){
+              sec = '0' + sec;
+        }
+        jQuery('#the-final-countdown div').html('<p class="text-white"><i class="ti-timer mr-2"></i>Esta oferta termina em <strong>'+hours+' : '+min+' : '+sec+'</span></strong></p>')
+        }, 1000);
+      </script>
 
-    <div class="col-lg-4 card text-center card-curso mb-2" >
-      <h3 class="text-uppercase">Iniciante</h3>
-        <img src="/small/thumb-marcenaria.jpg" width="100%" class="mb-3" />
-        <div class="card-body">
-        <p class="">Aprenda a fazer móveis do zero, mesmo sem ter muitas ferramentas</p>
-        <p><a href="#collapseMzero" class="btn-primary btn btn-xs text-center" data-toggle="collapse" data-target="#collapseMzero"  role="button" aria-expanded="false" aria-controls="collapseMzero">Programa do curso</a></p>
-        {{- partial "curso_programa_m20.html" . -}}
+      <hr />
 
-        </div>
+      <h2 class="text-white"><small style="color: #ffffff8c">R$ <del>{{ .Params.De }}</del></small></h2>
+      <h4 class="text-white"> mas você pode comprar por muito menos</h4>
 
-    </div>
-
-    <div class="col-lg-4 card text-center card-curso mb-2" >
-      <h3 class="text-center text-uppercase">Intermediário</h3>
-      <img src="/small/t-mdf-2.jpg" width="100%" class="mb-3" />
-      <div class="card-body">
-      <p class="">23 projetos para você superar a crise fazendo e vendendo móveis </p>
-      <p><a href="#collapseMdf" class="btn-primary btn btn-xs text-center" data-toggle="collapse" data-target="#collapseMdf"  role="button" aria-expanded="false" aria-controls="collapseMdf">Programa do curso</a></p>
-      {{- partial "curso_programa_mdf.html" . -}}
-
+      <div id="the-final-countdown" class="my_countdown">
+        <div></div>
       </div>
-
+        <p><a class="btn btn-primary btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
+          Descubra o Desconto Especial!
+        </a></p>
+        <p class="text-white">E mais algumas surpresas...</p>
+        <img src="/images/formas-pagamento-3.png"  alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
     </div>
-
-    <div class="col-lg-4 card text-center card-curso mb-2" >
-      <h3 class="text-center text-uppercase">Especialista</h3>
-        <img src="/small/t-tupia.jpg" width="100%" class="mb-3" />
-        <div class="card-body">
-          <p class="">A queridinha dos marceneiros. Você precisa dominar esta ferramenta!</p>
-          <p><a href="#collapseTupia" class="btn-primary btn btn-xs text-center" data-toggle="collapse" data-target="#collapseTupia"  role="button" aria-expanded="false" aria-controls="collapseTupia">Programa do curso</a></p>
-            {{- partial "curso_programa_tupia.html" . -}}
-
-        </div>
-
-    </div>
-
-    <!--div class="col-lg-3 card text-center card-curso mb-2" >
-      <h3 class="text-center text-uppercase">Especialista</h3>
-      <img src="/small/t-ideias.jpg" width="100%" class="mb-3" />
-      <div class="card-body">
-        <p class="">60 projetos para você impressionar, fazendo móveis no seu tempo livre</p>
-        <p><a href="#collapseClub" class="btn-primary btn btn-xs text-center" data-toggle="collapse" data-target="#collapseClub"  role="button" aria-expanded="false" aria-controls="collapseClub">Programa do curso</a></p>
-          {{- partial "curso_programa_club.html" . -}}
-
-      </div>
-    </div-->
-    </div>
-
-    <div class="row mb-5 ">
-
-    <div class="col-lg-6 offset-lg-3  card text-center card-curso mb-2" style="z-index:7">
-      <h3 class="text-center text-uppercase">Leve de Bônus</h3>
-
-      <div class="card-body">
-        <img src="/images/bonus.gif" width="250px" class="mb-3" />
-        <p class=""><strong>47 aulas extras</strong> com projetos e ensinos complementares</p>
-        <img src="/images/ebooks.gif" width="250px" class="mb-3" />
-        <p class=""><strong>6 e-books</strong> com planos de corte dos projetos e dicas extras para você imprimir</p>
-        <img src="/images/ic-telegram.png" width="110px" height="110px" class="mb-3" />
-        <p class="">Acesso ao <strong>GRUPO SECRETO</strong> no Telegram para tirar as dúvidas direto com a equipe <strong>Oficina de Casa</strong></p>
-      </div>
-    </div>
-    </div>
-
-    <div class="row mb-5 ">
-
-      <div class="col-lg-6 offset-lg-3 pb-3 card card-cta text-center bg-danger ">
-        <h3 class="text-center text-uppercase text-white"></h3>
-
-          <h3 class="text-center text-uppercase text-white">Tudo isso por apenas </h3>
-            <h2 class="text-white">R$ 256,00</h2>
-            <p class="text-white">em até 12x no cartão de crédito</p>
-            <p><a class="btn btn-primary btn-large mb-2 mt-3" href="https://pay.hotmart.com/E16036150Y?off=qvw9bc2b&checkoutMode=10" role="button">
-              Quero comprar agora!
-            </a></p>
-
-          <img src="/images/formas-pagamento-3.png" alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100% margin:0 auto;" class="text-center"/>
-      </div>
 
   </div>
 
-  {{- partial "curso_marcenaria_planos.html" . -}}
-  {{- partial "row_social.html" . -}}
-  {{- partial "row_professor.html" . -}}
-  {{- partial "row_acesso.html" . -}}
+
+  {{- partial "row_garantia.html" . -}}
   {{- partial "row_faq.html" . -}}
 
-
   </div>
+
 </section>
 
 {{ end }}

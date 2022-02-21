@@ -8,7 +8,7 @@ date: 2019-07-06T15:27:17+06:00
 draft: false
 ebook_gif: /images/ebook-tupia.gif"
 
-projects_image: "/images/projetos/projetos-tupia.gif"
+#projects_image: "/images/projetos/projetos-tupia.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-03.jpg"
 

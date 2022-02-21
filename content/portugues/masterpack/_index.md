@@ -1,25 +1,33 @@
 ---
-title: "Aprenda a fazer móveis do ZERO com poucas ferramentas"
-
-headline : "De iniciante a especialista em apenas 12 semanas"
-subheadline : "95 projetos incríveis para você mobiliar sua casa ou fazer uma grana extra"
-
-projects_image: "/images/projetos/projetos-marcenaria-01.gif"
-
-#apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10" escolha de cursos
-apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
-desconto : "70% de desconto"
-preco_parcelado : "12x R$ 34,90"
-preco_a_vista : "R$ 349,00"
-de : "998,00"
-
-duration : "165 aulas"
-weekly : "75 horas"
-projetos: "95"
-
+title: "Como fazer Móveis Planejados"
+subtitle : "Aprenda a fazer e vender móveis planejados com poucas ferramentas"
+description : "Aprenda da medição à montagem como fazer seu próprio móvel sob medida, com qualidade e sem gastar rios de dinheiro"
+weight: 2
+date: 2021-12-13T15:27:17+06:00
 draft: false
+ebook_gif: /images/ebook-mdf.gif"
+
 # page title background image
-bg_image: "images/bg-marcenaria-02.jpg"
-# meta description
-description : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+bg_image: "images/bg-marcenaria-05.jpg"
+headline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
+subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
+
+# course thumbnail
+square_image: "/images/thumbs/planejados-square.jpg"
+image: "images/thumbs/t-planejados.jpg"
+# taxonomy
+category: "Marcenaria"
+teacher: "Marcelo Aguilera"
+duration : "164 aulas"
+weekly : "75 horas"
+de : "1298,00"
+preco_a_vista : "R$ 599,00"
+preco_parcelado : "12x R$ 39,90"
+desconto : "50% de desconto"
+
+apply_url : "https://pay.hotmart.com/T62722277B?checkoutMode=10"
+video_vendas : "https://www.youtube.com/watch?v=X0P94mYYuG4"
+projects_image: "/images/projetos/planejados-antes-depois-play.webp"
+
+
 ---

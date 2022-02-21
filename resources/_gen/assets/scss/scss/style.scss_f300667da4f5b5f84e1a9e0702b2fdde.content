@@ -801,6 +801,9 @@ footer a {
   text-decoration: none;
   color: #5c5c77 !important; }
 
+.card-body a {
+  text-decoration: none; }
+
 img {
   max-width: 100%;
   object-fit: cover; }
