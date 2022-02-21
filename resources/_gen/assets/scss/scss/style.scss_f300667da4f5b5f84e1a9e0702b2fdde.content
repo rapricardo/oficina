@@ -789,6 +789,18 @@ link:focus,
     background-color: #ffbc3b;
     color: #fff; }
 
+a, a.text-primary {
+  text-decoration: underline;
+  color: #007bff !important; }
+
+a.nav-link, a.btn {
+  text-decoration: none;
+  color: #fff !important; }
+
+footer a {
+  text-decoration: none;
+  color: #5c5c77 !important; }
+
 img {
   max-width: 100%;
   object-fit: cover; }
