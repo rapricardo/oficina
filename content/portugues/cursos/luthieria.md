@@ -55,7 +55,7 @@ desconto : "50% OFF + 2 cursos"
 preco_parcelado : "12x R$ 39,90"
 preco_a_vista : "R$ 399,00"
 
-apply_url : "https://pay.hotmart.com/U17228602B?off=sk56mxwr&checkoutMode=10&offDiscount=PROFISSAOLUTHIER"
+apply_url : "https://pay.hotmart.com/U17228602B?off=gb7yhymy&checkoutMode=10"
 type: "cursos"
 ---
 
