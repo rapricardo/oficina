@@ -801,6 +801,25 @@ footer a {
   text-decoration: none;
   color: #5c5c77 !important; }
 
+.footer {
+  padding-top: 80px; }
+
+.add-to-cart {
+  border-top: solid 1px #eee;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.6), 0px -3px 10px rgba(0, 0, 0, 0.6); }
+
+.footer-nav {
+  position: fixed;
+  z-index: 99999;
+  bottom: 0;
+  display: none;
+  width: 100%;
+  background-color: #ffbc3b;
+  cursor: pointer; }
+
+.show, .footer-nav:hover {
+  display: block; }
+
 .card-body a {
   text-decoration: none; }
 

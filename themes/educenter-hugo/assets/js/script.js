@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  // Preloader js    
+  // Preloader js
   $(window).on('load', function () {
     $('.preloader').fadeOut(100);
   });
@@ -20,7 +20,7 @@
     }
   });
 
-  
+
 
   // Background-images
   $('[data-background]').each(function () {
@@ -103,5 +103,34 @@
     });
   });
 
+
+// Hide Header on on scroll down
+$(window).scroll(function(event) {
+	function footer()
+    {
+        var scroll = $(window).scrollTop();
+        if(scroll>7000)
+        {
+            $(".footer-nav").fadeIn("slow").addClass("show");
+        }
+        else
+        {
+            $(".footer-nav").fadeOut("slow").removeClass("show");
+        }
+
+        clearTimeout($.data(this, 'scrollTimer'));
+        $.data(this, 'scrollTimer', setTimeout(function() {
+            if ($('.footer-nav').is(':hover')) {
+	        	footer();
+    		}
+            else
+            {
+            	$(".footer-nav").fadeOut("slow");
+            }
+		}, 2000));
+    }
+    footer();
+});
+// END Hide Header on on scroll down
 
 })(jQuery);
