@@ -1,12 +1,16 @@
-{{ if and ( not ( eq .RelPermalink "/cursos/" )) ( eq .Section "cursos" )  }}
+{{ if and ( not ( eq .RelPermalink "/cursos/" )) ( eq .Section "cursos" )   }}
 
   {{- partial "header_curso.html" . -}}
 
-{{ else if and ( not ( eq .RelPermalink "/ofertas/" )) ( eq .Section "ofertas" )  }}
+{{ else if and ( not ( eq .RelPermalink "/ofertas/" )) ( eq .Section "ofertas" )   }}
 
   {{- partial "header_oferta.html" . -}}
 
-{{ else if ( eq .Section "masterpack" )  }}
+{{ else if  ( eq .Section "masterpack" ) }}
+
+    {{- partial "header_curso.html" . -}}
+
+{{ else if  ( eq .Section "conversoes" ) }}
 
     {{- partial "header_curso.html" . -}}
 

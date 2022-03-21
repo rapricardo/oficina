@@ -26,7 +26,7 @@ preco_parcelado : "12x R$ 39,90"
 desconto : "50% de desconto"
 
 apply_url : "https://pay.hotmart.com/T62722277B?checkoutMode=10"
-video_vendas : "https://www.youtube.com/watch?v=X0P94mYYuG4"
+# video_vendas : "https://www.youtube.com/watch?v=X0P94mYYuG4"
 projects_image: "/images/projetos/planejados-antes-depois-play.webp"
 
 # type

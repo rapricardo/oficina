@@ -1,5 +1,5 @@
 ---
-title: "Cursos de Marcenaria para Iniciantes"
+title: "Cursos de Marcenaria"
 subtitle: "Aprenda a fazer qualquer coisa com madeira"
 draft: false
 # page title background image

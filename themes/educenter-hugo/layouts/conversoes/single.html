@@ -1,9 +1,18 @@
 
 {{ define "main" }}
 
-<!-- notice details -->
-<section class="section">
+<!-- section -->
+<section class="section-sm">
   <div class="container">
+
+{{ if eq .RelPermalink "/conversoes/banco-mesa/" }}
+
+  {{- partial "upsell-marcenaria.html"  -}}
+
+{{ else }}
+
+<!-- notice details -->
+
     <div class="row">
       <div class="col-12 col-lg-8">
         <div class="d-flex">
@@ -27,7 +36,11 @@
           </div>
         </div>
       </div>
-    </div>
+
+
+{{ end }}
+
+</div>
 </section>
 <!-- /notice details -->
 
