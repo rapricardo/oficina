@@ -39,9 +39,12 @@
     {{ end }}
 
 
-
+  {{ if not (eq .RelPermalink "/cursos/banco-mesa/") }}
 
   {{- partial "cta_surpresa.html" . -}}
+
+  {{ end }}
+
   {{- partial "row_garantia.html" . -}}
   {{- partial "row_faq.html" . -}}
 
