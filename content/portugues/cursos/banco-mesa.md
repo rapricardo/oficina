@@ -26,7 +26,7 @@ de : "149,00"
 desconto : "75% de desconto"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 49,00"
-apply_url : "https://pay.hotmart.com/D66110367R"
+apply_url : "https://pay.hotmart.com/D66110367R?off=in79ux6s"
 
 #apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
 type: "cursos"
