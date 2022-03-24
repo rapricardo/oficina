@@ -10,15 +10,23 @@
         <h2 class="text-primary text-uppercase">{{ .Title  }}</h2>
         <h3 class="text-white mb-4">{{ .Params.Headline }}</h3>
         {{ if .Params.Video_vendas }}
-        <a href="{{ .Params.Video_vendas }}" class="venobox vbox-item" data-vbtype="video">
+        <!--a href="{{ .Params.Video_vendas }}" class="venobox vbox-item" data-vbtype="video">
         <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
-        </a>
+        </a-->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .Params.video_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         {{ else }}
+
+
+
           {{ if .Params.Projects_image }}
             <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
           {{ end }}
         {{ end }}
+        <p><a class="btn btn-danger btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
+          Garanta sua vaga!
+        </a></p>
       </div>
     </div> <!-- end main -->
 

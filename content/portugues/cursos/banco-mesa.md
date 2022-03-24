@@ -5,7 +5,10 @@ description : "Dê um gás na sua oficina"
 weight: 1
 date: 2021-12-13T15:27:17+06:00
 draft: false
-ebook_gif: /images/ebook-criativa.gif"
+#ebook_gif: /images/ebook-criativa.gif"
+video_vendas : "https://www.youtube.com/watch?v=V1kWzXDqN8I"
+video_id : "V1kWzXDqN8I"
+projects_image: "/images/viedo-banco-mesa.webp"
 
 # projects_image: "/images/projetos/projetos-club.gif"
 # page title background image
