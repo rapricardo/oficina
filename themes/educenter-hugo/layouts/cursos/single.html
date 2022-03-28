@@ -10,9 +10,13 @@
 
     {{ else if eq .RelPermalink "/cursos/banco-mesa/" }}
 
-        {{- partial "curso_banco_mesa.html"  -}}
+      {{- partial "curso_banco_mesa.html"  -}}
 
-    {{ else if or (eq .RelPermalink "/cursos/marcenaria-em-casa/") (eq .RelPermalink "/cursos/marcenaria/") }}
+    {{ else if eq .RelPermalink "/cursos/marcenaria/" }}
+
+      {{- partial "curso_paletes.html"  -}}
+
+    {{ else if (eq .RelPermalink "/cursos/marcenaria-em-casa/") }}
 
       {{- partial "curso_marcenaria.html"  -}}
 

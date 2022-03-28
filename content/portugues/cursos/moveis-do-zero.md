@@ -4,7 +4,7 @@ subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "Ganhe dinheiro fazendo e vendendo móveis em casa, com poucas ferramentas"
-url : /cursos/marcenaria-em-casa/
+url : /cursos/marcenaria/
 weight: 1
 date: 2021-12-13T15:27:17+06:00
 draft: false
@@ -28,5 +28,6 @@ preco_a_vista : "R$ 199,00"
 apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 
 bg_image: "images/bg-marcenaria-02.jpg"
+
 
 ---

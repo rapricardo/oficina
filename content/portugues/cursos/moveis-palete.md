@@ -1,18 +1,19 @@
 ---
-title: "Marcenaria com Paletes"
+title: "Como fazer móveis com Paletes"
 subtitle : "Mobilie sua casa gastando pouco ou faça uma renda extra"
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
 weight: 7
 date: 2021-12-13T15:27:17+06:00
 draft: false
+video_id : Wn_mipvXy_I
 
 
 
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
-subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
-cta: QUERO ME INSCREVER AGORA!
+headline : "Aprenda a multiplicar seu dinheiro por 3X OU MAIS, transformando paletes baratos em móveis elegantes"
+subheadline : "Milhares de pessoas como você estão saindo da crise, criando marcenarias lucrativas em espaços pequenos"
+cta: Quero sair da crise!
 
 
 # course thumbnail
@@ -33,7 +34,7 @@ preco_a_vista : "R$ 199,00"
 apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 
 type: "cursos"
-url : /cursos/marcenaria/
+
 ---
 
 ## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos
