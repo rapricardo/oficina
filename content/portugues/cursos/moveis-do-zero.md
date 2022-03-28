@@ -3,8 +3,9 @@ title: "Marcenaria Lucrativa, do Zero"
 subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Ganhe dinheiro fazendo e vendendo móveis em casa, com poucas ferramentas"
+headline : "Saia da crise fazendo e vendendo móveis em casa, com poucas ferramentas"
 url : /cursos/marcenaria/
+cta: "Garanta sua vaga!"
 weight: 1
 date: 2021-12-13T15:27:17+06:00
 draft: false

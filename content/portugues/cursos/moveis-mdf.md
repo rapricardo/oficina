@@ -13,8 +13,7 @@ ebook_gif: /images/ebook-mdf.gif"
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "23 projetos incríveis para você superar a crise e faturar R$ 5.000 por mês ou mais"
 subheadline : "Aprenda a fazer guarda-roupas, gaveteiros, mesas, cadeiras, bancos e objetos de decoração."
-cta: QUERO ME INSCREVER AGORA!
-
+cta: "Garanta sua vaga!"
 
 # course thumbnail
 image: "images/thumbs/t-mdf-2.jpg"

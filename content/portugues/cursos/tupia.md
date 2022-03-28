@@ -13,7 +13,7 @@ ebook_gif: /images/ebook-tupia.gif"
 bg_image: "images/bg-marcenaria-03.jpg"
 
 subheadline : "Melhore o acabamento das suas peças e venda muito mais"
-cta: QUERO ME INSCREVER AGORA!
+cta: "Garanta sua vaga!"
 
 promessa : "Dominar a Tupia é o caminho mais rápido e acessível para subir o nível da sua marcenaria"
 p1 : "Conheça os tipos de tupia e fresas"
