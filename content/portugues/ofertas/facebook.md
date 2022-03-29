@@ -4,7 +4,10 @@ subtitle : Desperte o marceneiro que existe em você!
 date: 2019-07-06T15:27:17+06:00
 draft: false
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Ganhe dinheiro fazendo e vendendo móveis, com poucas ferramentas"
+headline : "Aprenda a fazer móveis e objetos que dão lucro de verdade"
+subheadline : "transformando materiais baratos em peças que todos querem ter em casa"
+video_id: jjWbcsDitsg
+cta: Sim! Quero fazer móveis lucrativos!
 
 
 square_image: "/images/marcenaria-square.jpg"
@@ -26,6 +29,5 @@ preco_a_vista : "R$ 256,00"
 apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 # type
 type: "ofertas"
-# Call to action
-cta: QUERO APROVEITAR A PROMOÇÃO!
+
 ---

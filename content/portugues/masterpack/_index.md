@@ -9,8 +9,10 @@ ebook_gif: /images/ebook-mdf.gif"
 
 # page title background image
 bg_image: "images/bg-marcenaria-05.jpg"
-headline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
-subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
+headline : "Aprenda a fazer móveis e objetos que dão lucro de verdade"
+subheadline : "transformando materiais baratos em peças que todos querem ter em casa"
+video_id: jjWbcsDitsg
+cta: Sim! Quero fazer móveis lucrativos!
 
 # course thumbnail
 square_image: "/images/thumbs/planejados-square.jpg"
