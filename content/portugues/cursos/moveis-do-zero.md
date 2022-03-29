@@ -5,11 +5,12 @@ description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramen
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "Saia da crise fazendo e vendendo móveis em casa, com poucas ferramentas"
 url : /cursos/marcenaria/
-cta: "Garanta sua vaga!"
+cta: Sim! Quero fazer móveis lucrativos!
 weight: 1
 date: 2021-12-13T15:27:17+06:00
 draft: false
 type: "cursos"
+video_id: jjWbcsDitsg
 
 # course thumbnail
 image: "images/thumb-marcenaria.jpg"
@@ -26,7 +27,7 @@ desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"
 #apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
-apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
+apply_url : "#oferta"
 
 bg_image: "images/bg-marcenaria-02.jpg"
 

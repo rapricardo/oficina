@@ -4,6 +4,7 @@ subtitle : "Sabia que dá pra fazer uma guitarra com uma caixa de charuto?"
 weight: 10
 date: 2021-12-13T15:27:17+06:00
 draft: true
+cta: "Garanta sua vaga!"
 
 
 

@@ -11,9 +11,10 @@ video_id : Wn_mipvXy_I
 
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Aprenda a multiplicar seu dinheiro por 3X OU MAIS, transformando paletes baratos em móveis elegantes"
-subheadline : "Milhares de pessoas como você estão saindo da crise, criando marcenarias lucrativas em espaços pequenos"
-cta: Quero sair da crise!
+headline : "Aprenda a fazer móveis e objetos que dão lucro de verdade"
+subheadline : "transformando materiais baratos em peças que todos querem ter em casa"
+#subheadline : "Milhares de pessoas como você estão saindo da crise, criando marcenarias lucrativas em espaços pequenos"
+cta: Sim! Quero fazer móveis lucrativos!
 
 
 # course thumbnail
@@ -32,6 +33,7 @@ desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"
 apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
+apply_url : "#oferta"
 
 type: "cursos"
 

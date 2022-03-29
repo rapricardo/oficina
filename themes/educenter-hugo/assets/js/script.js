@@ -7,6 +7,7 @@
   });
 
   // Sticky Menu
+
   $(window).scroll(function () {
     var height = $('.top-header').innerHeight();
     if ($('header').offset().top > 10) {

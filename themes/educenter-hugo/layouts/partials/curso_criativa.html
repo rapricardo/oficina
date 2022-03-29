@@ -173,92 +173,58 @@
 
 </div><!-- social marcenaria -->
 
-{{- partial "row_professor.html" . -}}
+<div class="row mb-5 " id="oferta">
+
+  <div class="col-lg-6 offset-lg-3 pb-3 pl-5 pr-5 card card-cta text-center bg-danger ">
+    <h2 class="text-center text-uppercase text-white">Oferta especial</h2>
+    <hr/>
+    <h2 class="text-white"><small style="color: #ffffffc5">12x R$ 29,90</small></h2>
+
+    <hr/>
+      <h4 class="text-white">O QUE VOCÊ VAI APRENDER:</h4>
+    <p class="text-white mb-1 text-left"><strong>➡ Como montar sua oficina SEM gastar uma fortuna</strong></p>
+    <p class="text-white mb-1  text-left"><strong>➡ Como aproveitar espaços pequenos</strong></p>
+    <p class="text-white mb-1  text-left"><strong>➡ Como escolher, comprar e usar as melhores ferramentas</strong></p>
+    <p class="text-white mb-1  text-left"><strong>➡ Quais os materiais mais econômicos e lucrativos</strong></p>
+    <p class="text-white mb-1  text-left"><strong>➡ Como fazer mesas e cadeiras DO ZERO, mesmo sem experiência</strong></p>
+
+    <p class="text-white mb-1  text-left"><strong>➡ Como fazer cortes precisos usando jigs e gabaritos</strong></p>
+    <p class="text-white mb-1  text-left"><strong>➡ Técnicas de acabamento de dar inveja </strong></p>
+    <p class="text-white mb-1  text-left"><strong>➡ Tudo sobre lâminas e serras (tico-tico e cirular) </strong></p>
+    <p class="text-white mb-1  text-left"><strong><em>BÔNUS:</em> 60 projetos extras para ganhar ainda mais </strong></p>
+    <p class="text-white mb-1  text-left"><strong><em>BÔNUS:</em> 23 projetos usando MDF, incluindo um guarda roupas </strong></p>
+    <p class="text-white mb-1  text-left"><strong><em>BÔNUS:</em> técnicas e ferramentas especiais para MDF </strong></p>
+    <p class="text-white mb-1  text-left"><strong><em>CURSO BÔNUS:</em> Segredos e técnicas da Tupia </strong></p>
+
+
+    <script type="text/javascript">
+      setInterval(function time(){
+      var d = new Date();
+      var hours = 24 - d.getHours();
+      var min = 60 - d.getMinutes();
+      if((min + '').length == 1){
+        min = '0' + min;
+      }
+      var sec = 60 - d.getSeconds();
+      if((sec + '').length == 1){
+            sec = '0' + sec;
+      }
+      jQuery('#the-final-countdown div').html('<p class="text-white"><i class="ti-timer mr-2"></i>Esta oferta termina em <strong>'+hours+' : '+min+' : '+sec+'</span></strong></p>')
+      }, 1000);
+    </script>
+
+    <hr />
 
 
 
-<!-- course details -->
-
-<div class="row">
-  <div class="col mb-4 text-center">
-  <h2 class="">Inscreva-se hoje e <em>leve tudo isso</em></p>
-  </div>
-</div>
-<div class="row mb-5 card-deck">
-
-  <div class="col-lg-3 card text-center card-curso mb-2" style="z-index:10">
-    <h3 class="text-center text-uppercase">Curso Online</h3>
-    <img src="/small/t-ideias.jpg" width="100%"  class="mb-3" />
-    <div class="card-body">
-      <p>60 projetos para mobiliar a casa ou fazer uma grana, sem abrir mão da liberdade.</p>
-      <p><a href="#collapseClub" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseClub"  role="button" aria-expanded="false" aria-controls="collapseClub">Programa do curso</a></p>
-      {{- partial "curso_programa_club.html" . -}}
+    <div id="the-final-countdown" class="my_countdown">
+      <div></div>
     </div>
-  </div>
-
-<div class="col-md-3 card text-center card-curso mb-2" style="z-index:10">
-  <h3 class="text-center text-uppercase"> Curso Online</h3>
-      <img src="/small/thumb-marcenaria.jpg" width="100%"  class="mb-3" />
-      <div class="card-body">
-        <p>Um curso para quem quer fazer móveis do ZERO com poucas ferramentas</p>
-        <p><a href="#collapseMzero" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseMzero"  role="button" aria-expanded="false" aria-controls="collapseMzero">Programa do curso</a></p>
-        {{- partial "curso_programa_m20.html" . -}}
-      </div>
-</div>
-
-<div class="col-md-3 card text-center card-curso mb-2" style="z-index:10">
-  <h3 class="text-center text-uppercase">Curso Online</h3>
-  <img src="/small/t-mdf-2.jpg" width="100%"  class="mb-3" />
-
-  <div class="card-body">
-    <p>23 projetos incríveis para você superar a crise e faturar R$ 5.000 por mês ou mais</p>
-    <p><a href="#collapseMdf" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseMdf"  role="button" aria-expanded="false" aria-controls="collapseMdf">Programa do curso</a></p>
-    {{- partial "curso_programa_mdf.html" . -}}
-  </div>
-
-
-</div>
-
-<div class="col-md-3 card text-center card-curso mb-2" style="z-index:10">
-  <h3 class="text-center text-uppercase">Curso Online</h3>
-  <img src="/small/t-tupia.jpg" width="100%"  class="mb-3" />
-  <div class="card-body">
-    <p>Eleve o nível da sua marcenaria e ganhe muito mais dinheiro</p>
-    <p><a href="#collapseTupia" class="btn btn-xs btn-primary" data-toggle="collapse" data-target="#collapseTupia"  role="button" aria-expanded="false" aria-controls="collapseTupia">Programa do curso</a></p>
-    {{- partial "curso_programa_tupia.html" . -}}
+      <p><a class="btn btn-primary btn-large mb-2 mt-3" href="https://pay.hotmart.com/W16037117C?off=v3ntqtv2&checkoutMode=10" role="button">
+       Compre agora!
+      </a></p>
+      <p class="text-white">15 dias de garantia</p>
+      <img src="/images/formas-pagamento-3.png"  alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
   </div>
 
 </div>
-
-</div>
-<div class="row mb-5 card-deck">
-
-
-<div class="col-md-4 card text-center card-curso mb-2" style="z-index:9">
-  <h3 class="text-center text-uppercase">Projetos Extras</h3>
-  <div class="card-body">
-    <img src="/images/bonus.gif" width="250px" class="mb-3" />
-    <p class=""><strong>47 aulas bônus</strong> para você aprender ainda mais</p>
-  </div>
-</div>
-
-
-
-<div class="col-md-4 card text-center card-curso mb-2" style="z-index:8">
-  <h3 class="text-center text-uppercase">6 e-books</h3>
-  <div class="card-body">
-    <img src="/images/ebooks.gif" width="250px" class="mb-3" />
-    <p class=""> com planos de corte dos projetos e dicas extras para você imprimir</p>
-  </div>
-</div>
-
-<div class="col-md-4 card text-center card-curso mb-2" style="z-index:7">
-  <h3 class="text-center text-uppercase">GRUPO SECRETO</h3>
-  <div class="card-body">
-    <img src="/images/ic-telegram.png" width="110px" height="110px" class="mb-3" />
-    <p>Mais de 1700 marceneiros prontos para te ajudar</P>
-  </div>
-</div>
-
-
-</div><!-- incluso -->

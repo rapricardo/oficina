@@ -12,11 +12,11 @@
 
       {{- partial "curso_banco_mesa.html"  -}}
 
-    {{ else if eq .RelPermalink "/cursos/marcenaria/" }}
+    {{ else if eq .RelPermalink "/cursos/moveis-palete/" }}
 
       {{- partial "curso_paletes.html"  -}}
 
-    {{ else if (eq .RelPermalink "/cursos/marcenaria-em-casa/") }}
+    {{ else if (eq .RelPermalink "/cursos/marcenaria/") }}
 
       {{- partial "curso_marcenaria.html"  -}}
 
@@ -45,32 +45,18 @@
 
   {{ if not (eq .RelPermalink "/cursos/banco-mesa/") }}
 
-  {{- partial "cta_surpresa.html" . -}}
+
 
   {{ end }}
 
   {{- partial "row_garantia.html" . -}}
+  {{- partial "row_professor.html" . -}}
   {{- partial "row_faq.html" . -}}
 
   </div>
 
 </section>
 
-<footer class="footer-nav add-to-cart">
-  <div class="container">
-  <div class="row mt-4 mb-2">
-    <div class="col-md-8">
-      <h4>Que tal um desconto para começar o curso agora?</h4>
-      <!--p class="d-sm-none d-block">De R$ <del>{{ .Params.De }}</del> por ... descubra a oferta surpresa!</p-->
 
-    </div>
-    <div class="col-md-4">
-      <a href="{{ .Params.Apply_url | safeURL }}" class="btn btn-danger">SIM! Quero economizar!</a>
-    </div>
-
-  </div>
-  </div>
-
-</footer>
 
 {{ end }}

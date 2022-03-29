@@ -10,9 +10,10 @@ ebook_gif: /images/ebook-criativa.gif"
 # projects_image: "/images/projetos/projetos-club.gif"
 # page title background image
 bg_image: "images/bg-marcenaria-04.jpg"
-headline : "60 ideias para você ganhar dinheiro com marcenaria, sem sair de casa"
-subheadline : "São mais de 60 projetos para quem quer mobiliar a casa ou fazer uma grana, sem abrir mão da liberdade"
+headline : "60 ideias para você ganhar uma renda extra, sem abrir mão da liberdade"
+subheadline : "Aprenda a fazer móveis e objetos altamente lucrativos"
 cta: QUERO ME INSCREVER AGORA!
+video_id: jjWbcsDitsg
 
 # course thumbnail
 image: "images/thumbs/t-ideias.jpg"

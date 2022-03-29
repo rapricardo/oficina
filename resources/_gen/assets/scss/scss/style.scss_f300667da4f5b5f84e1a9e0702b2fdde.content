@@ -832,7 +832,7 @@ em {
   font-style: normal; }
 
 .page-title-section {
-  padding: 200px 0 40px; }
+  padding: 50px 0 40px; }
 
 .card-curso p {
   font-size: 18px;
