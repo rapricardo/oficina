@@ -27,7 +27,7 @@ desconto : "50% de desconto"
 
 apply_url : "https://pay.hotmart.com/T62722277B?checkoutMode=10"
 # video_vendas : "https://www.youtube.com/watch?v=X0P94mYYuG4"
-projects_image: "/images/projetos/planejados-antes-depois-play.webp"
+# projects_image: "/images/projetos/planejados-antes-depois-play.webp"
 
 # type
 type: "cursos"
