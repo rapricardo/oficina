@@ -11,10 +11,10 @@ video_id : Wn_mipvXy_I
 
 # page title background image
 bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Aprenda a fazer móveis e objetos que dão lucro de verdade"
-subheadline : "transformando materiais baratos em peças que todos querem ter em casa"
+headline : "Pare de se matar de trabalhar e comece a ganhar dinheiro sem sair de casa"
+subheadline : "transformando materiais baratos em peças que todos querem comprar"
 #subheadline : "Milhares de pessoas como você estão saindo da crise, criando marcenarias lucrativas em espaços pequenos"
-cta: Sim! Quero fazer móveis lucrativos!
+cta: Sim! Quero ganhar dinheiro sem sair de casa!
 
 
 # course thumbnail

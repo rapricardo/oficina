@@ -9,10 +9,10 @@ ebook_gif: /images/ebook-mdf.gif"
 
 # page title background image
 bg_image: "images/bg-marcenaria-05.jpg"
-headline : "Aprenda a fazer móveis e objetos que dão lucro de verdade"
-subheadline : "transformando materiais baratos em peças que todos querem ter em casa"
-video_id: jjWbcsDitsg
-cta: Sim! Quero fazer móveis lucrativos!
+headline : "Pare de se matar de trabalhar e comece a ganhar dinheiro sem sair de casa"
+subheadline : "transformando materiais baratos em móveis que todos querem comprar"
+# video_id: jjWbcsDitsg
+cta: Sim! Quero ganhar dinheiro sem sair de casa!
 
 # course thumbnail
 square_image: "/images/thumbs/planejados-square.jpg"
@@ -27,9 +27,10 @@ preco_a_vista : "R$ 599,00"
 preco_parcelado : "12x R$ 39,90"
 desconto : "50% de desconto"
 
-apply_url : "https://pay.hotmart.com/T62722277B?checkoutMode=10"
-video_vendas : "https://www.youtube.com/watch?v=X0P94mYYuG4"
-projects_image: "/images/projetos/planejados-antes-depois-play.webp"
+#apply_url : "https://pay.hotmart.com/T62722277B?checkoutMode=10"
+apply_url : "#oferta"
+#video_vendas : "https://www.youtube.com/watch?v=X0P94mYYuG4"
+# projects_image: "/images/projetos/planejados-antes-depois-play.webp"
 
 
 ---
