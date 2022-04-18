@@ -1,10 +1,11 @@
 ---
 title: "GuitarBox"
 subtitle : "Sabia que dá pra fazer uma guitarra com uma caixa de charuto?"
-weight: 10
+weight: 9
 date: 2021-12-13T15:27:17+06:00
-draft: true
-cta: "Garanta sua vaga!"
+draft: false
+cta: Quero comprar!
+video_id : T58_Jneja8Y
 
 
 
@@ -18,15 +19,7 @@ headline : "Aprenda a fazer um instrumento inusitado e com uma sonoridade incrí
 subheadline : "Divertido, barato e muito lucrativo"
 cta: QUERO ME INSCREVER AGORA!
 
-promessa : "Impressione amigos e familiares construindo uma guitarra pra lá de charmosa"
-p1 : "Faça seu primeiro instrumento musical, gastando muito pouco"
-p2 : "Entenda quais ferramentas comprar, como escolher e como economizar"
-p3 : "Aprenda a utilizar materiais alternativos para construir instrumentos de corda"
-p4 : "Entenda o projeto e conheça o passo a passo"
-p5 : "Aprenda a usar ferramentas básicas de marcenaria"
-p6 : "Aprenda as técnicas de corte, furação, fixação e acabamento"
-p7 : "Saiba como cortar e definir o shape do braço"
-p8 : "Aprenda a instalação elétrica e regulagem básica"
+
 
 resultados : "Você poderá usar na sua banda ou fazer uma graninha extra!"
 sub_resultados: "Agora, esta metodologia está disponível pra você. Basta ver os resultados de alguns dos nossos alunos:"
@@ -61,13 +54,7 @@ desconto : "70% de desconto"
 preco_parcelado : "5x R$ 10,50"
 preco_a_vista : "R$ 49,50"
 
-apply_url : "https://pay.hotmart.com/I37646645A?off=gjctwkc5&offDiscount=FELIZNATAL"
+apply_url : "https://pay.hotmart.com/I37646645A?off=gjctwkc5"
 type: "cursos"
 
 ---
-
-{{< youtube T58_Jneja8Y >}}
-
-
-### Este vídeo responde as dúvidas frequentes
-{{< youtube jjWbcsDitsg >}}

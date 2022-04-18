@@ -2,10 +2,11 @@
 title: "Como fazer móveis com Paletes"
 subtitle : "Mobilie sua casa gastando pouco ou faça uma renda extra"
 description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
-weight: 7
+weight: 9
 date: 2021-12-13T15:27:17+06:00
 draft: false
 video_id : Wn_mipvXy_I
+
 
 
 

@@ -1,8 +1,8 @@
 ---
 title: "Como fazer Móveis Planejados"
 subtitle : "Aprenda a fazer e vender móveis planejados com poucas ferramentas"
-description : "Aprenda da medição à montagem como fazer seu próprio móvel sob medida, com qualidade e sem gastar rios de dinheiro"
-weight: 2
+description : "Método inovador te ensina a faturar R$ 10.000 por mês ou mais, construindo móveis sob medida com praticidade e economia"
+weight: 3
 date: 2021-12-13T15:27:17+06:00
 draft: false
 ebook_gif: /images/ebook-mdf.gif"

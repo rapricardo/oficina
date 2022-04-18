@@ -86,7 +86,7 @@ map_marker = "images/marker.png" # marker size 37*55 px
 enable = false
 expire_days = 60
 
-############################# masaterpack ########################
+############################# masterpack ########################
 [params.masterpack]
 link = "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
 preco_parcelado = "12x R$ 34,90"
@@ -141,7 +141,7 @@ weight = 1
 
 [[Languages.pt.menu.main]]
 name = "Blog"
-url = "blog"
+url = "https://blog.oficinadecasa.com.br"
 weight = 5
 
 [[Languages.pt.menu.main]]

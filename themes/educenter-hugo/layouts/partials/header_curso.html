@@ -1,4 +1,4 @@
-<section class="page-title-section overlay" style="background-image: url('{{ .Params.Bg_image | relURL}}'),url('{{`images/backgrounds/page-title.jpg`| relURL}}'); background-size: cover;" >
+<section class="page-title-section "  >
   <div class="container">
 
     <div class="row" >
@@ -7,13 +7,14 @@
       </div-->
       <div class="col text-center">
         <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
-        <h2 class="text-primary ">{{ .Params.Headline  }}</h2>
-        <h4 class="text-white mb-4">{{ .Params.Subheadline }}</h4>
+        <h4 class="text-primary">{{ .Params.Title }}</h4>
+        <h2 class="">{{ .Params.Subtitle  }}</h2>
+        <!--h4 class="mb-4">{{ .Params.Subheadline }}</h4-->
         {{ if .Params.video_id }}
         <!--a href="{{ .Params.Video_vendas }}" class="venobox vbox-item" data-vbtype="video">
         <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
         </a-->
-        <div class="video-container">
+        <div class="video-container mt-5 mb-5">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .Params.video_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         {{ else }}

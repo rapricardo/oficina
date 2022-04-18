@@ -7,6 +7,7 @@
     {{ if eq .RelPermalink "/cursos/moveis-planejados/" }}
 
       {{- partial "curso_planejados.html"  -}}
+      {{- partial "cta_vermelho.html" . -}}
 
     {{ else if eq .RelPermalink "/cursos/banco-mesa/" }}
 
@@ -18,11 +19,12 @@
 
     {{ else if (eq .RelPermalink "/cursos/marcenaria/") }}
 
-      {{- partial "carta-dinheiro-em-casa.html"  -}}
+      {{- partial "curso_marcenaria.html"  -}}
 
     {{ else if eq .RelPermalink "/cursos/tupia/" }}
 
       {{- partial "curso_tupia.html"  -}}
+      {{- partial "cta_vermelho.html" . -}}
 
     {{ else if eq .RelPermalink "/cursos/marcenaria-criativa/" }}
 
@@ -30,24 +32,29 @@
 
     {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
 
-      {{- partial "curso_mdf.html"  -}}
 
-    {{ else if or (eq .RelPermalink "/cursos/curso-luthieria-pauleira-oficina-de-casa/") (eq .RelPermalink "/cursos/luthieria/") }}
+      {{- partial "curso_mdf.html"  -}}
+      {{- partial "cta_vermelho.html" . -}}
+
+
+
+    {{ end }}
+
+
+    {{ if or (eq .RelPermalink "/cursos/curso-luthieria-pauleira-oficina-de-casa/") (eq .RelPermalink "/cursos/luthieria/") }}
 
       {{- partial "curso_guitarra.html"  -}}
+
+
+    {{ else if eq .RelPermalink "/cursos/guitarbox/" }}
+
+      {{- partial "curso_guitarbox.html"  -}}
 
     {{ else }}
 
       <div class="content">{{ .Content }}</div>
 
     {{ end }}
-
-
-  {{ if not (eq .RelPermalink "/cursos/banco-mesa/") }}
-
-
-
-  {{ end }}
 
   {{- partial "row_garantia.html" . -}}
   {{- partial "row_professor.html" . -}}

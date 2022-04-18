@@ -5,11 +5,11 @@
   <div class="top-header py-2 bg-white">
     <div class="container">
       <div class="row no-gutters align-items-center">
-        <div class="col text-center mb-0">
+        <!--div class="col text-center mb-0">
           <p class="mb-0">Quer tutoriais e dicas exclusivas no seu Whatsapp? <a class="btn btn-xs btn-primary" href="https://chat.whatsapp.com/HX8fOenbPKuCPFw1q4HM11" target="_blank">ENTRE NO GRUPO</a></p>
-        </div>
+        </div-->
 
-        <!--div class="col-lg-4 text-center text-lg-left">
+        <div class="col-lg-4 text-center text-lg-left">
           <ul class="list-inline">
             {{ range site.Params.social }}
             <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
@@ -24,19 +24,70 @@
             <li class="list-inline-item">
                 <a class="text-color mr-3" href="https://alunos.oficinadecasa.com.br/"><strong>ESPAÇO DO ALUNO</strong></a></li>
           </ul>
-        </div-->
+        </div>
 
       </div>
     </div>
   </div>
   {{ end }}
   <!-- navbar -->
-  <div class=" w-100 {{ if site.Params.top_header }} top-hider {{ end }}">
+  <div class="navigation w-100 {{ if site.Params.top_header }} top-hider {{ end }}">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-dark p-0">
         <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}"><img class="img-fluid"
             src="{{ site.Params.logo | absURL }}" alt="{{ site.Title }}"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse text-center" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="{{ site.BaseURL | absLangURL }}">{{ site.Params.Home }}</a>
+            </li>
+            {{ range site.Menus.main }}
+            {{ if .HasChildren }}
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+                {{ .Name }}
+              </a>
+              <div class="dropdown-menu">
+                {{ range .Children }}
+                <a class="dropdown-item" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </li>
+            {{ else }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+            {{ end }}
+          </ul>
+
+          <!-- Language List -->
+          {{ if .IsTranslated }}
+          <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
+            {{ $siteLanguages := site.Languages}}
+            {{ $pageLang := .Page.Lang}}
+            {{ range .Page.AllTranslations }}
+            {{ $translation := .}}
+            {{ range $siteLanguages }}
+            {{ if eq $translation.Lang .Lang }}
+            {{ $selected := false }}
+            {{ if eq $pageLang .Lang}}
+            <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+            </option>
+            {{ else }}
+            <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+          </select>
+          {{ end }}
+        </div>
       </nav>
     </div>
   </div>

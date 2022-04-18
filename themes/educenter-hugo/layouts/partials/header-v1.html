@@ -9,7 +9,7 @@
           <p class="mb-0">Quer tutoriais e dicas exclusivas no seu Whatsapp? <a class="btn btn-xs btn-primary" href="https://chat.whatsapp.com/HX8fOenbPKuCPFw1q4HM11" target="_blank">ENTRE NO GRUPO</a></p>
         </div>
 
-        <!--div class="col-lg-4 text-center text-lg-left">
+        <div class="col-lg-4 text-center text-lg-left">
           <ul class="list-inline">
             {{ range site.Params.social }}
             <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
@@ -24,7 +24,7 @@
             <li class="list-inline-item">
                 <a class="text-color mr-3" href="https://alunos.oficinadecasa.com.br/"><strong>ESPAÇO DO ALUNO</strong></a></li>
           </ul>
-        </div-->
+        </div>
 
       </div>
     </div>
@@ -41,7 +41,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <!--div class="collapse navbar-collapse text-center" id="navigation">
+        <div class="collapse navbar-collapse text-center" id="navigation">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="{{ site.BaseURL | absLangURL }}">{{ site.Params.Home }}</a>
@@ -68,7 +68,7 @@
 
           <!-- Language List -->
           {{ if .IsTranslated }}
-          <!--select class="m-2 border-0" id="select-language" onchange="location = this.value;">
+          <select class="m-2 border-0" id="select-language" onchange="location = this.value;">
             {{ $siteLanguages := site.Languages}}
             {{ $pageLang := .Page.Lang}}
             {{ range .Page.AllTranslations }}
@@ -87,7 +87,7 @@
             {{ end }}
           </select>
           {{ end }}
-        </div-->
+        </div>
       </nav>
     </div>
   </div>

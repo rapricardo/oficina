@@ -4,22 +4,15 @@ subtitle: "Ganhe dinheiro fazendo e regulando guitarras e baixos"
 description : "Aprenda a fazer guitarras do zero, para destruir nos solos e lucrar muito"
 weight: 6
 date: 2021-12-13T15:27:17+06:00
-draft: true
+draft: false
 # page title background image
 bg_image: "images/bg-guitarra.jpg"
 headline : "Aprenda a fazer guitarras do zero, para destruir nos solos ou lucrar muito"
 subheadline : "Método inovador te ensina a faturar R$ 5.000 por mês ou mais, fazendo guitarras e contrabaixos de corpo sólido"
 cta: QUERO ME INSCREVER AGORA!
+video_id : iuAifors4oc
 
-promessa : "Que tal viver construindo instrumentos musicais e faturando alto?"
-p1 : "Saiba como luthiers cobram até 10 mil reais por instrumento"
-p2 : "Entenda quais ferramentas e materiais comprar, como escolher e como economizar"
-p3 : "Aprenda a desenhar e projetar instrumentos musicais de corpo sólido"
-p4 : "Aprenda a criar gabaritos para facilitar o corte e escalar a produção"
-p5 : "Saiba tudo sobre medidas, marcações e cortes e evite desperdícios"
-p6 : "Aprenda a abrir cavidades para os captadores e partes elétricas"
-p7 : "Saiba como cortar e definir o shape do braço, além de instalar os trastes"
-p8 : "Conheça as técnicas de acabamento, instalação elétrica e regulagem"
+
 
 resultados : "Aprenda a técnicas secretas utilizadas por luthiers com quem entende: Pauleira Custom Guitars"
 sub_resultados: "Agora, esta metodologia está disponível pra você. Basta ver os resultados de alguns dos nossos alunos:"
@@ -55,11 +48,10 @@ desconto : "50% OFF + 2 cursos"
 preco_parcelado : "12x R$ 39,90"
 preco_a_vista : "R$ 399,00"
 
-apply_url : "https://pay.hotmart.com/U17228602B?off=gb7yhymy&checkoutMode=10"
+apply_url : "https://pay.hotmart.com/U17228602B?off=gb7yhymy"
 type: "cursos"
 ---
 
-{{< youtube iuAifors4oc >}}
 
 ## Aprenda a técnicas secretas utilizadas por luthiers com quem entende: Pauleira Custom Guitars
 O Oficina de Casa tem o prazer de fazer este curso em conjunto com a renomada professora Paula Bifulco, Guitar Maker há mais de 10 anos que vai compartilhar com você as experiências mais Pauleira que existem no mundo das guitarras.

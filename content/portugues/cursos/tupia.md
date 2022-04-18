@@ -57,7 +57,7 @@ duration : "28 aulas"
 # weekly
 weekly : "11 horas"
 # course fee
-de : "398,00"
+de : "898,00"
 fee : "10x R$ 19,90"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"

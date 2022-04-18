@@ -1,17 +1,21 @@
 ---
-title: "Marcenaria Lucrativa, do Zero"
-subtitle : Aprenda a fazer móveis do ZERO com poucas ferramentas
-description : "Um curso para quem quer fazer móveis do ZERO com poucas ferramentas"
-bg_image: "images/bg-marcenaria-02.jpg"
-headline : "Pare de se matar de trabalhar e comece a ganhar dinheiro sem sair de casa"
-subheadline : "transformando materiais baratos em peças que todos querem comprar"
-url : /cursos/marcenaria/
-cta: Sim! Quero ganhar dinheiro sem sair de casa!
+title: Marcenaria do Zero
+subtitle : Aprenda a fazer peças únicas e exclusivas, com poucas ferramentas e sem esforço físico
+description : Um programa de marcenaria completo, para quem deseja fazer belas peças de madeira para sua casa, em seu tempo livre.
+video_id: jjWbcsDitsg
+cta: Sim! Quero aprender marcenaria do zero!
+headline : Um programa de marcenaria completo, para quem deseja fazer belas peças de madeira para sua casa, em seu tempo livre
+
+
 date: 2021-12-13T15:27:17+06:00
 draft: false
 type: "cursos"
 weight: 2
-#video_id: jjWbcsDitsg
+url : /cursos/marcenaria/
+
+bg_image: "images/bg-marcenaria-02.jpg"
+
+
 
 # course thumbnail
 image: "images/thumb-marcenaria.jpg"
@@ -30,7 +34,7 @@ preco_a_vista : "R$ 199,00"
 #apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
 apply_url : "#oferta"
 
-bg_image: "images/bg-marcenaria-02.jpg"
+
 
 
 ---
