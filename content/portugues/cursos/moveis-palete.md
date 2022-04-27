@@ -29,38 +29,13 @@ category: "Marcenaria"
 teacher: "Marcelo Aguilera"
 duration : "46 aulas"
 weekly : "24 horas"
-de : "898,00"
+de : "398,00"
 desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
-preco_a_vista : "R$ 199,00"
+por : "R$99,90"
 # apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
-apply_url : "#oferta"
+apply_url : "https://pay.hotmart.com/F12917267H?off=41e0hap0&checkoutMode=10"
 
 type: "cursos"
 
 ---
-
-## Aprenda as técnicas secretas utilizadas por profissionais da marcenaria para fazer móveis e objetos
-
-E o melhor: vai se sentir confiante e produtivo, ocupando seu tempo com um dos hobbys mais populares da história da humanidade.
-
-O professor Marcelo Aguilera não se limita a usar apenas ferramentas elétricas ou caras. Mas, sim, compartilha experiências e oferece alternativas para você “Fazer Você Mesmo”, sem investir uma fortuna em ferramentas.
-
-### Ideal para iniciantes
-
-Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
-
-➡ **Você vai aprender as principais técnicas da marcenaria**: medição, pré acabamento, corte, união e acabamento, SEMPRE com alternativas para quem tem poucas ferramentas.
-
-➡ **Vai conhecer os tipos de madeira**, suas características, preços, sugestões de uso e cuidados especiais: paletes de pinus, MDF, compensado, madeira de demolição, madeira rústica e muito mais.
-
-➡ **Vai aprender a usar, comprar e cuidar de ferramentas elétricas e manuais**: furadeiras, serras elétricas e manuais, tupias, fresas e muito mais.
-
-➡ **Vai aprender a construir dezenas de projetos variados para sua casa**, incluindo mesas, cadeiras, poltronas, bancos, objetos de decoração, guarda-roupas, armários, bancadas, cavaletes, organizadores, molduras, estantes, cabideiros, painéis, brinquedos, nichos, luminárias, prateleiras e muitos objetos de decoração.
-
-Você pode assistir as aulas de qualquer lugar que tenha uma conexão com a internet usando qualquer dispositivo (Celular, computador ou tablet).
-
-E melhor: **VOCÊ PODE ASSISTIR PARA SEMPRE**.
-
-### Este vídeo responde as dúvidas frequentes
-{{< youtube jjWbcsDitsg >}}

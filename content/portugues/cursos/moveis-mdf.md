@@ -13,7 +13,7 @@ ebook_gif: /images/ebook-mdf.gif"
 bg_image: "images/bg-marcenaria-02.jpg"
 headline : "23 projetos incríveis para você superar a crise e faturar R$ 5.000 por mês ou mais"
 subheadline : "Aprenda a fazer guarda-roupas, gaveteiros, mesas, cadeiras, bancos e objetos de decoração."
-cta: "Garanta sua vaga!"
+cta: "Compre 1 curso, leve 3!"
 
 # course thumbnail
 image: "images/thumbs/t-mdf-2.jpg"
@@ -26,7 +26,7 @@ duration : "45 aulas"
 weekly : "10 horas"
 de : "898,00"
 desconto : "50% de desconto"
-preco_parcelado : "12x R$ 19,90"
+por : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"
 apply_url : "https://pay.hotmart.com/E16036150Y?off=qt37up1h&checkoutMode=10"
 

@@ -52,7 +52,7 @@ weekly : "80 minutos"
 de : "159,00"
 desconto : "70% de desconto"
 preco_parcelado : "5x R$ 10,50"
-preco_a_vista : "R$ 49,50"
+por : "R$ 99,00"
 
 apply_url : "https://pay.hotmart.com/I37646645A?off=gjctwkc5"
 type: "cursos"

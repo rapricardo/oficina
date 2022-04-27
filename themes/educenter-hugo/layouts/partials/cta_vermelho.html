@@ -1,13 +1,13 @@
 <div class="row mb-5 ">
 <div class="col-lg-6 offset-lg-3 pb-3 card card-cta text-center bg-danger ">
-  <h2 class="text-center text-uppercase text-white">Oferta surpresa</h2>
+  <h2 class="text-center text-uppercase text-white">Inscreva-se já!</h2>
   <hr />
-  <h2 class="text-white"><small style="color: #ffffff8c"><del>R$ {{ .Params.De }}</del></small></h2>
-  <h4 class="text-white"> mas você pode comprar por muito menos</h4>
+  <h4 style="color: #ffffff8c"> De R$ <del>{{ .Params.De }}</del> por apenas:<h4>
+  <h2 class="text-white">{{ .Params.Por }}</h2>
     <p><a class="btn btn-primary btn-large mb-2 mt-3" href="{{ .Params.Apply_url | safeURL }}" role="button">
-      Descubra o Desconto Especial!
+      {{ .Params.Cta }}
     </a></p>
-    <p class="text-white">E mais algumas surpresas...</p>
+    
     <img src="/images/formas-pagamento-3.png"  alt="Compre o curso de marcenaria e pague usando cartão de crédito, boleto ou pix" style="max-width: 100%"/>
 </div>
 </div>

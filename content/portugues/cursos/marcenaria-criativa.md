@@ -24,7 +24,7 @@ teacher: "Marcelo Aguilera"
 duration : "103 vídeos"
 weekly : "21 horas"
 projetos: "60"
-de : "498,00"
+#de : "498,00"
 desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
 preco_a_vista : "R$ 199,00"
@@ -33,11 +33,3 @@ apply_url : "#oferta"
 #apply_url : "https://pay.hotmart.com/W16037117C?off=xd6cb6f7&checkoutMode=10&offDiscount=65OFF"
 type: "cursos"
 ---
-Este curso foi desenvolvido com base em 30 anos de experiência criando móveis e objetos do ZERO, usando apenas a criatividade e um profundo conhecimento técnico.
-
-➡ **Você vai aperfeiçoar as principais técnicas da marcenaria**: medição, pré acabamento, corte, união e acabamento, SEMPRE com alternativas para quem tem poucas ferramentas.
-
-➡ **Vai aprender a construir dezenas de projetos variados para sua casa**, incluindo mesas, cadeiras, poltronas, bancos, objetos de decoração, guarda-roupas, armários, bancadas, cavaletes, organizadores, molduras, estantes, cabideiros, painéis, brinquedos, nichos, luminárias, prateleiras e muitos objetos de decoração.
-
-
-{{< youtube Q4IAVMhopKc >}}

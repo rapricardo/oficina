@@ -1,9 +1,9 @@
 ---
 title: Marcenaria do Zero
-subtitle : Aprenda a fazer peças únicas e exclusivas, com poucas ferramentas e sem esforço físico
+subtitle : Pacote especial com 4 cursos para você aprender TUDO sobre marcenaria
 description : Um programa de marcenaria completo, para quem deseja fazer belas peças de madeira para sua casa, em seu tempo livre.
 video_id: jjWbcsDitsg
-cta: Sim! Quero aprender marcenaria do zero!
+cta: Quero aproveitar a promoção!
 headline : Um programa de marcenaria completo, para quem deseja fazer belas peças de madeira para sua casa, em seu tempo livre
 
 
@@ -30,11 +30,9 @@ weekly : "24 horas"
 de : "898,00"
 desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
-preco_a_vista : "R$ 199,00"
+por : "12x R$24,90"
 #apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
 apply_url : "#oferta"
-
-
 
 
 ---

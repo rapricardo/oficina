@@ -5,27 +5,30 @@
       <!--div class="col-12 text-center mb-5">
           <a href="/ofertas/site/"><img src="/images/banner-natal.png " max-width="100%" /></a>
       </div-->
-      <div class="col text-center">
+      <div class="col-md-8 offset-md-2  text-center">
         <!--h6 class="text-light text-uppercase">Curso online: {{ .Title  }}</h6-->
         <h4 class="text-primary">{{ .Params.Title }}</h4>
         <h2 class="">{{ .Params.Subtitle  }}</h2>
+      </div>
+      <div class="col-md-8 offset-md-2 text-center">
         <!--h4 class="mb-4">{{ .Params.Subheadline }}</h4-->
         {{ if .Params.video_id }}
-        <!--a href="{{ .Params.Video_vendas }}" class="venobox vbox-item" data-vbtype="video">
-        <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
-        </a-->
-        <div class="video-container mt-5 mb-5">
+        <div class="video-container mt-2 mb-4">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ .Params.video_id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         {{ else }}
 
           {{ if .Params.Projects_image }}
-            <img src="{{ .Params.Projects_image | relURL}}" style="max-width: 100%" class="mb-2"/>
+            <img src="{{ .Params.Projects_image | relURL}}" style="width: 100%" class="mb-4 mt-2"/>
           {{ end }}
+        {{ end }}
+        {{ if .Params.De }}
+          <h4 class="">De R$ <del>{{ .Params.De  }}</del>, <em>por apenas {{ .Params.Por  }}</em></h4>
         {{ end }}
         <p><a class="btn btn-danger btn-large mb-2 mt-3" href="{{ .Params.apply_url }}" role="button">
           {{ .Params.Cta }}
         </a></p>
+        <img src="/images/formas-pagamento.png" />
       </div>
     </div> <!-- end main -->
 

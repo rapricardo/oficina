@@ -15,7 +15,7 @@
 
     {{ else if eq .RelPermalink "/cursos/moveis-palete/" }}
 
-      {{- partial "carta-dinheiro-em-casa.html"  -}}
+      {{- partial "curso_paletes.html"  -}}
 
     {{ else if (eq .RelPermalink "/cursos/marcenaria/") }}
 
@@ -32,11 +32,8 @@
 
     {{ else if eq .RelPermalink "/cursos/moveis-mdf/" }}
 
-
       {{- partial "curso_mdf.html"  -}}
       {{- partial "cta_vermelho.html" . -}}
-
-
 
     {{ end }}
 
