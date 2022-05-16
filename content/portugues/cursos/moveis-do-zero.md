@@ -30,7 +30,7 @@ weekly : "24 horas"
 de : "898,00"
 desconto : "50% de desconto"
 preco_parcelado : "12x R$ 19,90"
-por : "12x R$24,90"
+por : "12x R$14,90"
 #apply_url : "https://pay.hotmart.com/F12917267H?checkoutMode=10"
 apply_url : "#oferta"
 

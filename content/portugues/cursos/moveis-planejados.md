@@ -21,11 +21,11 @@ teacher: "Marcelo Aguilera"
 duration : "68 aulas"
 weekly : "12 horas"
 de : "598,00"
-por : "12x R$29,90"
+por : "12x R$19,90"
 preco_parcelado : "12x R$ 39,90"
 desconto : "50% de desconto"
 
-apply_url : "https://pay.hotmart.com/R62722232G?checkoutMode=10"
+apply_url : "https://pay.hotmart.com/R62722232G?off=3xoa70h7&checkoutMode=10&split=12"
 # video_vendas : "https://www.youtube.com/watch?v=X0P94mYYuG4"
 projects_image: "/images/projeto-cozinha.gif"
 
