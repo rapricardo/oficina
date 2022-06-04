@@ -1,40 +1,43 @@
 ################################# Slider #####################################
 slider:
   enable : true
-  bg_image : "images/bg-marcenaria-01.jpg"
+  bg_image : "images/bg-marcelo-home.webp"
   slider_item:
     # slider item loop
-    - title : "Ensinar Marcenaria para Iniciantes é a nossa missão"
-      content : "Desde 2010 ensinamos os segredos da marcenaria, SEMPRE com alternativas para quem tem poucas ferramentas."
+    - title : "Marcenaria em casa não precisa ser cara"
+      content : "Baixe o e-book grátis e aprenda a comprar e usar 14 ferramentas de marcenaria."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
-        label : "ESCOLHA SEU CURSO"
-        link : "cursos"
+        label : "Quero baixar o e-book agora!"
+        link : "https://oficinadecasa.wispform.com/6eab3852?src=site"
 
     # slider item loop
-    - title : "Aprenda a fazer móveis DO ZERO, sem gastar uma fortuna em ferramentas."
-      content : "Conheça as técnicas secretas utilizadas por profissionais da marcenaria"
-      animation_in : "left"
-      animation_out : "right"
-      # available animation : left, right, up, down
-      button:
-        enable : true
-        label : "APROVEITE A PROMOÇÃO"
-        link : "/cursos/marcenaria-em-casa/"
-
-    # slider item loop
-    - title : "Aprenda a fazer Guitarras e Contrabaixos"
-      content : "Para você destruir nos solos ou entrar num mercado muito lucrativo."
+    - title : "Leve 4 cursos, pague 1"
+      content : "apenas 12x 14,90"
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
       button:
         enable : true
         label : "SAIBA MAIS"
-        link : "/cursos/luthieria/"
+        link : "https://oficinadecasa.com.br/cursos/marcenaria/"
+
+
+      # slider item loop
+      #- title : "Acesse TODOS os cursos "
+        #content : "por apenas 19,90 ao mês"
+        #animation_in : "left"
+        #animation_out : "right"
+        # available animation : left, right, up, down
+        #button:
+          #enable : true
+          #label : "ASSINE AGORA"
+          #link : "https://pay.hotmart.com/F69572805R?off=wi0unsv6&split=12&checkoutMode=6"
+
+
 
 
 ############################### Banner feature ###############################

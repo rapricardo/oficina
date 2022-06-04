@@ -168,6 +168,14 @@ em{
   padding: 0 .5rem;
 }
 
+.overlay::before {
+    opacity: .3;
+}
+
+.bg-cover {
+    background-position: left center;
+}
+
 @media all and (max-width: 768px) {
 
 
