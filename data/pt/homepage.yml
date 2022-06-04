@@ -5,7 +5,7 @@ slider:
   slider_item:
     # slider item loop
     - title : "Marcenaria em casa não precisa ser cara"
-      content : "Baixe o e-book grátis e aprenda a comprar e usar 14 ferramentas de marcenaria."
+      content : "Baixe o e-book grátis para começar com o pé direito."
       animation_in : "left"
       animation_out : "right"
       # available animation : left, right, up, down
