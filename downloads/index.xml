@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Downloads on Oficina de Casa | Aprenda marcenaria e DIY de um jeito fácil</title>
+    <link>https://oficinadecasa.com.br/downloads/</link>
+    <description>Recent content in Downloads on Oficina de Casa | Aprenda marcenaria e DIY de um jeito fácil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>Copyright &amp;copy; 2010 Oficina de Casa</copyright><atom:link href="https://oficinadecasa.com.br/downloads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Marcenaria com poucas ferramentas</title>
+      <link>https://oficinadecasa.com.br/downloads/guia-iniciantes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://oficinadecasa.com.br/downloads/guia-iniciantes/</guid>
+      <description>Obrigado pelo cadastro Seja bem-vindo ao Oficina de Casa.</description>
+    </item>
+    
+  </channel>
+</rss>
